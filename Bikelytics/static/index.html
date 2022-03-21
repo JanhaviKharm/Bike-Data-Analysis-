@@ -79,7 +79,7 @@
 
 			var xAxis = chart.xAxes.push(am5xy.CategoryAxis.new(root, {
 				maxDeviation: 0.3,
-				categoryField: "country",
+				categoryField: "month",
 				renderer: xRenderer,
 				tooltip: am5.Tooltip.new(root, {})
 			}));
@@ -98,7 +98,7 @@
 				yAxis: yAxis,
 				valueYField: "value",
 				sequencedInterpolation: true,
-				categoryXField: "country",
+				categoryXField: "month",
 				tooltip: am5.Tooltip.new(root, {
 					labelText:"{valueY}"
 				})
@@ -115,43 +115,55 @@
 
 
 // Set data
-			var data = [{
-				country: "USA",
-				value: 2025
-			}, {
-				country: "China",
-				value: 1882
-			}, {
-				country: "Japan",
-				value: 1809
-			}, {
-				country: "Germany",
-				value: 1322
-			}, {
-				country: "UK",
-				value: 1122
-			}, {
-				country: "France",
-				value: 1114
-			}, {
-				country: "India",
-				value: 984
-			}, {
-				country: "Spain",
-				value: 711
-			}, {
-				country: "Netherlands",
-				value: 665
-			}, {
-				country: "Russia",
-				value: 580
-			}, {
-				country: "South Korea",
-				value: 443
-			}, {
-				country: "Canada",
-				value: 441
-			}];
+			var data =  [  {
+				value: 354964.36666666664,
+				month: "January"
+			},
+				{
+					value: 357663.3783333333,
+					month: "February"
+				},
+				{
+					value: 594265.8196666667,
+					month: "March"
+				},
+				{
+					value: 1097170.4375,
+					month: "April"
+				},
+				{
+					value: 1656222.433,
+					month: "May"
+				},
+				{
+					value: 2243925.632,
+					month: "June"
+				},
+				{
+					value: 3481048.4091666667,
+					month: "July"
+				},
+				{
+					value: 4035912.1046666666,
+					month: "August"
+				},
+				{
+					value: 2475568.5373333334,
+					month: "September"
+				},
+				{
+					value: 1762498.0768333334,
+					month: "October"
+				},
+				{
+					value: 700652.2966666667,
+					month: "November"
+				},
+				{
+					value: 562579.8773333334,
+					month: "December"
+				}
+			];
 
 			xAxis.data.setAll(data);
 			series.data.setAll(data);
@@ -2050,10 +2062,10 @@
 														</div>
 													</div>
 												</div>
-												<h1 class="mt-1 mb-3">$21.300</h1>
+												<h1 class="mt-1 mb-3">$562,580</h1>
 												<div class="mb-0">
-													<span class="text-success"> <i class="mdi mdi-arrow-bottom-right"></i> 6.65% </span>
-													<span class="text-muted">Since last week</span>
+													<span class="text-danger"> <i class="mdi mdi-arrow-bottom-right"></i> -19.7% </span>
+													<span class="text-muted">Since last month</span>
 												</div>
 											</div>
 										</div>
@@ -2186,7 +2198,7 @@
 										</tr>
 										<tr>
 											<td>Michigan Ave & Washington St</td>
-											<td class="d-none d-xl-table-cell">Streeter Dr & Grand Ave</td>
+											<td class="d-none d-xl-table-cell">Clinton St & Washington Blvd</td>
 											<td class="d-none d-md-table-cell">2840</td>
 											<td class="d-none d-md-table-cell">524</td>
 										</tr>
