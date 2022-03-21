@@ -35,147 +35,40 @@
 	<script src="https://cdn.amcharts.com/lib/5/xy.js"></script>
 	<script src="https://cdn.amcharts.com/lib/5/themes/Animated.js"></script>
 
-	<!-- Bar chart for monthly revenue comparison -->
+	<script src='https://cdn.plot.ly/plotly-2.9.0.min.js'></script>
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js'></script>
+
 	<script>
-		am5.ready(function() {
+		d3.csv(
+				"https://raw.githubusercontent.com/plotly/datasets/master/2015_06_30_precipitation.csv",
+				function(err, rows) {
+					function unpack(rows, key) {
+						return rows.map(function(row) {
+							return row[key];
+						});
+					}
 
-// Create root element
-// https://www.amcharts.com/docs/v5/getting-started/#Root_element
-			var root = am5.Root.new("chartdiv1");
+					var data = [
+						{
+							type: "scattermapbox",
+							text: unpack(rows, "Globvalue"),
+							lon: unpack(rows, "Lon"),
+							lat: unpack(rows, "Lat"),
+							marker: { color: "fuchsia", size: 4 }
+						}
+					];
 
+					var layout = {
+						dragmode: "zoom",
+						mapbox: { style: "open-street-map", center: { lat: 38, lon: -90 }, zoom: 3 },
+						margin: { r: 0, t: 0, b: 0, l: 0 }
+					};
 
-// Set themes
-// https://www.amcharts.com/docs/v5/concepts/themes/
-			root.setThemes([
-				am5themes_Animated.new(root)
-			]);
-
-
-// Create chart
-// https://www.amcharts.com/docs/v5/charts/xy-chart/
-			var chart = root.container.children.push(am5xy.XYChart.new(root, {
-				panX: true,
-				panY: true,
-				wheelX: "panX",
-				wheelY: "zoomX",
-				pinchZoomX:true
-			}));
-
-// Add cursor
-// https://www.amcharts.com/docs/v5/charts/xy-chart/cursor/
-			var cursor = chart.set("cursor", am5xy.XYCursor.new(root, {}));
-			cursor.lineY.set("visible", false);
-
-
-// Create axes
-// https://www.amcharts.com/docs/v5/charts/xy-chart/axes/
-			var xRenderer = am5xy.AxisRendererX.new(root, { minGridDistance: 30 });
-			xRenderer.labels.template.setAll({
-				rotation: -90,
-				centerY: am5.p50,
-				centerX: am5.p100,
-				paddingRight: 15
-			});
-
-			var xAxis = chart.xAxes.push(am5xy.CategoryAxis.new(root, {
-				maxDeviation: 0.3,
-				categoryField: "month",
-				renderer: xRenderer,
-				tooltip: am5.Tooltip.new(root, {})
-			}));
-
-			var yAxis = chart.yAxes.push(am5xy.ValueAxis.new(root, {
-				maxDeviation: 0.3,
-				renderer: am5xy.AxisRendererY.new(root, {})
-			}));
-
-
-// Create series
-// https://www.amcharts.com/docs/v5/charts/xy-chart/series/
-			var series = chart.series.push(am5xy.ColumnSeries.new(root, {
-				name: "Series 1",
-				xAxis: xAxis,
-				yAxis: yAxis,
-				valueYField: "value",
-				sequencedInterpolation: true,
-				categoryXField: "month",
-				tooltip: am5.Tooltip.new(root, {
-					labelText:"{valueY}"
-				})
-			}));
-
-			series.columns.template.setAll({ cornerRadiusTL: 5, cornerRadiusTR: 5 });
-			series.columns.template.adapters.add("fill", function(fill, target) {
-				return chart.get("colors").getIndex(series.columns.indexOf(target));
-			});
-
-			series.columns.template.adapters.add("stroke", function(stroke, target) {
-				return chart.get("colors").getIndex(series.columns.indexOf(target));
-			});
-
-
-// Set data
-			var data =  [  {
-				value: 354964.36666666664,
-				month: "January"
-			},
-				{
-					value: 357663.3783333333,
-					month: "February"
-				},
-				{
-					value: 594265.8196666667,
-					month: "March"
-				},
-				{
-					value: 1097170.4375,
-					month: "April"
-				},
-				{
-					value: 1656222.433,
-					month: "May"
-				},
-				{
-					value: 2243925.632,
-					month: "June"
-				},
-				{
-					value: 3481048.4091666667,
-					month: "July"
-				},
-				{
-					value: 4035912.1046666666,
-					month: "August"
-				},
-				{
-					value: 2475568.5373333334,
-					month: "September"
-				},
-				{
-					value: 1762498.0768333334,
-					month: "October"
-				},
-				{
-					value: 700652.2966666667,
-					month: "November"
-				},
-				{
-					value: 562579.8773333334,
-					month: "December"
+					Plotly.newPlot("myDiv", data, layout);
 				}
-			];
-
-			xAxis.data.setAll(data);
-			series.data.setAll(data);
-
-
-// Make stuff animate on load
-// https://www.amcharts.com/docs/v5/concepts/animations/
-			series.appear(1000);
-			chart.appear(1000, 100);
-
-		}); // end am5.ready()
+		); // end am5.ready()
 	</script>
+
 
 
 	<!-- Line chart code for ridership trend-->
@@ -1973,114 +1866,8 @@
 		<main class="content">
 			<div class="container-fluid p-0">
 
-				<h1 class="h3 mb-3"><strong>Bikelytics</strong> Dashboard</h1>
+				<h1 class="h3 mb-3"><strong>Station View</strong></h1>
 
-				<div class="row">
-					<div class="col-xl-6 col-xxl-5 d-flex">
-						<div class="w-100">
-							<div class="row">
-								<div class="col-sm-6">
-									<div class="card">
-										<div class="card-body">
-											<div class="row">
-												<div class="col mt-0">
-													<h5 class="card-title">Ridership</h5>
-												</div>
-
-												<div class="col-auto">
-													<div class="stat text-primary">
-														<i class="align-middle" data-feather="truck"></i>
-													</div>
-												</div>
-											</div>
-											<h1 class="mt-1 mb-3">2.382</h1>
-											<div class="mb-0">
-												<span class="text-danger"> <i class="mdi mdi-arrow-bottom-right"></i> -3.65% </span>
-												<span class="text-muted">Since last week</span>
-											</div>
-										</div>
-									</div>
-									<div class="card">
-										<div class="card-body">
-											<div class="row">
-												<div class="col mt-0">
-													<h5 class="card-title">Customer</h5>
-												</div>
-
-												<div class="col-auto">
-													<div class="stat text-primary">
-														<i class="align-middle" data-feather="users"></i>
-													</div>
-												</div>
-											</div>
-											<h1 class="mt-1 mb-3">14.212</h1>
-											<div class="mb-0">
-												<span class="text-success"> <i class="mdi mdi-arrow-bottom-right"></i> 5.25% </span>
-												<span class="text-muted">Since last week</span>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="col-sm-6">
-									<div class="card">
-										<div class="card-body">
-											<div class="row">
-												<div class="col mt-0">
-													<h5 class="card-title">Revenue</h5>
-												</div>
-
-												<div class="col-auto">
-													<div class="stat text-primary">
-														<i class="align-middle" data-feather="dollar-sign"></i>
-													</div>
-												</div>
-											</div>
-											<h1 class="mt-1 mb-3">$562,580</h1>
-											<div class="mb-0">
-												<span class="text-danger"> <i class="mdi mdi-arrow-bottom-right"></i> -19.7% </span>
-												<span class="text-muted">Since last month</span>
-											</div>
-										</div>
-									</div>
-									<div class="card">
-										<div class="card-body">
-											<div class="row">
-												<div class="col mt-0">
-													<h5 class="card-title">Subscribers</h5>
-												</div>
-
-												<div class="col-auto">
-													<div class="stat text-primary">
-														<i class="align-middle" data-feather="shopping-cart"></i>
-													</div>
-												</div>
-											</div>
-											<h1 class="mt-1 mb-3">64</h1>
-											<div class="mb-0">
-												<span class="text-danger"> <i class="mdi mdi-arrow-bottom-right"></i> -2.25% </span>
-												<span class="text-muted">Since last week</span>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-xl-6 col-xxl-7">
-						<div class="card flex-fill w-100">
-							<div class="card-header">
-
-								<h5 class="card-title mb-0">Ridership Trend</h5>
-							</div>
-							<div class="card-body py-3">
-								<div class="chart chart-sm">
-
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
 
 				<div class="row">
 
@@ -2088,10 +1875,10 @@
 						<div class="card flex-fill w-100">
 							<div class="card-header">
 
-								<h5 class="card-title mb-0">Ridership Trends</h5>
+								<h5 class="card-title mb-0">Stations Map</h5>
 							</div>
 							<div class="card-body px-4">
-								<div id="chartdiv"></div>
+								<div id="myDiv"></div>
 							</div>
 						</div>
 					</div>
