@@ -1,1 +1,2270 @@
-[{"legacy_id":456,"lat":41.991178,"lon":-87.683593,"name":"2112 W Peterson Ave"},{"legacy_id":101,"lat":41.7809109642,"lon":-87.5763237476,"name":"63rd St Beach"},{"legacy_id":109,"lat":41.874754,"lon":-87.649807,"name":"900 W Harrison St"},{"legacy_id":21,"lat":41.87772613,"lon":-87.65478743,"name":"Aberdeen St & Jackson Blvd"},{"legacy_id":80,"lat":41.880419,"lon":-87.655519,"name":"Aberdeen St & Monroe St"},{"legacy_id":621,"lat":41.884114,"lon":-87.654264,"name":"Aberdeen St & Randolph St"},{"legacy_id":727,"lat":41.6875616234,"lon":-87.6554757357,"name":"Ada St & 113th St"},{"legacy_id":346,"lat":41.88283,"lon":-87.661206,"name":"Ada St & Washington Blvd"},{"legacy_id":341,"lat":41.866095,"lon":-87.607267,"name":"Adler Planetarium"},{"legacy_id":1594046396693172926,"lat":41.85936,"lon":-87.70302,"name":"Albany Ave & 16th St"},{"legacy_id":444,"lat":41.8444750137,"lon":-87.7020130128,"name":"Albany Ave & 26th St"},{"legacy_id":1594046418168009438,"lat":41.939638,"lon":-87.705263,"name":"Albany Ave & Belmont Ave"},{"legacy_id":511,"lat":41.9140267127,"lon":-87.705126462,"name":"Albany Ave & Bloomingdale Ave"},{"legacy_id":1594046392398205628,"lat":41.86314,"lon":-87.703022,"name":"Albany Ave & Douglas Blvd"},{"legacy_id":480,"lat":41.961041,"lon":-87.705866,"name":"Albany Ave & Montrose Ave"},{"legacy_id":739,"lat":41.6566655297,"lon":-87.5988006592,"name":"Altgeld Gardens"},{"legacy_id":645,"lat":41.826712,"lon":-87.683144,"name":"Archer (Damen) Ave & 37th St"},{"legacy_id":1582242319632586320,"lat":41.8154913,"lon":-87.7024412,"name":"Archer Ave & 43rd St"},{"legacy_id":1582242306747684418,"lat":41.7940135,"lon":-87.685807,"name":"Artesian Ave & 55th St"},{"legacy_id":376,"lat":41.8894918198,"lon":-87.6882193648,"name":"Artesian Ave & Hubbard St"},{"legacy_id":275,"lat":41.865234,"lon":-87.666507,"name":"Ashland Ave & 13th St"},{"legacy_id":555,"lat":41.803023,"lon":-87.664699,"name":"Ashland Ave & 50th St"},{"legacy_id":563,"lat":41.779374,"lon":-87.664843,"name":"Ashland Ave & 63rd St"},{"legacy_id":565,"lat":41.774074,"lon":-87.663815,"name":"Ashland Ave & 66th St"},{"legacy_id":679,"lat":41.7592360243,"lon":-87.6634740829,"name":"Ashland Ave & 74th St"},{"legacy_id":683,"lat":41.7522048494,"lon":-87.6636993885,"name":"Ashland Ave & 78th St"},{"legacy_id":368,"lat":41.839208684,"lon":-87.6656098589,"name":"Ashland Ave & Archer Ave"},{"legacy_id":30,"lat":41.899643,"lon":-87.6677,"name":"Ashland Ave & Augusta Blvd"},{"legacy_id":246,"lat":41.956057,"lon":-87.668835,"name":"Ashland Ave & Belle Plaine Ave"},{"legacy_id":333,"lat":41.907066,"lon":-87.667252,"name":"Ashland Ave & Blackhawk St"},{"legacy_id":350,"lat":41.8959743226,"lon":-87.6677253842,"name":"Ashland Ave & Chicago Ave"},{"legacy_id":210,"lat":41.90345,"lon":-87.667747,"name":"Ashland Ave & Division St"},{"legacy_id":558,"lat":41.792822,"lon":-87.664429,"name":"Ashland Ave & Garfield Blvd"},{"legacy_id":347,"lat":41.950687,"lon":-87.6687,"name":"Ashland Ave & Grace St"},{"legacy_id":277,"lat":41.891072,"lon":-87.666611,"name":"Ashland Ave & Grand Ave"},{"legacy_id":119,"lat":41.88592,"lon":-87.66717,"name":"Ashland Ave & Lake St"},{"legacy_id":552,"lat":41.80887,"lon":-87.66454,"name":"Ashland Ave & McDowell Ave"},{"legacy_id":547,"lat":41.823465,"lon":-87.665577,"name":"Ashland Ave & Pershing Rd"},{"legacy_id":250,"lat":41.936083,"lon":-87.669807,"name":"Ashland Ave & Wellington Ave"},{"legacy_id":166,"lat":41.92883,"lon":-87.668507,"name":"Ashland Ave & Wrightwood Ave"},{"legacy_id":1575949519568499430,"lat":41.8986607,"lon":-87.7554551,"name":"Augusta Blvd & Laramie Ave"},{"legacy_id":524,"lat":41.894887,"lon":-87.774704,"name":"Austin Blvd & Chicago Ave"},{"legacy_id":532,"lat":41.8879437943,"lon":-87.7742734551,"name":"Austin Blvd & Lake St"},{"legacy_id":544,"lat":41.880281,"lon":-87.774453,"name":"Austin Blvd & Madison St"},{"legacy_id":1448642175142467184,"lat":41.6881169,"lon":-87.5365497,"name":"Avenue L & 114th St"},{"legacy_id":719,"lat":41.6810014591,"lon":-87.5379312227,"name":"Avenue O & 118th St"},{"legacy_id":704,"lat":41.6518678023,"lon":-87.5396713614,"name":"Avenue O & 134th St"},{"legacy_id":496,"lat":41.939408,"lon":-87.723574,"name":"Avers Ave & Belmont Ave"},{"legacy_id":483,"lat":41.953393,"lon":-87.732002,"name":"Avondale Ave & Irving Park Rd"},{"legacy_id":693,"lat":41.7373356004,"lon":-87.5485146046,"name":"Baltimore Ave & 87th St"},{"legacy_id":578,"lat":41.751785,"lon":-87.578496,"name":"Bennett Ave & 79th St"},{"legacy_id":596,"lat":42.048214,"lon":-87.683485,"name":"Benson Ave & Church St"},{"legacy_id":640,"lat":41.949923,"lon":-87.713949,"name":"Bernard St & Elston Ave"},{"legacy_id":717,"lat":41.6858770556,"lon":-87.5738239288,"name":"Big Marsh Park"},{"legacy_id":113,"lat":41.9180181424,"lon":-87.652181983,"name":"Bissell St & Armitage Ave"},{"legacy_id":761,"lat":41.9182955629,"lon":-87.6521833241,"name":"Bissell St & Armitage Ave*"},{"legacy_id":121,"lat":41.802562,"lon":-87.590368,"name":"Blackstone Ave & Hyde Park Blvd"},{"legacy_id":1575949528158434034,"lat":41.9120739,"lon":-87.8057657,"name":"Bloomingdale Ave & Harlem Ave"},{"legacy_id":129,"lat":41.857556,"lon":-87.661535,"name":"Blue Island Ave & 18th St"},{"legacy_id":522,"lat":42.019537,"lon":-87.669563,"name":"Bosworth Ave & Howard St"},{"legacy_id":731,"lat":41.7178783019,"lon":-87.5645917654,"name":"Bradley Park"},{"legacy_id":295,"lat":41.973815,"lon":-87.65966,"name":"Broadway & Argyle St"},{"legacy_id":300,"lat":41.937582316,"lon":-87.644097805,"name":"Broadway & Barry Ave"},{"legacy_id":296,"lat":41.940106,"lon":-87.645451,"name":"Broadway & Belmont Ave"},{"legacy_id":294,"lat":41.978353,"lon":-87.659753,"name":"Broadway & Berwyn Ave"},{"legacy_id":303,"lat":41.945529,"lon":-87.646439,"name":"Broadway & Cornelia Ave"},{"legacy_id":454,"lat":41.9947796884,"lon":-87.6602845349,"name":"Broadway & Granville Ave"},{"legacy_id":461,"lat":41.9840446107,"lon":-87.6602738295,"name":"Broadway & Ridge Ave"},{"legacy_id":256,"lat":41.952833,"lon":-87.649993,"name":"Broadway & Sheridan Rd"},{"legacy_id":458,"lat":41.9897425114,"lon":-87.6601406209,"name":"Broadway & Thorndale Ave"},{"legacy_id":304,"lat":41.949074,"lon":-87.648636,"name":"Broadway & Waveland Ave"},{"legacy_id":293,"lat":41.965221,"lon":-87.658139,"name":"Broadway & Wilson - Truman College Vaccination Site"},{"legacy_id":2,"lat":41.8765351944,"lon":-87.620472908,"name":"Buckingham Fountain"},{"legacy_id":468,"lat":41.9836647089,"lon":-87.6964225611,"name":"Budlong Woods Library"},{"legacy_id":332,"lat":41.93314,"lon":-87.64776,"name":"Burling St & Diversey Pkwy"},{"legacy_id":710,"lat":41.7045750872,"lon":-87.52823174,"name":"Burnham Greenway & 105th St"},{"legacy_id":749,"lat":41.6917738512,"lon":-87.5304311514,"name":"Burnham Greenway & 112th St"},{"legacy_id":4,"lat":41.856268,"lon":-87.613348,"name":"Burnham Harbor"},{"legacy_id":1594046405283107528,"lat":41.859228,"lon":-87.695562,"name":"California & 16th St"},{"legacy_id":348,"lat":41.8538040658,"lon":-87.6957423985,"name":"California Ave & 21st St"},{"legacy_id":442,"lat":41.8491096918,"lon":-87.6951398068,"name":"California Ave & 23rd Pl"},{"legacy_id":445,"lat":41.8436799146,"lon":-87.6949685812,"name":"California Ave & 26th St"},{"legacy_id":1594046448232780548,"lat":41.840222,"lon":-87.694129,"name":"California Ave & 29th St"},{"legacy_id":1582242315337619020,"lat":41.8282301,"lon":-87.6945422,"name":"California Ave & 36th St"},{"legacy_id":502,"lat":41.92669,"lon":-87.697668,"name":"California Ave & Altgeld St"},{"legacy_id":1594046431052911342,"lat":41.957573,"lon":-87.69783,"name":"California Ave & Berteau Ave"},{"legacy_id":487,"lat":41.9521621933,"lon":-87.698051113,"name":"California Ave & Byron St"},{"legacy_id":622,"lat":41.900363,"lon":-87.696704,"name":"California Ave & Cortez St"},{"legacy_id":216,"lat":41.903029,"lon":-87.697474,"name":"California Ave & Division St"},{"legacy_id":498,"lat":41.9384287915,"lon":-87.698007756,"name":"California Ave & Fletcher St"},{"legacy_id":259,"lat":41.9184911537,"lon":-87.6974228024,"name":"California Ave & Francis Pl (Temp)"},{"legacy_id":378,"lat":41.8844539566,"lon":-87.6962981368,"name":"California Ave & Lake St"},{"legacy_id":1582242285272847908,"lat":41.7715789,"lon":-87.6933566,"name":"California Ave & Marquette Rd"},{"legacy_id":123,"lat":41.922695,"lon":-87.697153,"name":"California Ave & Milwaukee Ave"},{"legacy_id":481,"lat":41.961068,"lon":-87.695439,"name":"California Ave & Montrose Ave"},{"legacy_id":276,"lat":41.9104754,"lon":-87.6968944,"name":"California Ave & North Ave"},{"legacy_id":1594046439642845942,"lat":41.974712,"lon":-87.697852,"name":"California Ave & Winona St"},{"legacy_id":338,"lat":41.857611,"lon":-87.619407,"name":"Calumet Ave & 18th St"},{"legacy_id":370,"lat":41.8541842495,"lon":-87.6191537415,"name":"Calumet Ave & 21st St"},{"legacy_id":149,"lat":41.8349,"lon":-87.61793,"name":"Calumet Ave & 33rd St"},{"legacy_id":335,"lat":41.831379,"lon":-87.618034,"name":"Calumet Ave & 35th St"},{"legacy_id":415,"lat":41.8022946509,"lon":-87.6180535802,"name":"Calumet Ave & 51st St"},{"legacy_id":393,"lat":41.7655080058,"lon":-87.616917925,"name":"Calumet Ave & 71st St"},{"legacy_id":738,"lat":41.7137098304,"lon":-87.5308442116,"name":"Calumet Park"},{"legacy_id":1582242302452717114,"lat":41.8009585,"lon":-87.6867556,"name":"Campbell Ave & 51st St"},{"legacy_id":504,"lat":41.9246324716,"lon":-87.6893070063,"name":"Campbell Ave & Fullerton Ave"},{"legacy_id":1594046431052911340,"lat":41.953634,"lon":-87.690782,"name":"Campbell Ave & Irving Park Rd"},{"legacy_id":482,"lat":41.9615259329,"lon":-87.6911650414,"name":"Campbell Ave & Montrose Ave"},{"legacy_id":160,"lat":41.910535,"lon":-87.689556,"name":"Campbell Ave & North Ave"},{"legacy_id":192,"lat":41.879255,"lon":-87.639904,"name":"Canal St & Adams St"},{"legacy_id":169,"lat":41.874255,"lon":-87.639573,"name":"Canal St & Harrison St"},{"legacy_id":75,"lat":41.877245,"lon":-87.639366,"name":"Canal St & Jackson Blvd"},{"legacy_id":174,"lat":41.882091,"lon":-87.639833,"name":"Canal St & Madison St"},{"legacy_id":191,"lat":41.88169,"lon":-87.63953,"name":"Canal St & Monroe St"},{"legacy_id":414,"lat":41.870257,"lon":-87.639474,"name":"Canal St & Taylor St"},{"legacy_id":34,"lat":41.9267559875,"lon":-87.6344287848,"name":"Cannon Dr & Fullerton Ave"},{"legacy_id":648,"lat":41.77987,"lon":-87.650919,"name":"Carpenter St & 63rd St"},{"legacy_id":92,"lat":41.894556,"lon":-87.653449,"name":"Carpenter St & Huron St"},{"legacy_id":550,"lat":41.894958,"lon":-87.764902,"name":"Central Ave & Chicago Ave"},{"legacy_id":541,"lat":41.872993,"lon":-87.764499,"name":"Central Ave & Harrison St"},{"legacy_id":531,"lat":41.887664,"lon":-87.765469,"name":"Central Ave & Lake St"},{"legacy_id":542,"lat":41.880121,"lon":-87.763238,"name":"Central Ave & Madison St"},{"legacy_id":1563698684026425330,"lat":41.9301785,"lon":-87.7661217,"name":"Central Ave & Parker Ave"},{"legacy_id":1571105050820616194,"lat":41.942258,"lon":-87.7669331,"name":"Central Ave & Roscoe St"},{"legacy_id":1575949515273532128,"lat":41.8989108,"lon":-87.7164901,"name":"Central Park & Augusta Blvd"},{"legacy_id":440,"lat":41.8481,"lon":-87.715068,"name":"Central Park Ave & 24th St"},{"legacy_id":641,"lat":41.914166,"lon":-87.716755,"name":"Central Park Ave & Bloomingdale Ave"},{"legacy_id":1561012870126088744,"lat":41.862355,"lon":-87.7157109,"name":"Central Park Ave & Douglas Blvd"},{"legacy_id":500,"lat":41.9353372826,"lon":-87.7168892935,"name":"Central Park Ave & Elbridge Ave"},{"legacy_id":508,"lat":41.9096568756,"lon":-87.7166319516,"name":"Central Park Ave & North Ave"},{"legacy_id":438,"lat":41.8540635039,"lon":-87.7151173353,"name":"Central Park Ave & Ogden Ave"},{"legacy_id":1575949510978564830,"lat":41.8918718,"lon":-87.7163879,"name":"Central Park Ave & Ohio St"},{"legacy_id":533,"lat":41.875679,"lon":-87.71547,"name":"Central Park Blvd & 5th Ave"},{"legacy_id":602,"lat":42.064313,"lon":-87.686152,"name":"Central St & Girard Ave"},{"legacy_id":601,"lat":42.063598,"lon":-87.69873,"name":"Central St Metra"},{"legacy_id":666,"lat":41.907221,"lon":-87.655618,"name":"Cherry Ave & Blackhawk St"},{"legacy_id":603,"lat":42.050491,"lon":-87.677821,"name":"Chicago Ave & Sheridan Rd"},{"legacy_id":597,"lat":42.032562,"lon":-87.679101,"name":"Chicago Ave & Washington St"},{"legacy_id":737,"lat":41.7189634217,"lon":-87.6082956791,"name":"Chicago State University"},{"legacy_id":474,"lat":41.9683544936,"lon":-87.7118306675,"name":"Christiana Ave & Lawrence Ave"},{"legacy_id":538,"lat":41.872131,"lon":-87.746619,"name":"Cicero Ave & Flournoy St"},{"legacy_id":1563698701206292482,"lat":41.94973,"lon":-87.7469526,"name":"Cicero Ave & Grace St"},{"legacy_id":529,"lat":41.886841,"lon":-87.745261,"name":"Cicero Ave & Lake St"},{"legacy_id":539,"lat":41.877613,"lon":-87.745405,"name":"Cicero Ave & Quincy St"},{"legacy_id":196,"lat":41.890573,"lon":-87.622072,"name":"Cityfront Plaza Dr & Pioneer Ct"},{"legacy_id":159,"lat":41.907781,"lon":-87.685854,"name":"Claremont Ave & Hirsch St"},{"legacy_id":312,"lat":41.9578665242,"lon":-87.6495051384,"name":"Clarendon Ave & Gordon Ter"},{"legacy_id":245,"lat":41.961004,"lon":-87.649603,"name":"Clarendon Ave & Junior Ter"},{"legacy_id":251,"lat":41.967968,"lon":-87.650001,"name":"Clarendon Ave & Leland Ave"},{"legacy_id":394,"lat":41.870816,"lon":-87.631246,"name":"Clark St & 9th St (AMLI)"},{"legacy_id":94,"lat":41.918306,"lon":-87.636282,"name":"Clark St & Armitage Ave"},{"legacy_id":463,"lat":41.9780306225,"lon":-87.6685649157,"name":"Clark St & Berwyn Ave"},{"legacy_id":460,"lat":41.983593,"lon":-87.669154,"name":"Clark St & Bryn Mawr Ave"},{"legacy_id":337,"lat":41.89675,"lon":-87.63089,"name":"Clark St & Chicago Ave"},{"legacy_id":449,"lat":42.0044506293,"lon":-87.6724024047,"name":"Clark St & Columbia Ave"},{"legacy_id":220,"lat":41.931248,"lon":-87.644336,"name":"Clark St & Drummond Pl"},{"legacy_id":176,"lat":41.902973,"lon":-87.63128,"name":"Clark St & Elm St"},{"legacy_id":457,"lat":41.9908604481,"lon":-87.66972363,"name":"Clark St & Elmdale Ave"},{"legacy_id":165,"lat":41.95078,"lon":-87.659172,"name":"Clark St & Grace St"},{"legacy_id":50,"lat":41.8759326655,"lon":-87.6305845355,"name":"Clark St & Ida B Wells Dr"},{"legacy_id":517,"lat":42.015963,"lon":-87.675005,"name":"Clark St & Jarvis Ave"},{"legacy_id":38,"lat":41.8860208277,"lon":-87.6308760584,"name":"Clark St & Lake St"},{"legacy_id":326,"lat":41.967096,"lon":-87.667429,"name":"Clark St & Leland Ave"},{"legacy_id":141,"lat":41.915689,"lon":-87.6346,"name":"Clark St & Lincoln Ave"},{"legacy_id":432,"lat":42.0090111806,"lon":-87.6741117239,"name":"Clark St & Lunt Ave"},{"legacy_id":234,"lat":41.961588,"lon":-87.666036,"name":"Clark St & Montrose Ave"},{"legacy_id":632,"lat":41.94454,"lon":-87.654678,"name":"Clark St & Newport St"},{"legacy_id":126,"lat":41.911974,"lon":-87.631942,"name":"Clark St & North Ave"},{"legacy_id":51,"lat":41.884576228,"lon":-87.63188991,"name":"Clark St & Randolph St"},{"legacy_id":301,"lat":41.907993,"lon":-87.631501,"name":"Clark St & Schiller St"},{"legacy_id":453,"lat":41.9992518219,"lon":-87.6713773393,"name":"Clark St & Schreiber Ave"},{"legacy_id":353,"lat":42.0125601154,"lon":-87.6743671152,"name":"Clark St & Touhy Ave"},{"legacy_id":156,"lat":41.9364968219,"lon":-87.6475386582,"name":"Clark St & Wellington Ave"},{"legacy_id":325,"lat":41.9733476405,"lon":-87.6678554714,"name":"Clark St & Winnemac Ave"},{"legacy_id":340,"lat":41.929546,"lon":-87.643118,"name":"Clark St & Wrightwood Ave"},{"legacy_id":223,"lat":41.918216,"lon":-87.656936,"name":"Clifton Ave & Armitage Ave"},{"legacy_id":170,"lat":41.85795,"lon":-87.640826,"name":"Clinton St & 18th St"},{"legacy_id":638,"lat":41.8783166118,"lon":-87.6409810781,"name":"Clinton St & Jackson Blvd"},{"legacy_id":66,"lat":41.885637,"lon":-87.641823,"name":"Clinton St & Lake St"},{"legacy_id":77,"lat":41.882242,"lon":-87.641066,"name":"Clinton St & Madison St"},{"legacy_id":103,"lat":41.8714665178,"lon":-87.6409491327,"name":"Clinton St & Polk St"},{"legacy_id":57,"lat":41.8671177825,"lon":-87.6410879593,"name":"Clinton St & Roosevelt Rd"},{"legacy_id":68,"lat":41.875885,"lon":-87.640795,"name":"Clinton St & Tilden St"},{"legacy_id":91,"lat":41.88338,"lon":-87.64117,"name":"Clinton St & Washington Blvd"},{"legacy_id":138,"lat":41.904613,"lon":-87.640552,"name":"Clybourn Ave & Division St"},{"legacy_id":708,"lat":41.7371514643,"lon":-87.5727403164,"name":"Clyde Ave & 87th St"},{"legacy_id":195,"lat":41.884728,"lon":-87.619521,"name":"Columbus Dr & Randolph St"},{"legacy_id":734,"lat":41.7133173955,"lon":-87.5510975718,"name":"Commercial Ave & 100th St"},{"legacy_id":722,"lat":41.6591504276,"lon":-87.5507622957,"name":"Commercial Ave & 130th St"},{"legacy_id":581,"lat":41.744615,"lon":-87.551208,"name":"Commercial Ave & 83rd St"},{"legacy_id":518,"lat":41.885502,"lon":-87.716866,"name":"Conservatory Dr & Lake St"},{"legacy_id":701,"lat":41.722290741,"lon":-87.5789684057,"name":"Constance Ave & 95th St"},{"legacy_id":417,"lat":41.802406,"lon":-87.586924,"name":"Cornell Ave & Hyde Park Blvd"},{"legacy_id":653,"lat":41.780595,"lon":-87.584846,"name":"Cornell Dr & Hayes Dr"},{"legacy_id":698,"lat":41.6917097585,"lon":-87.610001564,"name":"Cottage Grove Ave & 111th Pl"},{"legacy_id":271,"lat":41.816499,"lon":-87.606582,"name":"Cottage Grove Ave & 43rd St"},{"legacy_id":336,"lat":41.809855,"lon":-87.606755,"name":"Cottage Grove Ave & 47th St"},{"legacy_id":351,"lat":41.803038,"lon":-87.606615,"name":"Cottage Grove Ave & 51st St"},{"legacy_id":427,"lat":41.7806009452,"lon":-87.6058360934,"name":"Cottage Grove Ave & 63rd St"},{"legacy_id":429,"lat":41.773720952,"lon":-87.60563486,"name":"Cottage Grove Ave & 67th St"},{"legacy_id":400,"lat":41.765719037,"lon":-87.604959713,"name":"Cottage Grove Ave & 71st St"},{"legacy_id":575,"lat":41.753174,"lon":-87.605026,"name":"Cottage Grove Ave & 78th St"},{"legacy_id":585,"lat":41.743441,"lon":-87.604836,"name":"Cottage Grove Ave & 83rd St"},{"legacy_id":265,"lat":41.822985,"lon":-87.6071,"name":"Cottage Grove Ave & Oakwood Blvd"},{"legacy_id":81,"lat":41.884241,"lon":-87.629634,"name":"Daley Center Plaza"},{"legacy_id":1594046362333434512,"lat":41.834108,"lon":-87.67559,"name":"Damen Ave & 33rd St"},{"legacy_id":554,"lat":41.800908,"lon":-87.674684,"name":"Damen Ave & 51st St"},{"legacy_id":561,"lat":41.7858610651,"lon":-87.6741439104,"name":"Damen Ave & 59th St"},{"legacy_id":310,"lat":41.920082,"lon":-87.677855,"name":"Damen Ave & Charleston St"},{"legacy_id":128,"lat":41.895769,"lon":-87.67722,"name":"Damen Ave & Chicago Ave"},{"legacy_id":163,"lat":41.931931,"lon":-87.677856,"name":"Damen Ave & Clybourn Ave"},{"legacy_id":219,"lat":41.915983,"lon":-87.677335,"name":"Damen Ave & Cortland St"},{"legacy_id":167,"lat":41.8492,"lon":-87.67564,"name":"Damen Ave & Coulter St"},{"legacy_id":124,"lat":41.8549665188,"lon":-87.6756995916,"name":"Damen Ave & Cullerton St"},{"legacy_id":130,"lat":41.903266,"lon":-87.678435,"name":"Damen Ave & Division St"},{"legacy_id":464,"lat":41.9756148046,"lon":-87.6794590387,"name":"Damen Ave & Foster Ave"},{"legacy_id":214,"lat":41.892394453,"lon":-87.676885128,"name":"Damen Ave & Grand Ave"},{"legacy_id":242,"lat":41.967094,"lon":-87.679028,"name":"Damen Ave & Leland Ave"},{"legacy_id":215,"lat":41.88137,"lon":-87.67493,"name":"Damen Ave & Madison St"},{"legacy_id":228,"lat":41.9406,"lon":-87.6785,"name":"Damen Ave & Melrose Ave"},{"legacy_id":546,"lat":41.823192,"lon":-87.676597,"name":"Damen Ave & Pershing Rd"},{"legacy_id":69,"lat":41.9093960065,"lon":-87.6776919292,"name":"Damen Ave & Pierce Ave"},{"legacy_id":316,"lat":41.96325,"lon":-87.679258,"name":"Damen Ave & Sunnyside Ave"},{"legacy_id":183,"lat":41.901315,"lon":-87.677409,"name":"Damen Ave & Thomas St (Augusta Blvd)"},{"legacy_id":1521686986436309688,"lat":41.9122813,"lon":-87.6773211,"name":"Damen Ave & Wabansia Ave"},{"legacy_id":656,"lat":41.885951,"lon":-87.677009,"name":"Damen Ave & Walnut (Lake) St"},{"legacy_id":162,"lat":41.93588,"lon":-87.67842,"name":"Damen Ave & Wellington Ave"},{"legacy_id":695,"lat":41.7072503678,"lon":-87.6076626778,"name":"Dauphin Ave & 103rd St"},{"legacy_id":706,"lat":41.7365590228,"lon":-87.6012575626,"name":"Dauphin Ave & 87th St"},{"legacy_id":60,"lat":41.9105780349,"lon":-87.6494219288,"name":"Dayton St & North Ave"},{"legacy_id":140,"lat":41.898969,"lon":-87.629912,"name":"Dearborn Pkwy & Delaware Pl"},{"legacy_id":37,"lat":41.8793563587,"lon":-87.6297910363,"name":"Dearborn St & Adams St"},{"legacy_id":110,"lat":41.893992,"lon":-87.629318,"name":"Dearborn St & Erie St"},{"legacy_id":49,"lat":41.881319815,"lon":-87.6295209193,"name":"Dearborn St & Monroe St"},{"legacy_id":624,"lat":41.876268,"lon":-87.629155,"name":"Dearborn St & Van Buren St"},{"legacy_id":626,"lat":41.867491,"lon":-87.63219,"name":"Delano Ct & Roosevelt Rd"},{"legacy_id":107,"lat":41.8781189009,"lon":-87.6439476013,"name":"Desplaines St & Jackson Blvd"},{"legacy_id":56,"lat":41.888716036,"lon":-87.6444478533,"name":"Desplaines St & Kinzie St"},{"legacy_id":96,"lat":41.8846161896,"lon":-87.6445705849,"name":"Desplaines St & Randolph St"},{"legacy_id":600,"lat":42.048308,"lon":-87.698224,"name":"Dodge Ave & Church St"},{"legacy_id":625,"lat":42.0346318516,"lon":-87.699187696,"name":"Dodge Ave & Main St"},{"legacy_id":662,"lat":42.023463,"lon":-87.699595,"name":"Dodge Ave & Mulford St"},{"legacy_id":416,"lat":41.805772,"lon":-87.592464,"name":"Dorchester Ave & 49th St"},{"legacy_id":428,"lat":41.7804056457,"lon":-87.5914159893,"name":"Dorchester Ave & 63rd St"},{"legacy_id":742,"lat":41.6950104494,"lon":-87.5987148285,"name":"Doty Ave & 111th St"},{"legacy_id":489,"lat":41.947326,"lon":-87.717582,"name":"Drake Ave & Addison St"},{"legacy_id":479,"lat":41.9611540757,"lon":-87.7165690733,"name":"Drake Ave & Montrose Ave"},{"legacy_id":334,"lat":41.940775,"lon":-87.639192,"name":"DuSable Lake Shore Dr & Belmont Ave"},{"legacy_id":329,"lat":41.932588,"lon":-87.636427,"name":"DuSable Lake Shore Dr & Diversey Pkwy"},{"legacy_id":76,"lat":41.880958,"lon":-87.616743,"name":"DuSable Lake Shore Dr & Monroe St"},{"legacy_id":268,"lat":41.911722,"lon":-87.626804,"name":"DuSable Lake Shore Dr & North Blvd"},{"legacy_id":157,"lat":41.9366884495,"lon":-87.6368290186,"name":"DuSable Lake Shore Dr & Wellington Ave"},{"legacy_id":422,"lat":41.7915680106,"lon":-87.6078521774,"name":"DuSable Museum"},{"legacy_id":6,"lat":41.886976,"lon":-87.612813,"name":"Dusable Harbor"},{"legacy_id":686,"lat":41.7368152144,"lon":-87.5828012824,"name":"East End Ave & 87th St"},{"legacy_id":523,"lat":42.0208872805,"lon":-87.6650579274,"name":"Eastlake Ter & Rogers Ave"},{"legacy_id":716,"lat":41.6584131511,"lon":-87.610710897,"name":"Eberhart Ave & 131st St"},{"legacy_id":431,"lat":41.7841416932,"lon":-87.6133078304,"name":"Eberhart Ave & 61st St"},{"legacy_id":682,"lat":41.7292851573,"lon":-87.6110315323,"name":"Eberhart Ave & 91st St"},{"legacy_id":86,"lat":41.89637337,"lon":-87.66098386,"name":"Eckhart Park"},{"legacy_id":650,"lat":41.768898,"lon":-87.635876,"name":"Eggleston Ave & 69th St"},{"legacy_id":691,"lat":41.7275756593,"lon":-87.6348280907,"name":"Eggleston Ave & 92nd St"},{"legacy_id":217,"lat":41.886616486,"lon":-87.6580399275,"name":"Elizabeth (May) St & Fulton St"},{"legacy_id":553,"lat":41.80839,"lon":-87.656526,"name":"Elizabeth St & 47th St"},{"legacy_id":647,"lat":41.7896968805,"lon":-87.6546978951,"name":"Elizabeth St & 59th St"},{"legacy_id":689,"lat":41.7267989637,"lon":-87.6542901993,"name":"Elizabeth St & 92nd St"},{"legacy_id":418,"lat":41.7993362626,"lon":-87.6009581145,"name":"Ellis Ave & 53rd St"},{"legacy_id":420,"lat":41.7943006205,"lon":-87.6014497734,"name":"Ellis Ave & 55th St"},{"legacy_id":328,"lat":41.788746,"lon":-87.601334,"name":"Ellis Ave & 58th St"},{"legacy_id":426,"lat":41.7850971464,"lon":-87.6010727606,"name":"Ellis Ave & 60th St"},{"legacy_id":584,"lat":41.744123,"lon":-87.599034,"name":"Ellis Ave & 83rd St"},{"legacy_id":598,"lat":42.025784,"lon":-87.684107,"name":"Elmwood Ave & Austin St"},{"legacy_id":58,"lat":41.9164334291,"lon":-87.6667463779,"name":"Elston Ave & Cortland St"},{"legacy_id":1594046452527747848,"lat":41.934003,"lon":-87.690823,"name":"Elston Ave & George St"},{"legacy_id":1594046418168009436,"lat":41.941499,"lon":-87.701051,"name":"Elston Ave & Henderson St"},{"legacy_id":315,"lat":41.912919,"lon":-87.664169,"name":"Elston Ave & Wabansia Ave"},{"legacy_id":207,"lat":41.84358,"lon":-87.645368,"name":"Emerald Ave & 28th St"},{"legacy_id":339,"lat":41.838198,"lon":-87.645143,"name":"Emerald Ave & 31st St"},{"legacy_id":570,"lat":41.75849,"lon":-87.60641,"name":"Evans Ave & 75th St"},{"legacy_id":661,"lat":42.057044,"lon":-87.686554,"name":"Evanston Civic Center"},{"legacy_id":718,"lat":41.7127487611,"lon":-87.5348138809,"name":"Ewing Ave & Burnham Greenway"},{"legacy_id":580,"lat":41.751731,"lon":-87.552812,"name":"Exchange Ave & 79th St"},{"legacy_id":24,"lat":41.8918473721,"lon":-87.6205801964,"name":"Fairbanks Ct & Grand Ave"},{"legacy_id":635,"lat":41.895748,"lon":-87.620104,"name":"Fairbanks St & Superior St"},{"legacy_id":1582242293862782512,"lat":41.813617,"lon":-87.6932272,"name":"Fairfield Ave & 44th St"},{"legacy_id":436,"lat":41.866624,"lon":-87.694521,"name":"Fairfield Ave & Roosevelt Rd"},{"legacy_id":41,"lat":41.8720776329,"lon":-87.6295437729,"name":"Federal St & Polk St"},{"legacy_id":7,"lat":41.8863490627,"lon":-87.6175165471,"name":"Field Blvd & South Water St"},{"legacy_id":97,"lat":41.865312,"lon":-87.617867,"name":"Field Museum"},{"legacy_id":89,"lat":41.875023628,"lon":-87.6330940425,"name":"Financial Pl & Ida B Wells Dr"},{"legacy_id":150,"lat":41.838556,"lon":-87.608218,"name":"Fort Dearborn Dr & 31st St"},{"legacy_id":1582242298157749812,"lat":41.8084245,"lon":-87.696619,"name":"Francisco Ave & 47th St"},{"legacy_id":1594046409578074834,"lat":41.913959,"lon":-87.699368,"name":"Francisco Ave & Bloomingdale Ave"},{"legacy_id":471,"lat":41.9756327252,"lon":-87.7014194389,"name":"Francisco Ave & Foster Ave"},{"legacy_id":1594046456822715150,"lat":41.984746,"lon":-87.701593,"name":"Francisco Ave & Hollywood Ave"},{"legacy_id":1594046448262943690,"lat":41.9610471,"lon":-87.700901,"name":"Francisco Ave & Montrose Ave"},{"legacy_id":286,"lat":41.8794340914,"lon":-87.6355040073,"name":"Franklin St & Adams St (Temp)"},{"legacy_id":31,"lat":41.8967469731,"lon":-87.6356676221,"name":"Franklin St & Chicago Ave"},{"legacy_id":672,"lat":41.8910233103,"lon":-87.6354798675,"name":"Franklin St & Illinois St"},{"legacy_id":36,"lat":41.8777079559,"lon":-87.6353211408,"name":"Franklin St & Jackson Blvd"},{"legacy_id":164,"lat":41.885837,"lon":-87.6355,"name":"Franklin St & Lake St"},{"legacy_id":287,"lat":41.880317,"lon":-87.635185,"name":"Franklin St & Monroe St"},{"legacy_id":1563698679731458032,"lat":41.9237918,"lon":-87.7723116,"name":"Fullerton & Monitor"},{"legacy_id":447,"lat":42.0079719229,"lon":-87.6655023944,"name":"Glenwood Ave & Morse Ave"},{"legacy_id":525,"lat":42.012701,"lon":-87.666058,"name":"Glenwood Ave & Touhy Ave"},{"legacy_id":198,"lat":41.881892,"lon":-87.648789,"name":"Green St & Madison St"},{"legacy_id":112,"lat":41.883181306,"lon":-87.6487246156,"name":"Green St & Randolph St"},{"legacy_id":762,"lat":41.8836016573,"lon":-87.6486267149,"name":"Green St & Randolph St*"},{"legacy_id":319,"lat":41.9325896343,"lon":-87.6659363508,"name":"Greenview Ave & Diversey Pkwy"},{"legacy_id":188,"lat":41.92533,"lon":-87.6658,"name":"Greenview Ave & Fullerton Ave"},{"legacy_id":520,"lat":42.015962,"lon":-87.66857,"name":"Greenview Ave & Jarvis Ave"},{"legacy_id":252,"lat":41.809835,"lon":-87.599383,"name":"Greenwood Ave & 47th St"},{"legacy_id":576,"lat":41.751294,"lon":-87.597552,"name":"Greenwood Ave & 79th St"},{"legacy_id":702,"lat":41.7282642682,"lon":-87.5972986221,"name":"Greenwood Ave & 91st St"},{"legacy_id":703,"lat":41.7187031548,"lon":-87.5970357656,"name":"Greenwood Ave & 97th St"},{"legacy_id":723,"lat":41.6992061681,"lon":-87.6689189672,"name":"Hale Ave & 107th St"},{"legacy_id":388,"lat":41.7793811423,"lon":-87.6446208145,"name":"Halsted & 63rd - Kennedy-King Vaccination Site"},{"legacy_id":725,"lat":41.7051397889,"lon":-87.6424241066,"name":"Halsted St & 104th St"},{"legacy_id":711,"lat":41.6922625559,"lon":-87.6426118612,"name":"Halsted St & 111th St"},{"legacy_id":202,"lat":41.8575056803,"lon":-87.6459914446,"name":"Halsted St & 18th St"},{"legacy_id":135,"lat":41.8537798107,"lon":-87.6466029882,"name":"Halsted St & 21st St"},{"legacy_id":279,"lat":41.830661,"lon":-87.647172,"name":"Halsted St & 35th St"},{"legacy_id":262,"lat":41.827059,"lon":-87.64572,"name":"Halsted St & 37th St"},{"legacy_id":411,"lat":41.8081339148,"lon":-87.6456165545,"name":"Halsted St & 47th Pl"},{"legacy_id":384,"lat":41.8018316405,"lon":-87.645213904,"name":"Halsted St & 51st St"},{"legacy_id":386,"lat":41.792929646,"lon":-87.6449900565,"name":"Halsted St & 56th St"},{"legacy_id":593,"lat":41.787539,"lon":-87.644874,"name":"Halsted St & 59th St"},{"legacy_id":391,"lat":41.7690617203,"lon":-87.6446135779,"name":"Halsted St & 69th St"},{"legacy_id":678,"lat":41.761605438,"lon":-87.6441609767,"name":"Halsted St & 73rd St"},{"legacy_id":681,"lat":41.7524870125,"lon":-87.6439021575,"name":"Halsted St & 78th St"},{"legacy_id":700,"lat":41.7197121836,"lon":-87.643019557,"name":"Halsted St & 96th St"},{"legacy_id":206,"lat":41.847203,"lon":-87.646795,"name":"Halsted St & Archer Ave"},{"legacy_id":331,"lat":41.909668,"lon":-87.648128,"name":"Halsted St & Clybourn Ave"},{"legacy_id":225,"lat":41.919936,"lon":-87.64883,"name":"Halsted St & Dickens Ave"},{"legacy_id":282,"lat":41.864883,"lon":-87.647071,"name":"Halsted St & Maxwell St"},{"legacy_id":365,"lat":41.8993902855,"lon":-87.6485449076,"name":"Halsted St & North Branch St"},{"legacy_id":108,"lat":41.87184,"lon":-87.64664,"name":"Halsted St & Polk St"},{"legacy_id":55,"lat":41.867324,"lon":-87.648625,"name":"Halsted St & Roosevelt Rd"},{"legacy_id":299,"lat":41.94367,"lon":-87.64895,"name":"Halsted St & Roscoe St"},{"legacy_id":224,"lat":41.913865,"lon":-87.648755,"name":"Halsted St & Willow St"},{"legacy_id":349,"lat":41.929143,"lon":-87.649077,"name":"Halsted St & Wrightwood Ave"},{"legacy_id":1594041777104953206,"lat":41.779953,"lon":-87.7178221,"name":"Hamlin Ave & 62nd Pl"},{"legacy_id":1521690221159885714,"lat":41.9325593,"lon":-87.6423847,"name":"Hampden Ct & Diversey Ave"},{"legacy_id":1561012874421056046,"lat":41.8444715,"lon":-87.7232647,"name":"Harding Ave & 26th St"},{"legacy_id":1571105059410550806,"lat":41.9532568,"lon":-87.8071434,"name":"Harlem & Irving Park"},{"legacy_id":1571105063705518104,"lat":41.9488531,"lon":-87.806938,"name":"Harlem Ave & Grace St"},{"legacy_id":425,"lat":41.7879428129,"lon":-87.5883151702,"name":"Harper Ave & 59th St"},{"legacy_id":732,"lat":41.6485007627,"lon":-87.5460898876,"name":"Hegewisch Metra Station"},{"legacy_id":261,"lat":41.871514,"lon":-87.669886,"name":"Hermitage Ave & Polk St"},{"legacy_id":1582242289567815212,"lat":41.775144,"lon":-87.708129,"name":"Homan Ave & 65th St"},{"legacy_id":1561012891600925250,"lat":41.868114,"lon":-87.7109257,"name":"Homan Ave & Fillmore St"},{"legacy_id":724,"lat":41.684595072,"lon":-87.6707080007,"name":"Homewood Ave & 115th St"},{"legacy_id":17,"lat":41.903119,"lon":-87.673935,"name":"Honore St & Division St"},{"legacy_id":694,"lat":41.7282042154,"lon":-87.549700141,"name":"Houston Ave & 92nd St"},{"legacy_id":1582242311042651720,"lat":41.8320245,"lon":-87.6778387,"name":"Hoyne Ave & 34th St"},{"legacy_id":551,"lat":41.808227,"lon":-87.67718,"name":"Hoyne Ave & 47th St"},{"legacy_id":655,"lat":41.979851,"lon":-87.681932,"name":"Hoyne Ave & Balmoral Ave"},{"legacy_id":507,"lat":41.917513394,"lon":-87.7018089555,"name":"Humboldt Blvd & Armitage Ave"},{"legacy_id":696,"lat":41.7071702712,"lon":-87.6184719801,"name":"Indiana Ave & 103rd St"},{"legacy_id":1448642188027369086,"lat":41.653564,"lon":-87.617054,"name":"Indiana Ave & 133rd St"},{"legacy_id":147,"lat":41.845687,"lon":-87.622481,"name":"Indiana Ave & 26th St"},{"legacy_id":272,"lat":41.838842,"lon":-87.621857,"name":"Indiana Ave & 31st St"},{"legacy_id":201,"lat":41.82168,"lon":-87.6216,"name":"Indiana Ave & 40th St"},{"legacy_id":255,"lat":41.867888,"lon":-87.623041,"name":"Indiana Ave & Roosevelt Rd"},{"legacy_id":73,"lat":41.8803296336,"lon":-87.6427459717,"name":"Jefferson St & Monroe St"},{"legacy_id":352,"lat":41.7735175513,"lon":-87.5771428255,"name":"Jeffery Blvd & 67th St"},{"legacy_id":11,"lat":41.766638237,"lon":-87.5764501141,"name":"Jeffery Blvd & 71st St"},{"legacy_id":395,"lat":41.757120068,"lon":-87.5758393587,"name":"Jeffery Blvd & 76th St"},{"legacy_id":534,"lat":41.88085,"lon":-87.727907,"name":"Karlov Ave & Madison St"},{"legacy_id":1521679584953491780,"lat":41.7037764,"lon":-87.7013952,"name":"Kedzie Ave & 104th St"},{"legacy_id":736,"lat":41.6923947459,"lon":-87.7009606361,"name":"Kedzie Ave & 110th St"},{"legacy_id":439,"lat":41.8535336321,"lon":-87.7050730318,"name":"Kedzie Ave & 21st St"},{"legacy_id":441,"lat":41.8481909449,"lon":-87.7054137458,"name":"Kedzie Ave & 24th St"},{"legacy_id":1582242315337619018,"lat":41.8113904,"lon":-87.7040052,"name":"Kedzie Ave & 45th St"},{"legacy_id":1582242298157749814,"lat":41.8047515,"lon":-87.7041145,"name":"Kedzie Ave & 48th Pl"},{"legacy_id":1582242302452717116,"lat":41.7990641,"lon":-87.703446,"name":"Kedzie Ave & 52nd St"},{"legacy_id":1582242323927553620,"lat":41.789944,"lon":-87.703233,"name":"Kedzie Ave & 57th St"},{"legacy_id":494,"lat":41.9822297591,"lon":-87.7088865638,"name":"Kedzie Ave & Bryn Mawr Ave"},{"legacy_id":373,"lat":41.8954653031,"lon":-87.7061278837,"name":"Kedzie Ave & Chicago Ave"},{"legacy_id":470,"lat":41.975672,"lon":-87.709261,"name":"Kedzie Ave & Foster Ave"},{"legacy_id":1594046422462976738,"lat":41.933886,"lon":-87.707262,"name":"Kedzie Ave & George St"},{"legacy_id":433,"lat":41.8735996746,"lon":-87.7048707493,"name":"Kedzie Ave & Harrison St"},{"legacy_id":377,"lat":41.884603285,"lon":-87.7063037436,"name":"Kedzie Ave & Lake St"},{"legacy_id":476,"lat":41.966686362,"lon":-87.7080519806,"name":"Kedzie Ave & Leland Ave"},{"legacy_id":260,"lat":41.929567,"lon":-87.707857,"name":"Kedzie Ave & Milwaukee Ave"},{"legacy_id":290,"lat":41.921525,"lon":-87.707322,"name":"Kedzie Ave & Palmer Ct"},{"legacy_id":435,"lat":41.8664927817,"lon":-87.7064961757,"name":"Kedzie Ave & Roosevelt Rd"},{"legacy_id":1561012870126088746,"lat":41.866402,"lon":-87.7300171,"name":"Keeler Ave & Roosevelt Rd"},{"legacy_id":1594041785694887806,"lat":41.8023156,"lon":-87.7344142,"name":"Kenneth Ave & 50th St"},{"legacy_id":1563698705501259786,"lat":41.9344421,"lon":-87.7337799,"name":"Kenosha & Wellington"},{"legacy_id":537,"lat":41.880708,"lon":-87.741018,"name":"Kenton Ave & Madison St"},{"legacy_id":619,"lat":41.92459,"lon":-87.72785,"name":"Keystone Ave & Fullerton Ave"},{"legacy_id":495,"lat":41.9611080162,"lon":-87.7289701012,"name":"Keystone Ave & Montrose Ave"},{"legacy_id":1563698709796227088,"lat":41.922352,"lon":-87.739024,"name":"Kilbourn & Belden"},{"legacy_id":1563698701206292486,"lat":41.9427319,"lon":-87.7395332,"name":"Kilbourn & Roscoe"},{"legacy_id":590,"lat":41.953733,"lon":-87.740569,"name":"Kilbourn Ave & Irving Park Rd"},{"legacy_id":591,"lat":41.9470708942,"lon":-87.740008235,"name":"Kilbourn Ave & Milwaukee Ave"},{"legacy_id":1561012878716023344,"lat":41.851414,"lon":-87.73215,"name":"Kildare & Cermak"},{"legacy_id":1561012895895892548,"lat":41.8442315,"lon":-87.7321534,"name":"Kildare Ave & 26th St"},{"legacy_id":1593766347538293664,"lat":41.807526,"lon":-87.7308406,"name":"Kildare Ave & 47th St"},{"legacy_id":1593766338948359064,"lat":41.793357,"lon":-87.730598,"name":"Kildare Ave & 55th St"},{"legacy_id":1575949515273532130,"lat":41.8954359,"lon":-87.7335726,"name":"Kildare Ave & Chicago Ave"},{"legacy_id":1575949493798695616,"lat":41.902393,"lon":-87.733598,"name":"Kildare Ave & Division St"},{"legacy_id":630,"lat":41.96108,"lon":-87.73569,"name":"Kildare Ave & Montrose Ave"},{"legacy_id":1575949523863466728,"lat":41.9127779,"lon":-87.7436434,"name":"Kilpatrick Ave & Grand Ave"},{"legacy_id":1563698705501259788,"lat":41.930736,"lon":-87.744082,"name":"Kilpatrick Ave & Parker Ave"},{"legacy_id":497,"lat":41.939398,"lon":-87.711561,"name":"Kimball Ave & Belmont Ave"},{"legacy_id":322,"lat":41.799568,"lon":-87.594747,"name":"Kimbark Ave & 53rd St"},{"legacy_id":74,"lat":41.8938080562,"lon":-87.641697228,"name":"Kingsbury St & Erie St"},{"legacy_id":133,"lat":41.8891768326,"lon":-87.6385057718,"name":"Kingsbury St & Kinzie St"},{"legacy_id":592,"lat":41.960631,"lon":-87.745359,"name":"Knox Ave & Montrose Ave"},{"legacy_id":1561012883010990646,"lat":41.836708,"lon":-87.725641,"name":"Komensky Ave & 31st St"},{"legacy_id":1594041777104953202,"lat":41.793279,"lon":-87.724189,"name":"Komensky Ave & 55th St"},{"legacy_id":499,"lat":41.9305853714,"lon":-87.7237773635,"name":"Kosciuszko Park"},{"legacy_id":1593766347538293666,"lat":41.778747,"lon":-87.732463,"name":"Kostner Ave & 63rd St"},{"legacy_id":545,"lat":41.877917,"lon":-87.735737,"name":"Kostner Ave & Adams St"},{"legacy_id":536,"lat":41.885928,"lon":-87.73541,"name":"Kostner Ave & Lake St"},{"legacy_id":1563698709796227086,"lat":41.9279399,"lon":-87.7359921,"name":"Kostner Ave & Wrightwood Ave"},{"legacy_id":1622724289952663440,"lat":41.8392528,"lon":-87.7020207,"name":"La Villita Park (Albany\/30th)"},{"legacy_id":627,"lat":41.894877,"lon":-87.632326,"name":"LaSalle Dr & Huron St"},{"legacy_id":40,"lat":41.8793443735,"lon":-87.6319852213,"name":"LaSalle St & Adams St"},{"legacy_id":181,"lat":41.890762,"lon":-87.631697,"name":"LaSalle St & Illinois St"},{"legacy_id":283,"lat":41.878166,"lon":-87.631929,"name":"LaSalle St & Jackson Blvd"},{"legacy_id":98,"lat":41.882664,"lon":-87.63253,"name":"LaSalle St & Washington St"},{"legacy_id":208,"lat":41.8549145758,"lon":-87.6635599136,"name":"Laflin St & Cullerton St"},{"legacy_id":406,"lat":41.8312742355,"lon":-87.6087991946,"name":"Lake Park Ave & 35th St"},{"legacy_id":267,"lat":41.809443,"lon":-87.591875,"name":"Lake Park Ave & 47th St"},{"legacy_id":419,"lat":41.7994942937,"lon":-87.5864498959,"name":"Lake Park Ave & 53rd St"},{"legacy_id":345,"lat":41.793242,"lon":-87.587782,"name":"Lake Park Ave & 56th St"},{"legacy_id":760,"lat":41.9840441152,"lon":-87.6522812247,"name":"Lakefront Trail & Bryn Mawr Ave"},{"legacy_id":639,"lat":41.965845,"lon":-87.645361,"name":"Lakefront Trail & Wilson Ave"},{"legacy_id":313,"lat":41.925858,"lon":-87.638973,"name":"Lakeview Ave & Fullerton Pkwy"},{"legacy_id":1563698692616359930,"lat":41.9166701,"lon":-87.7494873,"name":"Lamon Ave & Armitage Ave"},{"legacy_id":1563698701206292480,"lat":41.9390108,"lon":-87.7492834,"name":"Lamon Ave & Belmont Ave"},{"legacy_id":1575949493798695614,"lat":41.8952,"lon":-87.748223,"name":"Lamon Ave & Chicago Ave"},{"legacy_id":543,"lat":41.875806,"lon":-87.755285,"name":"Laramie Ave & Gladys Ave"},{"legacy_id":530,"lat":41.887832,"lon":-87.755527,"name":"Laramie Ave & Kinzie St"},{"legacy_id":540,"lat":41.880207,"lon":-87.755337,"name":"Laramie Ave & Madison St"},{"legacy_id":288,"lat":41.918084,"lon":-87.643749,"name":"Larrabee St & Armitage Ave"},{"legacy_id":359,"lat":41.90348607,"lon":-87.6433534936,"name":"Larrabee St & Division St"},{"legacy_id":48,"lat":41.897764,"lon":-87.642884,"name":"Larrabee St & Kingsbury St"},{"legacy_id":28,"lat":41.91468,"lon":-87.64332,"name":"Larrabee St & Menomonee St"},{"legacy_id":27,"lat":41.91021,"lon":-87.6435,"name":"Larrabee St & North Ave"},{"legacy_id":364,"lat":41.9002194932,"lon":-87.6429854676,"name":"Larrabee St & Oak St"},{"legacy_id":144,"lat":41.921822,"lon":-87.64414,"name":"Larrabee St & Webster Ave"},{"legacy_id":642,"lat":41.894745,"lon":-87.756895,"name":"Latrobe Ave & Chicago Ave"},{"legacy_id":1563698692616359928,"lat":41.923982,"lon":-87.7511643,"name":"Lavergne & Fullerton"},{"legacy_id":1593766334653391756,"lat":41.80934,"lon":-87.7478312,"name":"Lavergne Ave & 46th St"},{"legacy_id":1575949498093662914,"lat":41.9021335,"lon":-87.7509517,"name":"Lavergne Ave & Division St"},{"legacy_id":1593766338948359058,"lat":41.802209,"lon":-87.7489007,"name":"Lawler Ave & 50th St"},{"legacy_id":730,"lat":41.6913191922,"lon":-87.7128857374,"name":"Lawndale Ave & 111th St"},{"legacy_id":1561012887305957948,"lat":41.8591606,"lon":-87.7176965,"name":"Lawndale Ave & 16th St"},{"legacy_id":1561012878716023346,"lat":41.8389124,"lon":-87.7168955,"name":"Lawndale Ave & 30th St"},{"legacy_id":1575949502388630222,"lat":41.9058405,"lon":-87.7548602,"name":"Leamington Ave & Hirsch St"},{"legacy_id":492,"lat":41.946655,"lon":-87.683359,"name":"Leavitt St & Addison St"},{"legacy_id":9,"lat":41.8287920199,"lon":-87.6806044594,"name":"Leavitt St & Archer Ave"},{"legacy_id":309,"lat":41.917805,"lon":-87.682437,"name":"Leavitt St & Armitage Ave"},{"legacy_id":664,"lat":41.939354,"lon":-87.683282,"name":"Leavitt St & Belmont Ave"},{"legacy_id":659,"lat":41.895501,"lon":-87.682017,"name":"Leavitt St & Chicago Ave"},{"legacy_id":658,"lat":41.902997,"lon":-87.683825,"name":"Leavitt St & Division St"},{"legacy_id":311,"lat":41.968885,"lon":-87.684001,"name":"Leavitt St & Lawrence Ave"},{"legacy_id":213,"lat":41.9105093667,"lon":-87.6823890209,"name":"Leavitt St & North Ave"},{"legacy_id":330,"lat":41.946176,"lon":-87.673308,"name":"Lincoln Ave & Addison St"},{"legacy_id":1594046435347878644,"lat":41.979461,"lon":-87.693013,"name":"Lincoln Ave & Balmoral Ave"},{"legacy_id":298,"lat":41.9560035508,"lon":-87.6801614463,"name":"Lincoln Ave & Belle Plaine Ave"},{"legacy_id":131,"lat":41.939365,"lon":-87.668385,"name":"Lincoln Ave & Belmont Ave"},{"legacy_id":152,"lat":41.932225,"lon":-87.658617,"name":"Lincoln Ave & Diversey Pkwy"},{"legacy_id":127,"lat":41.9241610291,"lon":-87.6463803649,"name":"Lincoln Ave & Fullerton Ave"},{"legacy_id":1594046461125837998,"lat":41.990247,"lon":-87.70858,"name":"Lincoln Ave & Peterson Ave"},{"legacy_id":230,"lat":41.943785165,"lon":-87.671251148,"name":"Lincoln Ave & Roscoe St"},{"legacy_id":758,"lat":41.943350247,"lon":-87.6706677675,"name":"Lincoln Ave & Roscoe St*"},{"legacy_id":243,"lat":41.963004,"lon":-87.684781,"name":"Lincoln Ave & Sunnyside Ave"},{"legacy_id":257,"lat":41.948797,"lon":-87.675278,"name":"Lincoln Ave & Waveland Ave"},{"legacy_id":472,"lat":41.9749112968,"lon":-87.6925025594,"name":"Lincoln Ave & Winona St"},{"legacy_id":673,"lat":41.9239313114,"lon":-87.6358245313,"name":"Lincoln Park Conservatory"},{"legacy_id":663,"lat":42.064854,"lon":-87.715297,"name":"Lincolnwood Dr & Central St"},{"legacy_id":1563698696911327228,"lat":41.9278148,"lon":-87.7583757,"name":"Lockwood Ave & Wrightwood Ave"},{"legacy_id":258,"lat":41.929465,"lon":-87.684158,"name":"Logan Blvd & Elston Ave"},{"legacy_id":1571105055115583496,"lat":41.953038,"lon":-87.7621632,"name":"Long & Irving Park"},{"legacy_id":1563698688321392630,"lat":41.9227049,"lon":-87.760954,"name":"Long Ave & Belden Ave"},{"legacy_id":1563698688321392628,"lat":41.9383071,"lon":-87.761663,"name":"Long Ave & Belmont Ave"},{"legacy_id":1575949523863466730,"lat":41.909212,"lon":-87.760999,"name":"Long Ave & North Ave"},{"legacy_id":687,"lat":41.7414865286,"lon":-87.6584100723,"name":"Loomis Blvd & 84th St"},{"legacy_id":740,"lat":41.7323797533,"lon":-87.6580694318,"name":"Loomis St & 89th St"},{"legacy_id":366,"lat":41.8416325396,"lon":-87.6574349533,"name":"Loomis St & Archer Ave"},{"legacy_id":146,"lat":41.877945,"lon":-87.662007,"name":"Loomis St & Jackson Blvd"},{"legacy_id":320,"lat":41.872187,"lon":-87.661501,"name":"Loomis St & Lexington St"},{"legacy_id":237,"lat":41.842052,"lon":-87.617,"name":"MLK Jr Dr & 29th St"},{"legacy_id":200,"lat":41.809851,"lon":-87.616279,"name":"MLK Jr Dr & 47th St"},{"legacy_id":421,"lat":41.7934294566,"lon":-87.6158532619,"name":"MLK Jr Dr & 56th St"},{"legacy_id":430,"lat":41.7800806366,"lon":-87.6159428567,"name":"MLK Jr Dr & 63rd St"},{"legacy_id":586,"lat":41.743116,"lon":-87.6148,"name":"MLK Jr Dr & 83rd St"},{"legacy_id":179,"lat":41.8246,"lon":-87.61678,"name":"MLK Jr Dr & Pershing Rd"},{"legacy_id":1575949506683597522,"lat":41.9125923,"lon":-87.7686995,"name":"Major Ave & Bloomingdale Ave"},{"legacy_id":713,"lat":41.6849315952,"lon":-87.6452887058,"name":"Major Taylor Trail & 115th St"},{"legacy_id":715,"lat":41.6686963533,"lon":-87.6371133327,"name":"Major Taylor Trail & 124th St"},{"legacy_id":631,"lat":41.877618,"lon":-87.673895,"name":"Malcolm X College Vaccination Site"},{"legacy_id":477,"lat":41.965875,"lon":-87.700825,"name":"Manor Ave & Leland Ave"},{"legacy_id":1582242285272847904,"lat":41.7863375,"lon":-87.6874351,"name":"Maplewood Ave & 59th St"},{"legacy_id":455,"lat":41.9902360287,"lon":-87.6933696402,"name":"Maplewood Ave & Peterson Ave"},{"legacy_id":465,"lat":41.9716,"lon":-87.650154,"name":"Marine Dr & Ainslie St"},{"legacy_id":692,"lat":41.7336687907,"lon":-87.5583422184,"name":"Marquette Ave & 89th St"},{"legacy_id":549,"lat":41.813996,"lon":-87.666589,"name":"Marshfield Ave & 44th St"},{"legacy_id":560,"lat":41.786833,"lon":-87.666215,"name":"Marshfield Ave & 59th St"},{"legacy_id":1448642179437434486,"lat":41.69460602,"lon":-87.60119826,"name":"Martin Luther King Dr & 111th St"},{"legacy_id":1448642183732401788,"lat":41.705588,"lon":-87.602938,"name":"Maryland Ave & 104th St"},{"legacy_id":1563698718386161684,"lat":41.9383682,"lon":-87.7725029,"name":"Mason Ave & Belmont Ave"},{"legacy_id":567,"lat":41.768938,"lon":-87.652934,"name":"May St & 69th St"},{"legacy_id":171,"lat":41.855136,"lon":-87.654127,"name":"May St & Cullerton St"},{"legacy_id":22,"lat":41.8694821,"lon":-87.6554864,"name":"May St & Taylor St"},{"legacy_id":1622723153590485808,"lat":41.8658158,"lon":-87.7717805,"name":"Mayfield & Roosevelt Rd"},{"legacy_id":142,"lat":41.894503,"lon":-87.617854,"name":"McClurg Ct & Erie St"},{"legacy_id":99,"lat":41.8925921197,"lon":-87.6172891259,"name":"McClurg Ct & Ohio St"},{"legacy_id":62,"lat":41.8513751729,"lon":-87.6188346489,"name":"McCormick Place"},{"legacy_id":1571105063705518106,"lat":41.9459174,"lon":-87.7788824,"name":"Meade Ave & Addison St"},{"legacy_id":1563698675436490728,"lat":41.9309018,"lon":-87.7784686,"name":"Meade Ave & Diversey Ave"},{"legacy_id":1575949498093662918,"lat":41.902269,"lon":-87.7704807,"name":"Menard Ave & Division St"},{"legacy_id":1575949528657471478,"lat":41.9097167,"lon":-87.7702037,"name":"Menard Ave & North Ave"},{"legacy_id":709,"lat":41.6870147947,"lon":-87.6210522652,"name":"Michigan Ave & 114th St"},{"legacy_id":168,"lat":41.864059,"lon":-87.623727,"name":"Michigan Ave & 14th St"},{"legacy_id":273,"lat":41.857813,"lon":-87.62455,"name":"Michigan Ave & 18th St"},{"legacy_id":674,"lat":41.765286,"lon":-87.621748,"name":"Michigan Ave & 71st St"},{"legacy_id":623,"lat":41.872773,"lon":-87.623981,"name":"Michigan Ave & 8th St"},{"legacy_id":45,"lat":41.876243,"lon":-87.624426,"name":"Michigan Ave & Ida B Wells Dr"},{"legacy_id":284,"lat":41.87785,"lon":-87.62408,"name":"Michigan Ave & Jackson Blvd"},{"legacy_id":52,"lat":41.886024,"lon":-87.624117,"name":"Michigan Ave & Lake St"},{"legacy_id":197,"lat":41.882134,"lon":-87.625125,"name":"Michigan Ave & Madison St"},{"legacy_id":85,"lat":41.90096039,"lon":-87.62377664,"name":"Michigan Ave & Oak St"},{"legacy_id":25,"lat":41.89766,"lon":-87.62351,"name":"Michigan Ave & Pearson St"},{"legacy_id":43,"lat":41.8839840647,"lon":-87.6246839762,"name":"Michigan Ave & Washington St"},{"legacy_id":145,"lat":41.8985866514,"lon":-87.6219152258,"name":"Mies van der Rohe Way & Chestnut St"},{"legacy_id":173,"lat":41.8969446264,"lon":-87.6217576861,"name":"Mies van der Rohe Way & Chicago Ave"},{"legacy_id":443,"lat":41.8445311246,"lon":-87.715921998,"name":"Millard Ave & 26th St"},{"legacy_id":90,"lat":41.8810317,"lon":-87.62408432,"name":"Millennium Park"},{"legacy_id":589,"lat":41.954468,"lon":-87.749594,"name":"Milwaukee Ave & Cuyler Ave"},{"legacy_id":1594046409578074830,"lat":41.924691,"lon":-87.70055,"name":"Milwaukee Ave & Fullerton Ave"},{"legacy_id":84,"lat":41.891578,"lon":-87.648384,"name":"Milwaukee Ave & Grand Ave"},{"legacy_id":222,"lat":41.920195562,"lon":-87.6926591992,"name":"Milwaukee Ave & Rockwell St"},{"legacy_id":158,"lat":41.912616,"lon":-87.681391,"name":"Milwaukee Ave & Wabansia Ave"},{"legacy_id":1575949489503728316,"lat":41.8952089,"lon":-87.7174329,"name":"Monticello Ave & Chicago Ave"},{"legacy_id":484,"lat":41.9540048388,"lon":-87.7191281797,"name":"Monticello Ave & Irving Park Rd"},{"legacy_id":249,"lat":41.963982,"lon":-87.638181,"name":"Montrose Harbor"},{"legacy_id":137,"lat":41.862378,"lon":-87.651062,"name":"Morgan Ave & 14th Pl"},{"legacy_id":14,"lat":41.858086,"lon":-87.651073,"name":"Morgan St & 18th St"},{"legacy_id":280,"lat":41.8378,"lon":-87.65114,"name":"Morgan St & 31st St"},{"legacy_id":71,"lat":41.8857792524,"lon":-87.6510246098,"name":"Morgan St & Lake St"},{"legacy_id":763,"lat":41.8854917063,"lon":-87.6522892714,"name":"Morgan St & Lake St*"},{"legacy_id":548,"lat":41.823613,"lon":-87.650931,"name":"Morgan St & Pershing Rd"},{"legacy_id":241,"lat":41.871737,"lon":-87.65103,"name":"Morgan St & Polk St"},{"legacy_id":1594046388103238324,"lat":41.877507,"lon":-87.6974,"name":"Mozart St & Jackson Blvd"},{"legacy_id":1563698718386161692,"lat":41.9347409,"lon":-87.7844017,"name":"Mulligan Ave & Wellington Ave"},{"legacy_id":424,"lat":41.7917282095,"lon":-87.583945009,"name":"Museum of Science and Industry"},{"legacy_id":1436495105198659246,"lat":41.885586,"lon":-87.6531893,"name":"N Carpenter St & W Lake St"},{"legacy_id":1436495096608724634,"lat":41.902901,"lon":-87.631282,"name":"N Clark St & W Elm St"},{"legacy_id":1436495119852630436,"lat":41.895809,"lon":-87.678519,"name":"N Damen Ave & W Chicago Ave"},{"legacy_id":1436495109493626546,"lat":41.885579,"lon":-87.648484,"name":"N Green St & W Lake St"},{"legacy_id":1436495122378528446,"lat":41.943838,"lon":-87.671469,"name":"N Paulina St & Lincoln Ave"},{"legacy_id":1436495118083561146,"lat":41.9362263,"lon":-87.6537676,"name":"N Sheffield Ave & W Wellington Ave"},{"legacy_id":1594046439642845944,"lat":41.972177,"lon":-87.702749,"name":"N Shore Channel Trail & Argyle St"},{"legacy_id":1436495115557663136,"lat":41.944019,"lon":-87.663975,"name":"N Southport Ave & W Newport Ave"},{"legacy_id":1571105068000485406,"lat":41.952614,"lon":-87.7853829,"name":"Narragansett & Irving Park"},{"legacy_id":1575949506683597526,"lat":41.9158931,"lon":-87.7851104,"name":"Narragansett & McLean"},{"legacy_id":1563698675436490730,"lat":41.927294,"lon":-87.7852027,"name":"Narragansett & Wrightwood"},{"legacy_id":1571105050820616196,"lat":41.940128,"lon":-87.7864806,"name":"Narragansett Ave & School St"},{"legacy_id":26,"lat":41.8908470406,"lon":-87.6186168194,"name":"New St & Illinois St"},{"legacy_id":29,"lat":41.90068,"lon":-87.6626,"name":"Noble St & Milwaukee Ave"},{"legacy_id":1575949532952438778,"lat":41.922278,"lon":-87.8020357,"name":"Nordica & Medill"},{"legacy_id":209,"lat":41.849527,"lon":-87.640591,"name":"Normal Ave & Archer Ave"},{"legacy_id":1575949510978564828,"lat":41.9092204,"lon":-87.7971406,"name":"North Ave & New England Ave"},{"legacy_id":1563698718386161690,"lat":41.934586,"lon":-87.7959613,"name":"Oak Park & Wellington"},{"legacy_id":486,"lat":41.9543408522,"lon":-87.6860796243,"name":"Oakley Ave & Irving Park Rd"},{"legacy_id":526,"lat":42.012342,"lon":-87.688243,"name":"Oakley Ave & Touhy Ave"},{"legacy_id":54,"lat":41.896362458,"lon":-87.6540612729,"name":"Ogden Ave & Chicago Ave"},{"legacy_id":122,"lat":41.87501,"lon":-87.67328,"name":"Ogden Ave & Congress Pkwy"},{"legacy_id":186,"lat":41.891795,"lon":-87.658751,"name":"Ogden Ave & Race Ave"},{"legacy_id":434,"lat":41.8665014832,"lon":-87.68469707,"name":"Ogden Ave & Roosevelt Rd"},{"legacy_id":697,"lat":41.7133974844,"lon":-87.5658416748,"name":"Oglesby Ave & 100th St"},{"legacy_id":1571105042230683636,"lat":41.9449659,"lon":-87.8118989,"name":"Oketo Ave & Addison St"},{"legacy_id":748,"lat":41.7095811353,"lon":-87.5902336836,"name":"Olive Harvey College"},{"legacy_id":1571105055115583502,"lat":41.9448846,"lon":-87.82423,"name":"Orange & Addison"},{"legacy_id":620,"lat":41.898203,"lon":-87.637536,"name":"Orleans St & Chestnut St (NEXT Apts)"},{"legacy_id":23,"lat":41.902924,"lon":-87.637715,"name":"Orleans St & Elm St"},{"legacy_id":636,"lat":41.890028,"lon":-87.636618,"name":"Orleans St & Hubbard St"},{"legacy_id":100,"lat":41.888243,"lon":-87.63639,"name":"Orleans St & Merchandise Mart Plaza"},{"legacy_id":1571105042230683640,"lat":41.9476665,"lon":-87.829258,"name":"Panama Ave & Grace St"},{"legacy_id":1563698679731458030,"lat":41.9169054,"lon":-87.7671806,"name":"Parkside Ave & Armitage Ave"},{"legacy_id":16,"lat":41.9098546522,"lon":-87.66993016,"name":"Paulina Ave & North Ave"},{"legacy_id":205,"lat":41.857901,"lon":-87.668745,"name":"Paulina St & 18th St"},{"legacy_id":383,"lat":41.87295,"lon":-87.66913,"name":"Paulina St & Flournoy St"},{"legacy_id":515,"lat":42.019159,"lon":-87.673573,"name":"Paulina St & Howard St"},{"legacy_id":297,"lat":41.961507,"lon":-87.671387,"name":"Paulina St & Montrose Ave"},{"legacy_id":134,"lat":41.8776415963,"lon":-87.6496177912,"name":"Peoria St & Jackson Blvd"},{"legacy_id":392,"lat":41.7692930899,"lon":-87.6281959291,"name":"Perry Ave & 69th St"},{"legacy_id":579,"lat":41.75182,"lon":-87.565211,"name":"Phillips Ave & 79th St"},{"legacy_id":582,"lat":41.744531,"lon":-87.56506,"name":"Phillips Ave & 83rd St"},{"legacy_id":254,"lat":41.954383,"lon":-87.648043,"name":"Pine Grove Ave & Irving Park Rd"},{"legacy_id":232,"lat":41.9494727409,"lon":-87.6464527845,"name":"Pine Grove Ave & Waveland Ave"},{"legacy_id":1500206163166594382,"lat":41.8579886,"lon":-87.6319447,"name":"Ping Tom Park (East)"},{"legacy_id":1571105059410550802,"lat":41.952037,"lon":-87.833283,"name":"Plainfield & Irving Park"},{"legacy_id":410,"lat":41.816658893,"lon":-87.6194124619,"name":"Prairie Ave & 43rd St"},{"legacy_id":204,"lat":41.794853,"lon":-87.618691,"name":"Prairie Ave & Garfield Blvd"},{"legacy_id":412,"lat":41.8093177092,"lon":-87.633449288,"name":"Princeton Ave & 47th St"},{"legacy_id":385,"lat":41.794982,"lon":-87.633124,"name":"Princeton Ave & Garfield Blvd"},{"legacy_id":684,"lat":41.7282338,"lon":-87.6675239,"name":"Prospect Sq & 91st St"},{"legacy_id":1594041785694887804,"lat":41.8162761,"lon":-87.7246058,"name":"Pulaski & Ann Lurie Pl"},{"legacy_id":1561012874421056044,"lat":41.853452,"lon":-87.724541,"name":"Pulaski Rd & 21st St"},{"legacy_id":1593766334653391752,"lat":41.800434,"lon":-87.7247496,"name":"Pulaski Rd & 51st St"},{"legacy_id":1593766343243326364,"lat":41.784186,"lon":-87.722564,"name":"Pulaski Rd & 60th St"},{"legacy_id":535,"lat":41.874325,"lon":-87.725704,"name":"Pulaski Rd & Congress Pkwy"},{"legacy_id":488,"lat":41.946264,"lon":-87.731023,"name":"Pulaski Rd & Eddy St (Temp)"},{"legacy_id":528,"lat":41.885409,"lon":-87.726491,"name":"Pulaski Rd & Lake St"},{"legacy_id":136,"lat":41.865054,"lon":-87.656959,"name":"Racine Ave & 13th St"},{"legacy_id":274,"lat":41.861267,"lon":-87.656625,"name":"Racine Ave & 15th St"},{"legacy_id":15,"lat":41.858166,"lon":-87.656495,"name":"Racine Ave & 18th St"},{"legacy_id":367,"lat":41.8306885647,"lon":-87.6562106609,"name":"Racine Ave & 35th St"},{"legacy_id":562,"lat":41.783189,"lon":-87.654372,"name":"Racine Ave & 61st St"},{"legacy_id":564,"lat":41.775393,"lon":-87.654308,"name":"Racine Ave & 65th St"},{"legacy_id":226,"lat":41.939743,"lon":-87.658865,"name":"Racine Ave & Belmont Ave"},{"legacy_id":32,"lat":41.87464,"lon":-87.65703,"name":"Racine Ave & Congress Pkwy"},{"legacy_id":87,"lat":41.92556258,"lon":-87.65840426,"name":"Racine Ave & Fullerton Ave"},{"legacy_id":559,"lat":41.794228,"lon":-87.655073,"name":"Racine Ave & Garfield Blvd"},{"legacy_id":88,"lat":41.884069,"lon":-87.656853,"name":"Racine Ave & Randolph St"},{"legacy_id":654,"lat":41.883073,"lon":-87.656952,"name":"Racine Ave & Washington Blvd"},{"legacy_id":343,"lat":41.928887,"lon":-87.658971,"name":"Racine Ave & Wrightwood Ave"},{"legacy_id":398,"lat":41.7578714483,"lon":-87.54938625,"name":"Rainbow Beach"},{"legacy_id":314,"lat":41.957921,"lon":-87.673567,"name":"Ravenswood Ave & Berteau Ave"},{"legacy_id":244,"lat":41.95469,"lon":-87.67393,"name":"Ravenswood Ave & Irving Park Rd"},{"legacy_id":344,"lat":41.96909,"lon":-87.674237,"name":"Ravenswood Ave & Lawrence Ave"},{"legacy_id":263,"lat":41.836208,"lon":-87.613533,"name":"Rhodes Ave & 32nd St"},{"legacy_id":652,"lat":41.766,"lon":-87.611726,"name":"Rhodes Ave & 71st St"},{"legacy_id":1582242280977880604,"lat":41.7865155,"lon":-87.6973314,"name":"Richmond St & 59th St"},{"legacy_id":501,"lat":41.9319019689,"lon":-87.7011951301,"name":"Richmond St & Diversey Ave"},{"legacy_id":1594046456822715152,"lat":41.988281,"lon":-87.703034,"name":"Richmond St & Lincoln Ave"},{"legacy_id":514,"lat":42.019276,"lon":-87.68452,"name":"Ridge Blvd & Howard St"},{"legacy_id":466,"lat":42.0121322774,"lon":-87.6829126443,"name":"Ridge Blvd & Touhy Ave"},{"legacy_id":180,"lat":41.906866,"lon":-87.626217,"name":"Ritchie Ct & Banks St"},{"legacy_id":1582242276682913304,"lat":41.7903484,"lon":-87.6889201,"name":"Rockwell St & 57th St"},{"legacy_id":1582242289567815208,"lat":41.7787905,"lon":-87.6885894,"name":"Rockwell St & 63rd St"},{"legacy_id":1582242293862782510,"lat":41.823324,"lon":-87.689685,"name":"Rockwell St & Archer Ave"},{"legacy_id":1594046400988140228,"lat":41.851644,"lon":-87.690621,"name":"Rockwell St & Cermak Rd"},{"legacy_id":478,"lat":41.9659001398,"lon":-87.6936384935,"name":"Rockwell St & Eastwood Ave"},{"legacy_id":1594046422462976736,"lat":41.938689,"lon":-87.692972,"name":"Rockwell St & Fletcher St"},{"legacy_id":1571105055115583500,"lat":41.9416062,"lon":-87.8072964,"name":"Roscoe & Harlem"},{"legacy_id":172,"lat":41.9023087012,"lon":-87.627690528,"name":"Rush St & Cedar St"},{"legacy_id":125,"lat":41.890173,"lon":-87.626185,"name":"Rush St & Hubbard St"},{"legacy_id":161,"lat":41.8957647456,"lon":-87.6259080327,"name":"Rush St & Superior St"},{"legacy_id":1448642162257565290,"lat":41.701217,"lon":-87.649345,"name":"S Aberdeen St & W 106th St"},{"legacy_id":1448642175142467180,"lat":41.679804,"lon":-87.620843,"name":"S Michigan Ave & E 118th St"},{"legacy_id":1448642162257565286,"lat":41.6926176,"lon":-87.6280518,"name":"S Wentworth Ave & W 111th St"},{"legacy_id":1594046400988140226,"lat":41.846506,"lon":-87.700139,"name":"Sacramento Ave & 25th St"},{"legacy_id":1582242319632586318,"lat":41.8222791,"lon":-87.6996576,"name":"Sacramento Ave & Pershing Rd"},{"legacy_id":1594046413873042136,"lat":41.94609,"lon":-87.702988,"name":"Sacramento Blvd & Addison St"},{"legacy_id":375,"lat":41.8904687924,"lon":-87.7026075125,"name":"Sacramento Blvd & Franklin Blvd"},{"legacy_id":1594046379513303716,"lat":41.886528,"lon":-87.70167,"name":"Sacramento Blvd & Fulton Ave"},{"legacy_id":1594046388103238326,"lat":41.870959,"lon":-87.700259,"name":"Sacramento Blvd & Polk St"},{"legacy_id":233,"lat":41.883165,"lon":-87.6511,"name":"Sangamon St & Washington Blvd"},{"legacy_id":485,"lat":41.9535861789,"lon":-87.7093107999,"name":"Sawyer Ave & Irving Park Rd"},{"legacy_id":1563698722681128992,"lat":41.9310084,"lon":-87.8010646,"name":"Sayre & Diversey"},{"legacy_id":111,"lat":41.894666,"lon":-87.638437,"name":"Sedgwick St & Huron St"},{"legacy_id":118,"lat":41.911386,"lon":-87.638677,"name":"Sedgwick St & North Ave"},{"legacy_id":236,"lat":41.907626,"lon":-87.638566,"name":"Sedgwick St & Schiller St"},{"legacy_id":143,"lat":41.922167,"lon":-87.638888,"name":"Sedgwick St & Webster Ave"},{"legacy_id":557,"lat":41.794087,"lon":-87.675478,"name":"Seeley Ave & Garfield Blvd"},{"legacy_id":308,"lat":41.943403,"lon":-87.679618,"name":"Seeley Ave & Roscoe St"},{"legacy_id":1571105046525650938,"lat":41.944847,"lon":-87.799326,"name":"Shabbona Park"},{"legacy_id":3,"lat":41.8672259568,"lon":-87.6153553902,"name":"Shedd Aquarium"},{"legacy_id":67,"lat":41.9256018819,"lon":-87.6537080423,"name":"Sheffield Ave & Fullerton Ave"},{"legacy_id":20,"lat":41.910522,"lon":-87.653106,"name":"Sheffield Ave & Kingsbury St"},{"legacy_id":114,"lat":41.949399,"lon":-87.654529,"name":"Sheffield Ave & Waveland Ave"},{"legacy_id":327,"lat":41.92154,"lon":-87.653818,"name":"Sheffield Ave & Webster Ave"},{"legacy_id":115,"lat":41.9362534831,"lon":-87.6526620984,"name":"Sheffield Ave & Wellington Ave"},{"legacy_id":93,"lat":41.913688,"lon":-87.652855,"name":"Sheffield Ave & Willow St"},{"legacy_id":302,"lat":41.928712,"lon":-87.653833,"name":"Sheffield Ave & Wrightwood Ave"},{"legacy_id":306,"lat":41.958494,"lon":-87.654966,"name":"Sheridan Rd & Buena Ave"},{"legacy_id":660,"lat":42.004583,"lon":-87.661406,"name":"Sheridan Rd & Columbia Ave"},{"legacy_id":354,"lat":42.0105865628,"lon":-87.6624120948,"name":"Sheridan Rd & Greenleaf Ave"},{"legacy_id":240,"lat":41.954245,"lon":-87.654406,"name":"Sheridan Rd & Irving Park Rd"},{"legacy_id":323,"lat":41.969517,"lon":-87.654691,"name":"Sheridan Rd & Lawrence Ave"},{"legacy_id":451,"lat":42.0010437798,"lon":-87.6611982433,"name":"Sheridan Rd & Loyola Ave"},{"legacy_id":231,"lat":41.96167,"lon":-87.65464,"name":"Sheridan Rd & Montrose Ave"},{"legacy_id":604,"lat":42.058239,"lon":-87.677432,"name":"Sheridan Rd & Noyes St (NU)"},{"legacy_id":401,"lat":41.842733,"lon":-87.635491,"name":"Shields Ave & 28th Pl"},{"legacy_id":402,"lat":41.838464,"lon":-87.635406,"name":"Shields Ave & 31st St"},{"legacy_id":409,"lat":41.8162076786,"lon":-87.6348193497,"name":"Shields Ave & 43rd St"},{"legacy_id":247,"lat":41.795212,"lon":-87.580715,"name":"Shore Dr & 55th St"},{"legacy_id":643,"lat":41.892048,"lon":-87.689397,"name":"Smith Park"},{"legacy_id":588,"lat":41.743921,"lon":-87.575225,"name":"South Chicago Ave & 83rd St"},{"legacy_id":665,"lat":41.747363,"lon":-87.580046,"name":"South Chicago Ave & Elliot Ave"},{"legacy_id":355,"lat":41.773643,"lon":-87.567514,"name":"South Shore Dr & 67th St"},{"legacy_id":12,"lat":41.7664094567,"lon":-87.5656875719,"name":"South Shore Dr & 71st St"},{"legacy_id":399,"lat":41.7621889604,"lon":-87.55927465,"name":"South Shore Dr & 74th St"},{"legacy_id":154,"lat":41.9394777504,"lon":-87.6637476683,"name":"Southport Ave & Belmont Ave"},{"legacy_id":292,"lat":41.957081,"lon":-87.664199,"name":"Southport Ave & Clark St"},{"legacy_id":307,"lat":41.920771,"lon":-87.663712,"name":"Southport Ave & Clybourn Ave"},{"legacy_id":318,"lat":41.954177,"lon":-87.664358,"name":"Southport Ave & Irving Park Rd"},{"legacy_id":229,"lat":41.943739,"lon":-87.66402,"name":"Southport Ave & Roscoe St"},{"legacy_id":227,"lat":41.94815,"lon":-87.66394,"name":"Southport Ave & Waveland Ave"},{"legacy_id":153,"lat":41.935733,"lon":-87.663576,"name":"Southport Ave & Wellington Ave"},{"legacy_id":190,"lat":41.928773,"lon":-87.663913,"name":"Southport Ave & Wrightwood Ave"},{"legacy_id":1561012895895892552,"lat":41.85892,"lon":-87.707963,"name":"Spaulding Ave & 16th St"},{"legacy_id":1582242311042651716,"lat":41.7791655,"lon":-87.7056392,"name":"Spaulding Ave & 63rd St"},{"legacy_id":506,"lat":41.9171080348,"lon":-87.7102209628,"name":"Spaulding Ave & Armitage Ave"},{"legacy_id":510,"lat":41.9027065944,"lon":-87.709219571,"name":"Spaulding Ave & Division St"},{"legacy_id":1594041781399920506,"lat":41.8080713,"lon":-87.7212202,"name":"Springfield Ave & 47th St"},{"legacy_id":1582242280977880602,"lat":41.785987,"lon":-87.7105616,"name":"St Louis Ave & 59th St"},{"legacy_id":1582242306747684414,"lat":41.794422,"lon":-87.71137,"name":"St Louis Ave & Norman Bobbins Ave"},{"legacy_id":211,"lat":41.8943451374,"lon":-87.6227983832,"name":"St. Clair St & Erie St"},{"legacy_id":469,"lat":41.9803942348,"lon":-87.7161149615,"name":"St. Louis Ave & Balmoral Ave"},{"legacy_id":503,"lat":41.9248155968,"lon":-87.7144950628,"name":"St. Louis Ave & Fullerton Ave"},{"legacy_id":714,"lat":41.6706438369,"lon":-87.6225864887,"name":"State St & 123rd St"},{"legacy_id":178,"lat":41.856594,"lon":-87.627542,"name":"State St & 19th St"},{"legacy_id":193,"lat":41.841707,"lon":-87.626938,"name":"State St & 29th St"},{"legacy_id":148,"lat":41.834734,"lon":-87.625813,"name":"State St & 33rd St"},{"legacy_id":184,"lat":41.831036314,"lon":-87.6267975569,"name":"State St & 35th St"},{"legacy_id":646,"lat":41.796642,"lon":-87.625923,"name":"State St & 54th St"},{"legacy_id":572,"lat":41.756971,"lon":-87.624621,"name":"State St & 76th St"},{"legacy_id":573,"lat":41.750794,"lon":-87.624424,"name":"State St & 79th St"},{"legacy_id":690,"lat":41.7218499,"lon":-87.6228544,"name":"State St & 95th St"},{"legacy_id":753,"lat":41.8966172004,"lon":-87.6285785437,"name":"State St & Chicago Ave"},{"legacy_id":5,"lat":41.874053,"lon":-87.627716,"name":"State St & Harrison St"},{"legacy_id":47,"lat":41.889187,"lon":-87.627754,"name":"State St & Kinzie St"},{"legacy_id":106,"lat":41.897448,"lon":-87.628722,"name":"State St & Pearson St"},{"legacy_id":407,"lat":41.823015238,"lon":-87.6265680185,"name":"State St & Pershing Rd"},{"legacy_id":44,"lat":41.8846210726,"lon":-87.6278342307,"name":"State St & Randolph St"},{"legacy_id":33,"lat":41.877181,"lon":-87.627844,"name":"State St & Van Buren St"},{"legacy_id":185,"lat":41.917741,"lon":-87.691392,"name":"Stave St & Armitage Ave"},{"legacy_id":1448642188027369090,"lat":41.738246,"lon":-87.531067,"name":"Steelworkers Park"},{"legacy_id":264,"lat":41.886835,"lon":-87.62232,"name":"Stetson Ave & South Water St"},{"legacy_id":649,"lat":41.779835,"lon":-87.634774,"name":"Stewart Ave & 63rd St"},{"legacy_id":677,"lat":41.743717,"lon":-87.634088,"name":"Stewart Ave & 83rd St"},{"legacy_id":324,"lat":41.93132,"lon":-87.638742,"name":"Stockton Dr & Wrightwood Ave"},{"legacy_id":95,"lat":41.778881,"lon":-87.586647,"name":"Stony Island Ave & 64th St"},{"legacy_id":102,"lat":41.7734584995,"lon":-87.5853397391,"name":"Stony Island Ave & 67th St"},{"legacy_id":356,"lat":41.7664929373,"lon":-87.5864608775,"name":"Stony Island Ave & 71st St"},{"legacy_id":270,"lat":41.7586696704,"lon":-87.586882871,"name":"Stony Island Ave & 75th St"},{"legacy_id":583,"lat":41.746559,"lon":-87.586005,"name":"Stony Island Ave & 82nd St"},{"legacy_id":705,"lat":41.7313949433,"lon":-87.5857436657,"name":"Stony Island Ave & 90th St"},{"legacy_id":577,"lat":41.751173,"lon":-87.585337,"name":"Stony Island Ave & South Chicago Ave"},{"legacy_id":35,"lat":41.892278,"lon":-87.612043,"name":"Streeter Dr & Grand Ave"},{"legacy_id":685,"lat":41.7378484767,"lon":-87.6448997855,"name":"Summit Ave & 86th St"},{"legacy_id":491,"lat":41.9466358306,"lon":-87.694614758,"name":"Talman Ave & Addison St"},{"legacy_id":177,"lat":41.926277,"lon":-87.630834,"name":"Theater on the Lake"},{"legacy_id":556,"lat":41.799659,"lon":-87.657195,"name":"Throop St & 52nd St"},{"legacy_id":19,"lat":41.868968,"lon":-87.659141,"name":"Throop St & Taylor St"},{"legacy_id":707,"lat":41.7028008502,"lon":-87.5597262383,"name":"Torrence Ave & 106th St"},{"legacy_id":720,"lat":41.6663120083,"lon":-87.5572156906,"name":"Torrence Ave & 126th Pl"},{"legacy_id":1561012887305957952,"lat":41.860777,"lon":-87.7313639,"name":"Tripp Ave & 15th St"},{"legacy_id":1561012900190859852,"lat":41.836966,"lon":-87.730502,"name":"Tripp Ave & 31st St"},{"legacy_id":1594041781399920504,"lat":41.7749163,"lon":-87.728841,"name":"Tripp Ave & 65th St"},{"legacy_id":1594046448232780546,"lat":41.84265,"lon":-87.70401,"name":"Troy Ave & 27th St"},{"legacy_id":490,"lat":41.9452435685,"lon":-87.7066499009,"name":"Troy St & Elston Ave"},{"legacy_id":1594046456830870690,"lat":41.950244,"lon":-87.706489,"name":"Troy St & Grace St"},{"legacy_id":1594046383808271024,"lat":41.877505,"lon":-87.70485,"name":"Troy St & Jackson Blvd"},{"legacy_id":509,"lat":41.9097693017,"lon":-87.7052804871,"name":"Troy St & North Ave"},{"legacy_id":408,"lat":41.819102,"lon":-87.643278,"name":"Union Ave & Root St"},{"legacy_id":423,"lat":41.791478,"lon":-87.599861,"name":"University Ave & 57th St"},{"legacy_id":605,"lat":42.052939,"lon":-87.673447,"name":"University Library (NU)"},{"legacy_id":599,"lat":42.039742,"lon":-87.699413,"name":"Valli Produce - Evanston Plaza"},{"legacy_id":699,"lat":41.7001213792,"lon":-87.612259984,"name":"Vernon Ave & 107th St"},{"legacy_id":571,"lat":41.758361,"lon":-87.614138,"name":"Vernon Ave & 75th St"},{"legacy_id":574,"lat":41.75094,"lon":-87.61379,"name":"Vernon Ave & 79th St"},{"legacy_id":726,"lat":41.704925565,"lon":-87.6568681096,"name":"Vincennes Ave & 104th St"},{"legacy_id":568,"lat":41.75797,"lon":-87.63121,"name":"Vincennes Ave & 75th St"},{"legacy_id":1594046435347878642,"lat":41.9812456,"lon":-87.7048924,"name":"Virginia Ave & Catalpa Ave"},{"legacy_id":1448642179437434482,"lat":41.705846,"lon":-87.717074,"name":"W 103rd St & S Avers Ave"},{"legacy_id":1436495105198659242,"lat":41.917805,"lon":-87.653449,"name":"W Armitage Ave & N Sheffield Ave"},{"legacy_id":1436495100903691938,"lat":41.935581,"lon":-87.644042,"name":"W Oakdale Ave & N Broadway"},{"legacy_id":1436495109493626544,"lat":41.883043,"lon":-87.649931,"name":"W Washington Blvd & N Peoria St"},{"legacy_id":72,"lat":41.860384,"lon":-87.625813,"name":"Wabash Ave & 16th St"},{"legacy_id":587,"lat":41.743316,"lon":-87.622849,"name":"Wabash Ave & 83rd St"},{"legacy_id":595,"lat":41.736646,"lon":-87.622634,"name":"Wabash Ave & 87th St"},{"legacy_id":321,"lat":41.870769,"lon":-87.625734,"name":"Wabash Ave & 9th St"},{"legacy_id":39,"lat":41.8794723523,"lon":-87.6256886059,"name":"Wabash Ave & Adams St"},{"legacy_id":42,"lat":41.852619,"lon":-87.626488,"name":"Wabash Ave & Cermak Rd"},{"legacy_id":199,"lat":41.891466,"lon":-87.626761,"name":"Wabash Ave & Grand Ave"},{"legacy_id":59,"lat":41.867227,"lon":-87.625961,"name":"Wabash Ave & Roosevelt Rd"},{"legacy_id":194,"lat":41.886875,"lon":-87.62603,"name":"Wabash Ave & Wacker Pl"},{"legacy_id":18,"lat":41.8831433644,"lon":-87.6372420788,"name":"Wacker Dr & Washington St"},{"legacy_id":721,"lat":41.7121641036,"lon":-87.6677334309,"name":"Walden Pkwy & 100th St"},{"legacy_id":278,"lat":41.8307070514,"lon":-87.641255334,"name":"Wallace St & 35th St"},{"legacy_id":628,"lat":41.91461,"lon":-87.667968,"name":"Walsh Park"},{"legacy_id":448,"lat":42.0045496219,"lon":-87.6806661451,"name":"Warren Park East"},{"legacy_id":450,"lat":42.001785,"lon":-87.688829,"name":"Warren Park West"},{"legacy_id":475,"lat":41.968987,"lon":-87.696027,"name":"Washtenaw Ave & Lawrence Ave"},{"legacy_id":1594046383808271020,"lat":41.881286,"lon":-87.69396,"name":"Washtenaw Ave & Madison St"},{"legacy_id":437,"lat":41.8619304928,"lon":-87.6934504509,"name":"Washtenaw Ave & Ogden Ave"},{"legacy_id":1594046461117682452,"lat":41.99066,"lon":-87.697075,"name":"Washtenaw Ave & Peterson Ave"},{"legacy_id":1594046392398205624,"lat":41.8711028,"lon":-87.693683,"name":"Washtenaw Ave & Polk St"},{"legacy_id":218,"lat":41.856802,"lon":-87.633879,"name":"Wells St & 19th St"},{"legacy_id":289,"lat":41.912133,"lon":-87.634656,"name":"Wells St & Concord Ln"},{"legacy_id":182,"lat":41.903222,"lon":-87.634324,"name":"Wells St & Elm St"},{"legacy_id":291,"lat":41.906724,"lon":-87.63483,"name":"Wells St & Evergreen Ave"},{"legacy_id":212,"lat":41.889906,"lon":-87.634266,"name":"Wells St & Hubbard St"},{"legacy_id":53,"lat":41.894722,"lon":-87.634362,"name":"Wells St & Huron St"},{"legacy_id":175,"lat":41.872596,"lon":-87.633502,"name":"Wells St & Polk St"},{"legacy_id":46,"lat":41.89993001,"lon":-87.63443007,"name":"Wells St & Walton St"},{"legacy_id":712,"lat":41.705307997,"lon":-87.6292169094,"name":"Wentworth Ave & 104th St"},{"legacy_id":132,"lat":41.8500836935,"lon":-87.6321405172,"name":"Wentworth Ave & 24th St (Temp)"},{"legacy_id":403,"lat":41.8345298856,"lon":-87.6318229814,"name":"Wentworth Ave & 33rd St"},{"legacy_id":405,"lat":41.830777,"lon":-87.632504,"name":"Wentworth Ave & 35th St"},{"legacy_id":390,"lat":41.7800796326,"lon":-87.6297463052,"name":"Wentworth Ave & 63rd St"},{"legacy_id":120,"lat":41.8530845574,"lon":-87.6319313049,"name":"Wentworth Ave & Cermak Rd"},{"legacy_id":446,"lat":41.8415177081,"lon":-87.6851314409,"name":"Western & 28th - Velasquez Institute Vaccination Site"},{"legacy_id":735,"lat":41.7045871022,"lon":-87.6812034845,"name":"Western Ave & 104th St"},{"legacy_id":728,"lat":41.691211035,"lon":-87.6812973619,"name":"Western Ave & 111th St"},{"legacy_id":203,"lat":41.854109,"lon":-87.685838,"name":"Western Ave & 21st St"},{"legacy_id":281,"lat":41.84847,"lon":-87.685109,"name":"Western Ave & 24th St"},{"legacy_id":1582242323927553626,"lat":41.780985,"lon":-87.6834204,"name":"Western Ave & 62nd St"},{"legacy_id":1594046465420805300,"lat":41.9867636,"lon":-87.6898796,"name":"Western Ave & Ardmore Ave"},{"legacy_id":382,"lat":41.8747488508,"lon":-87.6864452757,"name":"Western Ave & Congress Pkwy"},{"legacy_id":305,"lat":41.902893,"lon":-87.687275,"name":"Western Ave & Division St"},{"legacy_id":644,"lat":41.868563,"lon":-87.686234,"name":"Western Ave & Fillmore St"},{"legacy_id":1594046413873042132,"lat":41.95039,"lon":-87.688234,"name":"Western Ave & Grace St"},{"legacy_id":452,"lat":41.994161369,"lon":-87.689438282,"name":"Western Ave & Granville Ave"},{"legacy_id":1594046443937813244,"lat":41.969659,"lon":-87.68955,"name":"Western Ave & Gunnison St"},{"legacy_id":527,"lat":42.018901,"lon":-87.690048,"name":"Western Ave & Howard St"},{"legacy_id":1594046379513303720,"lat":41.884606,"lon":-87.685853,"name":"Western Ave & Lake St"},{"legacy_id":239,"lat":41.9663998018,"lon":-87.688704282,"name":"Western Ave & Leland Ave"},{"legacy_id":467,"lat":42.0085943972,"lon":-87.6904922389,"name":"Western Ave & Lunt Ave"},{"legacy_id":381,"lat":41.8797877089,"lon":-87.686112808,"name":"Western Ave & Monroe St"},{"legacy_id":493,"lat":41.943034,"lon":-87.687288,"name":"Western Ave & Roscoe St"},{"legacy_id":374,"lat":41.8984176894,"lon":-87.6865960164,"name":"Western Ave & Walton St"},{"legacy_id":116,"lat":41.91552,"lon":-87.687022,"name":"Western Ave & Winnebago Ave"},{"legacy_id":594,"lat":41.805661,"lon":-87.683392,"name":"Western Blvd & 48th Pl"},{"legacy_id":1594046405283107532,"lat":41.866554,"lon":-87.701329,"name":"Whipple St & Roosevelt Rd"},{"legacy_id":1606778059648526978,"lat":41.954189,"lon":-87.704448,"name":"Whipple\/Irving Park"},{"legacy_id":117,"lat":41.94018,"lon":-87.65304,"name":"Wilton Ave & Belmont Ave"},{"legacy_id":13,"lat":41.932418,"lon":-87.652705,"name":"Wilton Ave & Diversey Pkwy"},{"legacy_id":462,"lat":41.979762,"lon":-87.67753,"name":"Winchester (Ravenswood) Ave & Balmoral Ave"},{"legacy_id":505,"lat":41.9240908504,"lon":-87.6764600747,"name":"Winchester Ave & Elston Ave"},{"legacy_id":253,"lat":41.968812,"lon":-87.657659,"name":"Winthrop Ave & Lawrence Ave"},{"legacy_id":238,"lat":41.961406,"lon":-87.676169,"name":"Wolcott (Ravenswood) Ave & Montrose Ave"},{"legacy_id":519,"lat":42.016977,"lon":-87.677725,"name":"Wolcott Ave & Fargo Ave"},{"legacy_id":342,"lat":41.871262,"lon":-87.673688,"name":"Wolcott Ave & Polk St"},{"legacy_id":369,"lat":41.8301046542,"lon":-87.6702983089,"name":"Wood St & 35th St"},{"legacy_id":657,"lat":41.899181,"lon":-87.6722,"name":"Wood St & Augusta Blvd"},{"legacy_id":637,"lat":41.895634,"lon":-87.672069,"name":"Wood St & Chicago Ave"},{"legacy_id":285,"lat":41.889899,"lon":-87.671473,"name":"Wood St & Hubbard St"},{"legacy_id":61,"lat":41.907655,"lon":-87.672552,"name":"Wood St & Milwaukee Ave"},{"legacy_id":317,"lat":41.8692652184,"lon":-87.6737308502,"name":"Wood St & Taylor St (Temp)"},{"legacy_id":1448642183732401786,"lat":41.707338,"lon":-87.59399,"name":"Woodlawn & 103rd - Olive Harvey Vaccination Site"},{"legacy_id":248,"lat":41.795264,"lon":-87.596471,"name":"Woodlawn Ave & 55th St"},{"legacy_id":569,"lat":41.75916,"lon":-87.595751,"name":"Woodlawn Ave & 75th St"},{"legacy_id":413,"lat":41.8140927105,"lon":-87.5970051479,"name":"Woodlawn Ave & Lake Park Ave"},{"legacy_id":396,"lat":41.758768,"lon":-87.56644,"name":"Yates Blvd & 75th St"},{"legacy_id":741,"lat":41.7261663902,"lon":-87.5662761927,"name":"Yates Blvd & 93rd St"}]
+[
+  {
+    "legacy_id": "456",
+    "lat": 41.991178,
+    "lon": -87.683593,
+    "name": "2112 W Peterson Ave"
+  },
+  {
+    "legacy_id": "444",
+    "lat": 41.8444750137,
+    "lon": -87.7020130128,
+    "name": "Albany Ave & 26th St"
+  },
+  {
+    "legacy_id": "480",
+    "lat": 41.961041,
+    "lon": -87.705866,
+    "name": "Albany Ave & Montrose Ave"
+  },
+  {
+    "legacy_id": "645",
+    "lat": 41.826712,
+    "lon": -87.683144,
+    "name": "Archer (Damen) Ave & 37th St"
+  },
+  {
+    "legacy_id": "555",
+    "lat": 41.803023,
+    "lon": -87.664699,
+    "name": "Ashland Ave & 50th St"
+  },
+  {
+    "legacy_id": "563",
+    "lat": 41.779374,
+    "lon": -87.664843,
+    "name": "Ashland Ave & 63rd St"
+  },
+  {
+    "legacy_id": "565",
+    "lat": 41.774074,
+    "lon": -87.663815,
+    "name": "Ashland Ave & 66th St"
+  },
+  {
+    "legacy_id": "246",
+    "lat": 41.956057,
+    "lon": -87.668835,
+    "name": "Ashland Ave & Belle Plaine Ave"
+  },
+  {
+    "legacy_id": "558",
+    "lat": 41.792822,
+    "lon": -87.664429,
+    "name": "Ashland Ave & Garfield Blvd"
+  },
+  {
+    "legacy_id": "552",
+    "lat": 41.80887,
+    "lon": -87.66454,
+    "name": "Ashland Ave & McDowell Ave"
+  },
+  {
+    "legacy_id": "547",
+    "lat": 41.823465,
+    "lon": -87.665577,
+    "name": "Ashland Ave & Pershing Rd"
+  },
+  {
+    "legacy_id": "524",
+    "lat": 41.894887,
+    "lon": -87.774704,
+    "name": "Austin Blvd & Chicago Ave"
+  },
+  {
+    "legacy_id": "532",
+    "lat": 41.8880596072,
+    "lon": -87.7742654085,
+    "name": "Austin Blvd & Lake St"
+  },
+  {
+    "legacy_id": "544",
+    "lat": 41.880281,
+    "lon": -87.774453,
+    "name": "Austin Blvd & Madison St"
+  },
+  {
+    "legacy_id": "496",
+    "lat": 41.939408,
+    "lon": -87.723574,
+    "name": "Avers Ave & Belmont Ave"
+  },
+  {
+    "legacy_id": "578",
+    "lat": 41.751785,
+    "lon": -87.578496,
+    "name": "Bennett Ave & 79th St"
+  },
+  {
+    "legacy_id": "640",
+    "lat": 41.949923,
+    "lon": -87.713949,
+    "name": "Bernard St & Elston Ave"
+  },
+  {
+    "legacy_id": "522",
+    "lat": 42.019537,
+    "lon": -87.669563,
+    "name": "Bosworth Ave & Howard St"
+  },
+  {
+    "legacy_id": "256",
+    "lat": 41.952833,
+    "lon": -87.649993,
+    "name": "Broadway & Sheridan Rd"
+  },
+  {
+    "legacy_id": "304",
+    "lat": 41.949074,
+    "lon": -87.648636,
+    "name": "Broadway & Waveland Ave"
+  },
+  {
+    "legacy_id": "468",
+    "lat": 41.9836647089,
+    "lon": -87.6964225611,
+    "name": "Budlong Woods Library"
+  },
+  {
+    "legacy_id": "348",
+    "lat": 41.8538040658,
+    "lon": -87.6957423985,
+    "name": "California Ave & 21st St"
+  },
+  {
+    "legacy_id": "442",
+    "lat": 41.8491096918,
+    "lon": -87.6951398068,
+    "name": "California Ave & 23rd Pl"
+  },
+  {
+    "legacy_id": "445",
+    "lat": 41.8436799146,
+    "lon": -87.6949685812,
+    "name": "California Ave & 26th St"
+  },
+  {
+    "legacy_id": "502",
+    "lat": 41.92669,
+    "lon": -87.697668,
+    "name": "California Ave & Altgeld St"
+  },
+  {
+    "legacy_id": "622",
+    "lat": 41.900363,
+    "lon": -87.696704,
+    "name": "California Ave & Cortez St"
+  },
+  {
+    "legacy_id": "216",
+    "lat": 41.903029,
+    "lon": -87.697474,
+    "name": "California Ave & Division St"
+  },
+  {
+    "legacy_id": "259",
+    "lat": 41.9184911537,
+    "lon": -87.6974228024,
+    "name": "California Ave & Francis Pl (Temp)"
+  },
+  {
+    "legacy_id": "378",
+    "lat": 41.8844539566,
+    "lon": -87.6962981368,
+    "name": "California Ave & Lake St"
+  },
+  {
+    "legacy_id": "123",
+    "lat": 41.922695,
+    "lon": -87.697153,
+    "name": "California Ave & Milwaukee Ave"
+  },
+  {
+    "legacy_id": "481",
+    "lat": 41.961068,
+    "lon": -87.695439,
+    "name": "California Ave & Montrose Ave"
+  },
+  {
+    "legacy_id": "276",
+    "lat": 41.91044,
+    "lon": -87.6972,
+    "name": "California Ave & North Ave"
+  },
+  {
+    "legacy_id": "338",
+    "lat": 41.857611,
+    "lon": -87.619407,
+    "name": "Calumet Ave & 18th St"
+  },
+  {
+    "legacy_id": "370",
+    "lat": 41.8541842495,
+    "lon": -87.6191537415,
+    "name": "Calumet Ave & 21st St"
+  },
+  {
+    "legacy_id": "149",
+    "lat": 41.8349,
+    "lon": -87.61793,
+    "name": "Calumet Ave & 33rd St"
+  },
+  {
+    "legacy_id": "335",
+    "lat": 41.831379,
+    "lon": -87.618034,
+    "name": "Calumet Ave & 35th St"
+  },
+  {
+    "legacy_id": "415",
+    "lat": 41.8022946509,
+    "lon": -87.6180535802,
+    "name": "Calumet Ave & 51st St"
+  },
+  {
+    "legacy_id": "393",
+    "lat": 41.7655080058,
+    "lon": -87.616917925,
+    "name": "Calumet Ave & 71st St"
+  },
+  {
+    "legacy_id": "504",
+    "lat": 41.9246324716,
+    "lon": -87.6893070063,
+    "name": "Campbell Ave & Fullerton Ave"
+  },
+  {
+    "legacy_id": "482",
+    "lat": 41.9615259329,
+    "lon": -87.6911650414,
+    "name": "Campbell Ave & Montrose Ave"
+  },
+  {
+    "legacy_id": "160",
+    "lat": 41.910535,
+    "lon": -87.689556,
+    "name": "Campbell Ave & North Ave"
+  },
+  {
+    "legacy_id": "169",
+    "lat": 41.874255,
+    "lon": -87.639573,
+    "name": "Canal St & Harrison St"
+  },
+  {
+    "legacy_id": "414",
+    "lat": 41.870257,
+    "lon": -87.639474,
+    "name": "Canal St & Taylor St"
+  },
+  {
+    "legacy_id": "34",
+    "lat": 41.9267559875,
+    "lon": -87.6344287848,
+    "name": "Cannon Dr & Fullerton Ave"
+  },
+  {
+    "legacy_id": "648",
+    "lat": 41.77987,
+    "lon": -87.650919,
+    "name": "Carpenter St & 63rd St"
+  },
+  {
+    "legacy_id": "550",
+    "lat": 41.894958,
+    "lon": -87.764902,
+    "name": "Central Ave & Chicago Ave"
+  },
+  {
+    "legacy_id": "541",
+    "lat": 41.872993,
+    "lon": -87.764499,
+    "name": "Central Ave & Harrison St"
+  },
+  {
+    "legacy_id": "531",
+    "lat": 41.887664,
+    "lon": -87.765469,
+    "name": "Central Ave & Lake St"
+  },
+  {
+    "legacy_id": "542",
+    "lat": 41.880121,
+    "lon": -87.763238,
+    "name": "Central Ave & Madison St"
+  },
+  {
+    "legacy_id": "440",
+    "lat": 41.8481,
+    "lon": -87.715068,
+    "name": "Central Park Ave & 24th St"
+  },
+  {
+    "legacy_id": "641",
+    "lat": 41.914166,
+    "lon": -87.716755,
+    "name": "Central Park Ave & Bloomingdale Ave"
+  },
+  {
+    "legacy_id": "500",
+    "lat": 41.9353372826,
+    "lon": -87.7168892935,
+    "name": "Central Park Ave & Elbridge Ave"
+  },
+  {
+    "legacy_id": "508",
+    "lat": 41.9096568756,
+    "lon": -87.7166319516,
+    "name": "Central Park Ave & North Ave"
+  },
+  {
+    "legacy_id": "438",
+    "lat": 41.8540635039,
+    "lon": -87.7151173353,
+    "name": "Central Park Ave & Ogden Ave"
+  },
+  {
+    "legacy_id": "533",
+    "lat": 41.875679,
+    "lon": -87.71547,
+    "name": "Central Park Blvd & 5th Ave"
+  },
+  {
+    "legacy_id": "602",
+    "lat": 42.064313,
+    "lon": -87.686152,
+    "name": "Central St & Girard Ave"
+  },
+  {
+    "legacy_id": "601",
+    "lat": 42.063598,
+    "lon": -87.69873,
+    "name": "Central St Metra"
+  },
+  {
+    "legacy_id": "666",
+    "lat": 41.907221,
+    "lon": -87.655618,
+    "name": "Cherry Ave & Blackhawk St"
+  },
+  {
+    "legacy_id": "603",
+    "lat": 42.050491,
+    "lon": -87.677821,
+    "name": "Chicago Ave & Sheridan Rd"
+  },
+  {
+    "legacy_id": "597",
+    "lat": 42.032562,
+    "lon": -87.679101,
+    "name": "Chicago Ave & Washington St"
+  },
+  {
+    "legacy_id": "474",
+    "lat": 41.9683544936,
+    "lon": -87.7118306675,
+    "name": "Christiana Ave & Lawrence Ave"
+  },
+  {
+    "legacy_id": "538",
+    "lat": 41.872131,
+    "lon": -87.746619,
+    "name": "Cicero Ave & Flournoy St"
+  },
+  {
+    "legacy_id": "529",
+    "lat": 41.886841,
+    "lon": -87.745261,
+    "name": "Cicero Ave & Lake St"
+  },
+  {
+    "legacy_id": "539",
+    "lat": 41.877613,
+    "lon": -87.745405,
+    "name": "Cicero Ave & Quincy St"
+  },
+  {
+    "legacy_id": "159",
+    "lat": 41.907781,
+    "lon": -87.685854,
+    "name": "Claremont Ave & Hirsch St"
+  },
+  {
+    "legacy_id": "312",
+    "lat": 41.9578665242,
+    "lon": -87.6495051384,
+    "name": "Clarendon Ave & Gordon Ter"
+  },
+  {
+    "legacy_id": "251",
+    "lat": 41.967968,
+    "lon": -87.650001,
+    "name": "Clarendon Ave & Leland Ave"
+  },
+  {
+    "legacy_id": "394",
+    "lat": 41.870816,
+    "lon": -87.631246,
+    "name": "Clark St & 9th St (AMLI)"
+  },
+  {
+    "legacy_id": "460",
+    "lat": 41.983593,
+    "lon": -87.669154,
+    "name": "Clark St & Bryn Mawr Ave"
+  },
+  {
+    "legacy_id": "449",
+    "lat": 42.0044506293,
+    "lon": -87.6724024047,
+    "name": "Clark St & Columbia Ave"
+  },
+  {
+    "legacy_id": "457",
+    "lat": 41.9908604481,
+    "lon": -87.66972363,
+    "name": "Clark St & Elmdale Ave"
+  },
+  {
+    "legacy_id": "517",
+    "lat": 42.015963,
+    "lon": -87.675005,
+    "name": "Clark St & Jarvis Ave"
+  },
+  {
+    "legacy_id": "632",
+    "lat": 41.94454,
+    "lon": -87.654678,
+    "name": "Clark St & Newport St"
+  },
+  {
+    "legacy_id": "126",
+    "lat": 41.911974,
+    "lon": -87.631942,
+    "name": "Clark St & North Ave"
+  },
+  {
+    "legacy_id": "453",
+    "lat": 41.9992518219,
+    "lon": -87.6713773393,
+    "name": "Clark St & Schreiber Ave"
+  },
+  {
+    "legacy_id": "353",
+    "lat": 42.0125601154,
+    "lon": -87.6743671152,
+    "name": "Clark St & Touhy Ave"
+  },
+  {
+    "legacy_id": "156",
+    "lat": 41.9364968219,
+    "lon": -87.6475386582,
+    "name": "Clark St & Wellington Ave"
+  },
+  {
+    "legacy_id": "340",
+    "lat": 41.929546,
+    "lon": -87.643118,
+    "name": "Clark St & Wrightwood Ave"
+  },
+  {
+    "legacy_id": "223",
+    "lat": 41.918216,
+    "lon": -87.656936,
+    "name": "Clifton Ave & Armitage Ave"
+  },
+  {
+    "legacy_id": "170",
+    "lat": 41.85795,
+    "lon": -87.640826,
+    "name": "Clinton St & 18th St"
+  },
+  {
+    "legacy_id": "103",
+    "lat": 41.8714665178,
+    "lon": -87.6409491327,
+    "name": "Clinton St & Polk St"
+  },
+  {
+    "legacy_id": "57",
+    "lat": 41.8671177825,
+    "lon": -87.6410879593,
+    "name": "Clinton St & Roosevelt Rd"
+  },
+  {
+    "legacy_id": "138",
+    "lat": 41.904613,
+    "lon": -87.640552,
+    "name": "Clybourn Ave & Division St"
+  },
+  {
+    "legacy_id": "581",
+    "lat": 41.744615,
+    "lon": -87.551208,
+    "name": "Commercial Ave & 83rd St"
+  },
+  {
+    "legacy_id": "518",
+    "lat": 41.885502,
+    "lon": -87.716866,
+    "name": "Conservatory Dr & Lake St"
+  },
+  {
+    "legacy_id": "653",
+    "lat": 41.780595,
+    "lon": -87.584846,
+    "name": "Cornell Dr & Hayes Dr"
+  },
+  {
+    "legacy_id": "271",
+    "lat": 41.816499,
+    "lon": -87.606582,
+    "name": "Cottage Grove Ave & 43rd St"
+  },
+  {
+    "legacy_id": "336",
+    "lat": 41.809855,
+    "lon": -87.606755,
+    "name": "Cottage Grove Ave & 47th St"
+  },
+  {
+    "legacy_id": "351",
+    "lat": 41.803038,
+    "lon": -87.606615,
+    "name": "Cottage Grove Ave & 51st St"
+  },
+  {
+    "legacy_id": "427",
+    "lat": 41.7806009452,
+    "lon": -87.6058360934,
+    "name": "Cottage Grove Ave & 63rd St"
+  },
+  {
+    "legacy_id": "429",
+    "lat": 41.773720952,
+    "lon": -87.60563486,
+    "name": "Cottage Grove Ave & 67th St"
+  },
+  {
+    "legacy_id": "400",
+    "lat": 41.765719037,
+    "lon": -87.604959713,
+    "name": "Cottage Grove Ave & 71st St"
+  },
+  {
+    "legacy_id": "575",
+    "lat": 41.753174,
+    "lon": -87.605026,
+    "name": "Cottage Grove Ave & 78th St"
+  },
+  {
+    "legacy_id": "585",
+    "lat": 41.743441,
+    "lon": -87.604836,
+    "name": "Cottage Grove Ave & 83rd St"
+  },
+  {
+    "legacy_id": "265",
+    "lat": 41.822985,
+    "lon": -87.6071,
+    "name": "Cottage Grove Ave & Oakwood Blvd"
+  },
+  {
+    "legacy_id": "554",
+    "lat": 41.800908,
+    "lon": -87.674684,
+    "name": "Damen Ave & 51st St"
+  },
+  {
+    "legacy_id": "561",
+    "lat": 41.7858610651,
+    "lon": -87.6741439104,
+    "name": "Damen Ave & 59th St"
+  },
+  {
+    "legacy_id": "310",
+    "lat": 41.920082,
+    "lon": -87.677855,
+    "name": "Damen Ave & Charleston St"
+  },
+  {
+    "legacy_id": "163",
+    "lat": 41.931931,
+    "lon": -87.677856,
+    "name": "Damen Ave & Clybourn Ave"
+  },
+  {
+    "legacy_id": "167",
+    "lat": 41.8492,
+    "lon": -87.67564,
+    "name": "Damen Ave & Coulter St"
+  },
+  {
+    "legacy_id": "124",
+    "lat": 41.8549665188,
+    "lon": -87.6756995916,
+    "name": "Damen Ave & Cullerton St"
+  },
+  {
+    "legacy_id": "464",
+    "lat": 41.9756148046,
+    "lon": -87.6794590387,
+    "name": "Damen Ave & Foster Ave"
+  },
+  {
+    "legacy_id": "242",
+    "lat": 41.967094,
+    "lon": -87.679028,
+    "name": "Damen Ave & Leland Ave"
+  },
+  {
+    "legacy_id": "215",
+    "lat": 41.88137,
+    "lon": -87.67493,
+    "name": "Damen Ave & Madison St"
+  },
+  {
+    "legacy_id": "228",
+    "lat": 41.9406,
+    "lon": -87.6785,
+    "name": "Damen Ave & Melrose Ave"
+  },
+  {
+    "legacy_id": "546",
+    "lat": 41.823192,
+    "lon": -87.676597,
+    "name": "Damen Ave & Pershing Rd"
+  },
+  {
+    "legacy_id": "656",
+    "lat": 41.885951,
+    "lon": -87.677009,
+    "name": "Damen Ave & Walnut (Lake) St"
+  },
+  {
+    "legacy_id": "162",
+    "lat": 41.93588,
+    "lon": -87.67842,
+    "name": "Damen Ave & Wellington Ave"
+  },
+  {
+    "legacy_id": "624",
+    "lat": 41.876268,
+    "lon": -87.629155,
+    "name": "Dearborn St & Van Buren St"
+  },
+  {
+    "legacy_id": "600",
+    "lat": 42.048308,
+    "lon": -87.698224,
+    "name": "Dodge Ave & Church St"
+  },
+  {
+    "legacy_id": "625",
+    "lat": 42.0346318516,
+    "lon": -87.699187696,
+    "name": "Dodge Ave & Main St"
+  },
+  {
+    "legacy_id": "662",
+    "lat": 42.023463,
+    "lon": -87.699595,
+    "name": "Dodge Ave & Mulford St"
+  },
+  {
+    "legacy_id": "416",
+    "lat": 41.805772,
+    "lon": -87.592464,
+    "name": "Dorchester Ave & 49th St"
+  },
+  {
+    "legacy_id": "428",
+    "lat": 41.7804056457,
+    "lon": -87.5914159893,
+    "name": "Dorchester Ave & 63rd St"
+  },
+  {
+    "legacy_id": "489",
+    "lat": 41.947326,
+    "lon": -87.717582,
+    "name": "Drake Ave & Addison St"
+  },
+  {
+    "legacy_id": "479",
+    "lat": 41.9611540757,
+    "lon": -87.7165690733,
+    "name": "Drake Ave & Montrose Ave"
+  },
+  {
+    "legacy_id": "157",
+    "lat": 41.9366884495,
+    "lon": -87.6368290186,
+    "name": "DuSable Lake Shore Dr & Wellington Ave"
+  },
+  {
+    "legacy_id": "422",
+    "lat": 41.7915680106,
+    "lon": -87.6078521774,
+    "name": "DuSable Museum"
+  },
+  {
+    "legacy_id": "523",
+    "lat": 42.0208872805,
+    "lon": -87.6650579274,
+    "name": "Eastlake Ter & Rogers Ave"
+  },
+  {
+    "legacy_id": "431",
+    "lat": 41.7841416932,
+    "lon": -87.6133078304,
+    "name": "Eberhart Ave & 61st St"
+  },
+  {
+    "legacy_id": "650",
+    "lat": 41.768898,
+    "lon": -87.635876,
+    "name": "Eggleston Ave & 69th St"
+  },
+  {
+    "legacy_id": "217",
+    "lat": 41.886616486,
+    "lon": -87.6580399275,
+    "name": "Elizabeth (May) St & Fulton St"
+  },
+  {
+    "legacy_id": "553",
+    "lat": 41.80839,
+    "lon": -87.656526,
+    "name": "Elizabeth St & 47th St"
+  },
+  {
+    "legacy_id": "647",
+    "lat": 41.7896968805,
+    "lon": -87.6546978951,
+    "name": "Elizabeth St & 59th St"
+  },
+  {
+    "legacy_id": "418",
+    "lat": 41.7993362626,
+    "lon": -87.6009581145,
+    "name": "Ellis Ave & 53rd St"
+  },
+  {
+    "legacy_id": "584",
+    "lat": 41.744123,
+    "lon": -87.599034,
+    "name": "Ellis Ave & 83rd St"
+  },
+  {
+    "legacy_id": "598",
+    "lat": 42.025784,
+    "lon": -87.684107,
+    "name": "Elmwood Ave & Austin St"
+  },
+  {
+    "legacy_id": "207",
+    "lat": 41.84358,
+    "lon": -87.645368,
+    "name": "Emerald Ave & 28th St"
+  },
+  {
+    "legacy_id": "339",
+    "lat": 41.838198,
+    "lon": -87.645143,
+    "name": "Emerald Ave & 31st St"
+  },
+  {
+    "legacy_id": "570",
+    "lat": 41.75849,
+    "lon": -87.60641,
+    "name": "Evans Ave & 75th St"
+  },
+  {
+    "legacy_id": "661",
+    "lat": 42.057044,
+    "lon": -87.686554,
+    "name": "Evanston Civic Center"
+  },
+  {
+    "legacy_id": "580",
+    "lat": 41.751731,
+    "lon": -87.552812,
+    "name": "Exchange Ave & 79th St"
+  },
+  {
+    "legacy_id": "24",
+    "lat": 41.8918473721,
+    "lon": -87.6205801964,
+    "name": "Fairbanks Ct & Grand Ave"
+  },
+  {
+    "legacy_id": "635",
+    "lat": 41.895748,
+    "lon": -87.620104,
+    "name": "Fairbanks St & Superior St"
+  },
+  {
+    "legacy_id": "436",
+    "lat": 41.866624,
+    "lon": -87.694521,
+    "name": "Fairfield Ave & Roosevelt Rd"
+  },
+  {
+    "legacy_id": "471",
+    "lat": 41.9756327252,
+    "lon": -87.7014194389,
+    "name": "Francisco Ave & Foster Ave"
+  },
+  {
+    "legacy_id": "286",
+    "lat": 41.8794340914,
+    "lon": -87.6355040073,
+    "name": "Franklin St & Adams St (Temp)"
+  },
+  {
+    "legacy_id": "672",
+    "lat": 41.8910233103,
+    "lon": -87.6354798675,
+    "name": "Franklin St & Illinois St"
+  },
+  {
+    "legacy_id": "447",
+    "lat": 42.0079719229,
+    "lon": -87.6655023944,
+    "name": "Glenwood Ave & Morse Ave"
+  },
+  {
+    "legacy_id": "525",
+    "lat": 42.012701,
+    "lon": -87.666058,
+    "name": "Glenwood Ave & Touhy Ave"
+  },
+  {
+    "legacy_id": "112",
+    "lat": 41.883181306,
+    "lon": -87.6487246156,
+    "name": "Green St & Randolph St"
+  },
+  {
+    "legacy_id": "319",
+    "lat": 41.9325896343,
+    "lon": -87.6659363508,
+    "name": "Greenview Ave & Diversey Pkwy"
+  },
+  {
+    "legacy_id": "188",
+    "lat": 41.92533,
+    "lon": -87.6658,
+    "name": "Greenview Ave & Fullerton Ave"
+  },
+  {
+    "legacy_id": "252",
+    "lat": 41.809835,
+    "lon": -87.599383,
+    "name": "Greenwood Ave & 47th St"
+  },
+  {
+    "legacy_id": "576",
+    "lat": 41.751294,
+    "lon": -87.597552,
+    "name": "Greenwood Ave & 79th St"
+  },
+  {
+    "legacy_id": "388",
+    "lat": 41.7793811423,
+    "lon": -87.6446208145,
+    "name": "Halsted & 63rd - Kennedy-King Vaccination Site"
+  },
+  {
+    "legacy_id": "202",
+    "lat": 41.8575056803,
+    "lon": -87.6459914446,
+    "name": "Halsted St & 18th St"
+  },
+  {
+    "legacy_id": "135",
+    "lat": 41.8537798107,
+    "lon": -87.6466029882,
+    "name": "Halsted St & 21st St"
+  },
+  {
+    "legacy_id": "279",
+    "lat": 41.830661,
+    "lon": -87.647172,
+    "name": "Halsted St & 35th St"
+  },
+  {
+    "legacy_id": "262",
+    "lat": 41.827059,
+    "lon": -87.64572,
+    "name": "Halsted St & 37th St"
+  },
+  {
+    "legacy_id": "411",
+    "lat": 41.8081339148,
+    "lon": -87.6456165545,
+    "name": "Halsted St & 47th Pl"
+  },
+  {
+    "legacy_id": "384",
+    "lat": 41.8018316405,
+    "lon": -87.645213904,
+    "name": "Halsted St & 51st St"
+  },
+  {
+    "legacy_id": "386",
+    "lat": 41.792929646,
+    "lon": -87.6449900565,
+    "name": "Halsted St & 56th St"
+  },
+  {
+    "legacy_id": "593",
+    "lat": 41.787539,
+    "lon": -87.644874,
+    "name": "Halsted St & 59th St"
+  },
+  {
+    "legacy_id": "391",
+    "lat": 41.7690617203,
+    "lon": -87.6446135779,
+    "name": "Halsted St & 69th St"
+  },
+  {
+    "legacy_id": "206",
+    "lat": 41.847203,
+    "lon": -87.646795,
+    "name": "Halsted St & Archer Ave"
+  },
+  {
+    "legacy_id": "282",
+    "lat": 41.864883,
+    "lon": -87.647071,
+    "name": "Halsted St & Maxwell St"
+  },
+  {
+    "legacy_id": "365",
+    "lat": 41.8993902855,
+    "lon": -87.6485449076,
+    "name": "Halsted St & North Branch St"
+  },
+  {
+    "legacy_id": "299",
+    "lat": 41.94367,
+    "lon": -87.64895,
+    "name": "Halsted St & Roscoe St"
+  },
+  {
+    "legacy_id": "349",
+    "lat": 41.929143,
+    "lon": -87.649077,
+    "name": "Halsted St & Wrightwood Ave"
+  },
+  {
+    "legacy_id": "425",
+    "lat": 41.7879428129,
+    "lon": -87.5883151702,
+    "name": "Harper Ave & 59th St"
+  },
+  {
+    "legacy_id": "261",
+    "lat": 41.871514,
+    "lon": -87.669886,
+    "name": "Hermitage Ave & Polk St"
+  },
+  {
+    "legacy_id": "551",
+    "lat": 41.808227,
+    "lon": -87.67718,
+    "name": "Hoyne Ave & 47th St"
+  },
+  {
+    "legacy_id": "655",
+    "lat": 41.979851,
+    "lon": -87.681932,
+    "name": "Hoyne Ave & Balmoral Ave"
+  },
+  {
+    "legacy_id": "147",
+    "lat": 41.845687,
+    "lon": -87.622481,
+    "name": "Indiana Ave & 26th St"
+  },
+  {
+    "legacy_id": "272",
+    "lat": 41.838842,
+    "lon": -87.621857,
+    "name": "Indiana Ave & 31st St"
+  },
+  {
+    "legacy_id": "201",
+    "lat": 41.82168,
+    "lon": -87.6216,
+    "name": "Indiana Ave & 40th St"
+  },
+  {
+    "legacy_id": "352",
+    "lat": 41.7735175513,
+    "lon": -87.5771428255,
+    "name": "Jeffery Blvd & 67th St"
+  },
+  {
+    "legacy_id": "11",
+    "lat": 41.766638237,
+    "lon": -87.5764501141,
+    "name": "Jeffery Blvd & 71st St"
+  },
+  {
+    "legacy_id": "395",
+    "lat": 41.757120068,
+    "lon": -87.5758393587,
+    "name": "Jeffery Blvd & 76th St"
+  },
+  {
+    "legacy_id": "534",
+    "lat": 41.88085,
+    "lon": -87.727907,
+    "name": "Karlov Ave & Madison St"
+  },
+  {
+    "legacy_id": "439",
+    "lat": 41.8535336321,
+    "lon": -87.7050730318,
+    "name": "Kedzie Ave & 21st St"
+  },
+  {
+    "legacy_id": "441",
+    "lat": 41.8481909449,
+    "lon": -87.7054137458,
+    "name": "Kedzie Ave & 24th St"
+  },
+  {
+    "legacy_id": "494",
+    "lat": 41.9822297591,
+    "lon": -87.7088865638,
+    "name": "Kedzie Ave & Bryn Mawr Ave"
+  },
+  {
+    "legacy_id": "373",
+    "lat": 41.8954653031,
+    "lon": -87.7061278837,
+    "name": "Kedzie Ave & Chicago Ave"
+  },
+  {
+    "legacy_id": "470",
+    "lat": 41.975672,
+    "lon": -87.709261,
+    "name": "Kedzie Ave & Foster Ave"
+  },
+  {
+    "legacy_id": "433",
+    "lat": 41.8735996746,
+    "lon": -87.7048707493,
+    "name": "Kedzie Ave & Harrison St"
+  },
+  {
+    "legacy_id": "377",
+    "lat": 41.884603285,
+    "lon": -87.7063037436,
+    "name": "Kedzie Ave & Lake St"
+  },
+  {
+    "legacy_id": "476",
+    "lat": 41.966686362,
+    "lon": -87.7080519806,
+    "name": "Kedzie Ave & Leland Ave"
+  },
+  {
+    "legacy_id": "290",
+    "lat": 41.921525,
+    "lon": -87.707322,
+    "name": "Kedzie Ave & Palmer Ct"
+  },
+  {
+    "legacy_id": "435",
+    "lat": 41.8664927817,
+    "lon": -87.7064961757,
+    "name": "Kedzie Ave & Roosevelt Rd"
+  },
+  {
+    "legacy_id": "537",
+    "lat": 41.880708,
+    "lon": -87.741018,
+    "name": "Kenton Ave & Madison St"
+  },
+  {
+    "legacy_id": "619",
+    "lat": 41.92459,
+    "lon": -87.72785,
+    "name": "Keystone Ave & Fullerton Ave"
+  },
+  {
+    "legacy_id": "495",
+    "lat": 41.9611080162,
+    "lon": -87.7289701012,
+    "name": "Keystone Ave & Montrose Ave"
+  },
+  {
+    "legacy_id": "590",
+    "lat": 41.953733,
+    "lon": -87.740569,
+    "name": "Kilbourn Ave & Irving Park Rd"
+  },
+  {
+    "legacy_id": "591",
+    "lat": 41.9470708942,
+    "lon": -87.740008235,
+    "name": "Kilbourn Ave & Milwaukee Ave"
+  },
+  {
+    "legacy_id": "630",
+    "lat": 41.96108,
+    "lon": -87.73569,
+    "name": "Kildare Ave & Montrose Ave"
+  },
+  {
+    "legacy_id": "497",
+    "lat": 41.939398,
+    "lon": -87.711561,
+    "name": "Kimball Ave & Belmont Ave"
+  },
+  {
+    "legacy_id": "592",
+    "lat": 41.960631,
+    "lon": -87.745359,
+    "name": "Knox Ave & Montrose Ave"
+  },
+  {
+    "legacy_id": "499",
+    "lat": 41.9305853714,
+    "lon": -87.7237773635,
+    "name": "Kosciuszko Park"
+  },
+  {
+    "legacy_id": "545",
+    "lat": 41.877917,
+    "lon": -87.735737,
+    "name": "Kostner Ave & Adams St"
+  },
+  {
+    "legacy_id": "536",
+    "lat": 41.885928,
+    "lon": -87.73541,
+    "name": "Kostner Ave & Lake St"
+  },
+  {
+    "legacy_id": "40",
+    "lat": 41.8793443735,
+    "lon": -87.6319852213,
+    "name": "LaSalle St & Adams St"
+  },
+  {
+    "legacy_id": "98",
+    "lat": 41.882664,
+    "lon": -87.63253,
+    "name": "LaSalle St & Washington St"
+  },
+  {
+    "legacy_id": "208",
+    "lat": 41.8549145758,
+    "lon": -87.6635599136,
+    "name": "Laflin St & Cullerton St"
+  },
+  {
+    "legacy_id": "267",
+    "lat": 41.809443,
+    "lon": -87.591875,
+    "name": "Lake Park Ave & 47th St"
+  },
+  {
+    "legacy_id": "419",
+    "lat": 41.7994942937,
+    "lon": -87.5864498959,
+    "name": "Lake Park Ave & 53rd St"
+  },
+  {
+    "legacy_id": "639",
+    "lat": 41.965845,
+    "lon": -87.645361,
+    "name": "Lakefront Trail & Wilson Ave"
+  },
+  {
+    "legacy_id": "543",
+    "lat": 41.875806,
+    "lon": -87.755285,
+    "name": "Laramie Ave & Gladys Ave"
+  },
+  {
+    "legacy_id": "530",
+    "lat": 41.887832,
+    "lon": -87.755527,
+    "name": "Laramie Ave & Kinzie St"
+  },
+  {
+    "legacy_id": "540",
+    "lat": 41.880207,
+    "lon": -87.755337,
+    "name": "Laramie Ave & Madison St"
+  },
+  {
+    "legacy_id": "288",
+    "lat": 41.918084,
+    "lon": -87.643749,
+    "name": "Larrabee St & Armitage Ave"
+  },
+  {
+    "legacy_id": "28",
+    "lat": 41.91468,
+    "lon": -87.64332,
+    "name": "Larrabee St & Menomonee St"
+  },
+  {
+    "legacy_id": "642",
+    "lat": 41.894745,
+    "lon": -87.756895,
+    "name": "Latrobe Ave & Chicago Ave"
+  },
+  {
+    "legacy_id": "492",
+    "lat": 41.946655,
+    "lon": -87.683359,
+    "name": "Leavitt St & Addison St"
+  },
+  {
+    "legacy_id": "9",
+    "lat": 41.8287920199,
+    "lon": -87.6806044594,
+    "name": "Leavitt St & Archer Ave"
+  },
+  {
+    "legacy_id": "309",
+    "lat": 41.917805,
+    "lon": -87.682437,
+    "name": "Leavitt St & Armitage Ave"
+  },
+  {
+    "legacy_id": "664",
+    "lat": 41.939354,
+    "lon": -87.683282,
+    "name": "Leavitt St & Belmont Ave"
+  },
+  {
+    "legacy_id": "659",
+    "lat": 41.895501,
+    "lon": -87.682017,
+    "name": "Leavitt St & Chicago Ave"
+  },
+  {
+    "legacy_id": "658",
+    "lat": 41.902997,
+    "lon": -87.683825,
+    "name": "Leavitt St & Division St"
+  },
+  {
+    "legacy_id": "213",
+    "lat": 41.9105093667,
+    "lon": -87.6823890209,
+    "name": "Leavitt St & North Ave"
+  },
+  {
+    "legacy_id": "298",
+    "lat": 41.9560035508,
+    "lon": -87.6801614463,
+    "name": "Lincoln Ave & Belle Plaine Ave"
+  },
+  {
+    "legacy_id": "131",
+    "lat": 41.939365,
+    "lon": -87.668385,
+    "name": "Lincoln Ave & Belmont Ave"
+  },
+  {
+    "legacy_id": "152",
+    "lat": 41.932225,
+    "lon": -87.658617,
+    "name": "Lincoln Ave & Diversey Pkwy"
+  },
+  {
+    "legacy_id": "127",
+    "lat": 41.9241610291,
+    "lon": -87.6463803649,
+    "name": "Lincoln Ave & Fullerton Ave"
+  },
+  {
+    "legacy_id": "243",
+    "lat": 41.963004,
+    "lon": -87.684781,
+    "name": "Lincoln Ave & Sunnyside Ave"
+  },
+  {
+    "legacy_id": "257",
+    "lat": 41.948797,
+    "lon": -87.675278,
+    "name": "Lincoln Ave & Waveland Ave"
+  },
+  {
+    "legacy_id": "472",
+    "lat": 41.9749112968,
+    "lon": -87.6925025594,
+    "name": "Lincoln Ave & Winona St"
+  },
+  {
+    "legacy_id": "663",
+    "lat": 42.064854,
+    "lon": -87.715297,
+    "name": "Lincolnwood Dr & Central St"
+  },
+  {
+    "legacy_id": "366",
+    "lat": 41.8416325396,
+    "lon": -87.6574349533,
+    "name": "Loomis St & Archer Ave"
+  },
+  {
+    "legacy_id": "200",
+    "lat": 41.809851,
+    "lon": -87.616279,
+    "name": "MLK Jr Dr & 47th St"
+  },
+  {
+    "legacy_id": "421",
+    "lat": 41.7934294566,
+    "lon": -87.6158532619,
+    "name": "MLK Jr Dr & 56th St"
+  },
+  {
+    "legacy_id": "430",
+    "lat": 41.7800806366,
+    "lon": -87.6159428567,
+    "name": "MLK Jr Dr & 63rd St"
+  },
+  {
+    "legacy_id": "586",
+    "lat": 41.743116,
+    "lon": -87.6148,
+    "name": "MLK Jr Dr & 83rd St"
+  },
+  {
+    "legacy_id": "179",
+    "lat": 41.8246,
+    "lon": -87.61678,
+    "name": "MLK Jr Dr & Pershing Rd"
+  },
+  {
+    "legacy_id": "477",
+    "lat": 41.965875,
+    "lon": -87.700825,
+    "name": "Manor Ave & Leland Ave"
+  },
+  {
+    "legacy_id": "455",
+    "lat": 41.9902360287,
+    "lon": -87.6933696402,
+    "name": "Maplewood Ave & Peterson Ave"
+  },
+  {
+    "legacy_id": "549",
+    "lat": 41.813996,
+    "lon": -87.666589,
+    "name": "Marshfield Ave & 44th St"
+  },
+  {
+    "legacy_id": "560",
+    "lat": 41.786833,
+    "lon": -87.666215,
+    "name": "Marshfield Ave & 59th St"
+  },
+  {
+    "legacy_id": "567",
+    "lat": 41.768938,
+    "lon": -87.652934,
+    "name": "May St & 69th St"
+  },
+  {
+    "legacy_id": "171",
+    "lat": 41.855136,
+    "lon": -87.654127,
+    "name": "May St & Cullerton St"
+  },
+  {
+    "legacy_id": "22",
+    "lat": 41.8694821,
+    "lon": -87.6554864,
+    "name": "May St & Taylor St"
+  },
+  {
+    "legacy_id": "45",
+    "lat": 41.876243,
+    "lon": -87.624426,
+    "name": "Michigan Ave & Ida B Wells Dr"
+  },
+  {
+    "legacy_id": "173",
+    "lat": 41.8969446264,
+    "lon": -87.6217576861,
+    "name": "Mies van der Rohe Way & Chicago Ave"
+  },
+  {
+    "legacy_id": "443",
+    "lat": 41.8445311246,
+    "lon": -87.715921998,
+    "name": "Millard Ave & 26th St"
+  },
+  {
+    "legacy_id": "589",
+    "lat": 41.954468,
+    "lon": -87.749594,
+    "name": "Milwaukee Ave & Cuyler Ave"
+  },
+  {
+    "legacy_id": "158",
+    "lat": 41.912616,
+    "lon": -87.681391,
+    "name": "Milwaukee Ave & Wabansia Ave"
+  },
+  {
+    "legacy_id": "484",
+    "lat": 41.9540048388,
+    "lon": -87.7191281797,
+    "name": "Monticello Ave & Irving Park Rd"
+  },
+  {
+    "legacy_id": "137",
+    "lat": 41.862378,
+    "lon": -87.651062,
+    "name": "Morgan Ave & 14th Pl"
+  },
+  {
+    "legacy_id": "14",
+    "lat": 41.858086,
+    "lon": -87.651073,
+    "name": "Morgan St & 18th St"
+  },
+  {
+    "legacy_id": "280",
+    "lat": 41.8378,
+    "lon": -87.65114,
+    "name": "Morgan St & 31st St"
+  },
+  {
+    "legacy_id": "548",
+    "lat": 41.823613,
+    "lon": -87.650931,
+    "name": "Morgan St & Pershing Rd"
+  },
+  {
+    "legacy_id": "29",
+    "lat": 41.90068,
+    "lon": -87.6626,
+    "name": "Noble St & Milwaukee Ave"
+  },
+  {
+    "legacy_id": "209",
+    "lat": 41.849527,
+    "lon": -87.640591,
+    "name": "Normal Ave & Archer Ave"
+  },
+  {
+    "legacy_id": "486",
+    "lat": 41.9543408522,
+    "lon": -87.6860796243,
+    "name": "Oakley Ave & Irving Park Rd"
+  },
+  {
+    "legacy_id": "526",
+    "lat": 42.012342,
+    "lon": -87.688243,
+    "name": "Oakley Ave & Touhy Ave"
+  },
+  {
+    "legacy_id": "122",
+    "lat": 41.87501,
+    "lon": -87.67328,
+    "name": "Ogden Ave & Congress Pkwy"
+  },
+  {
+    "legacy_id": "186",
+    "lat": 41.891795,
+    "lon": -87.658751,
+    "name": "Ogden Ave & Race Ave"
+  },
+  {
+    "legacy_id": "620",
+    "lat": 41.898203,
+    "lon": -87.637536,
+    "name": "Orleans St & Chestnut St (NEXT Apts)"
+  },
+  {
+    "legacy_id": "23",
+    "lat": 41.902924,
+    "lon": -87.637715,
+    "name": "Orleans St & Elm St"
+  },
+  {
+    "legacy_id": "636",
+    "lat": 41.890028,
+    "lon": -87.636618,
+    "name": "Orleans St & Hubbard St"
+  },
+  {
+    "legacy_id": "16",
+    "lat": 41.9098546522,
+    "lon": -87.66993016,
+    "name": "Paulina Ave & North Ave"
+  },
+  {
+    "legacy_id": "205",
+    "lat": 41.857901,
+    "lon": -87.668745,
+    "name": "Paulina St & 18th St"
+  },
+  {
+    "legacy_id": "297",
+    "lat": 41.961507,
+    "lon": -87.671387,
+    "name": "Paulina St & Montrose Ave"
+  },
+  {
+    "legacy_id": "392",
+    "lat": 41.7692930899,
+    "lon": -87.6281959291,
+    "name": "Perry Ave & 69th St"
+  },
+  {
+    "legacy_id": "579",
+    "lat": 41.75182,
+    "lon": -87.565211,
+    "name": "Phillips Ave & 79th St"
+  },
+  {
+    "legacy_id": "582",
+    "lat": 41.744531,
+    "lon": -87.56506,
+    "name": "Phillips Ave & 83rd St"
+  },
+  {
+    "legacy_id": "254",
+    "lat": 41.954383,
+    "lon": -87.648043,
+    "name": "Pine Grove Ave & Irving Park Rd"
+  },
+  {
+    "legacy_id": "410",
+    "lat": 41.816658893,
+    "lon": -87.6194124619,
+    "name": "Prairie Ave & 43rd St"
+  },
+  {
+    "legacy_id": "204",
+    "lat": 41.794853,
+    "lon": -87.618691,
+    "name": "Prairie Ave & Garfield Blvd"
+  },
+  {
+    "legacy_id": "412",
+    "lat": 41.8093177092,
+    "lon": -87.633449288,
+    "name": "Princeton Ave & 47th St"
+  },
+  {
+    "legacy_id": "385",
+    "lat": 41.794982,
+    "lon": -87.633124,
+    "name": "Princeton Ave & Garfield Blvd"
+  },
+  {
+    "legacy_id": "535",
+    "lat": 41.874325,
+    "lon": -87.725704,
+    "name": "Pulaski Rd & Congress Pkwy"
+  },
+  {
+    "legacy_id": "488",
+    "lat": 41.946264,
+    "lon": -87.731023,
+    "name": "Pulaski Rd & Eddy St (Temp)"
+  },
+  {
+    "legacy_id": "528",
+    "lat": 41.885409,
+    "lon": -87.726491,
+    "name": "Pulaski Rd & Lake St"
+  },
+  {
+    "legacy_id": "136",
+    "lat": 41.865054,
+    "lon": -87.656959,
+    "name": "Racine Ave & 13th St"
+  },
+  {
+    "legacy_id": "274",
+    "lat": 41.861267,
+    "lon": -87.656625,
+    "name": "Racine Ave & 15th St"
+  },
+  {
+    "legacy_id": "15",
+    "lat": 41.858166,
+    "lon": -87.656495,
+    "name": "Racine Ave & 18th St"
+  },
+  {
+    "legacy_id": "367",
+    "lat": 41.8306885647,
+    "lon": -87.6562106609,
+    "name": "Racine Ave & 35th St"
+  },
+  {
+    "legacy_id": "562",
+    "lat": 41.783189,
+    "lon": -87.654372,
+    "name": "Racine Ave & 61st St"
+  },
+  {
+    "legacy_id": "564",
+    "lat": 41.775393,
+    "lon": -87.654308,
+    "name": "Racine Ave & 65th St"
+  },
+  {
+    "legacy_id": "226",
+    "lat": 41.939743,
+    "lon": -87.658865,
+    "name": "Racine Ave & Belmont Ave"
+  },
+  {
+    "legacy_id": "559",
+    "lat": 41.794228,
+    "lon": -87.655073,
+    "name": "Racine Ave & Garfield Blvd"
+  },
+  {
+    "legacy_id": "654",
+    "lat": 41.883073,
+    "lon": -87.656952,
+    "name": "Racine Ave & Washington Blvd"
+  },
+  {
+    "legacy_id": "343",
+    "lat": 41.928887,
+    "lon": -87.658971,
+    "name": "Racine Ave & Wrightwood Ave"
+  },
+  {
+    "legacy_id": "398",
+    "lat": 41.7578714483,
+    "lon": -87.54938625,
+    "name": "Rainbow Beach"
+  },
+  {
+    "legacy_id": "314",
+    "lat": 41.957921,
+    "lon": -87.673567,
+    "name": "Ravenswood Ave & Berteau Ave"
+  },
+  {
+    "legacy_id": "263",
+    "lat": 41.836208,
+    "lon": -87.613533,
+    "name": "Rhodes Ave & 32nd St"
+  },
+  {
+    "legacy_id": "652",
+    "lat": 41.766,
+    "lon": -87.611726,
+    "name": "Rhodes Ave & 71st St"
+  },
+  {
+    "legacy_id": "501",
+    "lat": 41.9319019689,
+    "lon": -87.7011951301,
+    "name": "Richmond St & Diversey Ave"
+  },
+  {
+    "legacy_id": "514",
+    "lat": 42.019276,
+    "lon": -87.68452,
+    "name": "Ridge Blvd & Howard St"
+  },
+  {
+    "legacy_id": "466",
+    "lat": 42.0121322774,
+    "lon": -87.6829126443,
+    "name": "Ridge Blvd & Touhy Ave"
+  },
+  {
+    "legacy_id": "180",
+    "lat": 41.906866,
+    "lon": -87.626217,
+    "name": "Ritchie Ct & Banks St"
+  },
+  {
+    "legacy_id": "478",
+    "lat": 41.9659001398,
+    "lon": -87.6936384935,
+    "name": "Rockwell St & Eastwood Ave"
+  },
+  {
+    "legacy_id": "172",
+    "lat": 41.9023087012,
+    "lon": -87.627690528,
+    "name": "Rush St & Cedar St"
+  },
+  {
+    "legacy_id": "375",
+    "lat": 41.8904687924,
+    "lon": -87.7026075125,
+    "name": "Sacramento Blvd & Franklin Blvd"
+  },
+  {
+    "legacy_id": "233",
+    "lat": 41.883165,
+    "lon": -87.6511,
+    "name": "Sangamon St & Washington Blvd"
+  },
+  {
+    "legacy_id": "485",
+    "lat": 41.9535861789,
+    "lon": -87.7093107999,
+    "name": "Sawyer Ave & Irving Park Rd"
+  },
+  {
+    "legacy_id": "236",
+    "lat": 41.907626,
+    "lon": -87.638566,
+    "name": "Sedgwick St & Schiller St"
+  },
+  {
+    "legacy_id": "143",
+    "lat": 41.922167,
+    "lon": -87.638888,
+    "name": "Sedgwick St & Webster Ave"
+  },
+  {
+    "legacy_id": "557",
+    "lat": 41.794087,
+    "lon": -87.675478,
+    "name": "Seeley Ave & Garfield Blvd"
+  },
+  {
+    "legacy_id": "308",
+    "lat": 41.943403,
+    "lon": -87.679618,
+    "name": "Seeley Ave & Roscoe St"
+  },
+  {
+    "legacy_id": "20",
+    "lat": 41.910522,
+    "lon": -87.653106,
+    "name": "Sheffield Ave & Kingsbury St"
+  },
+  {
+    "legacy_id": "93",
+    "lat": 41.913688,
+    "lon": -87.652855,
+    "name": "Sheffield Ave & Willow St"
+  },
+  {
+    "legacy_id": "660",
+    "lat": 42.004583,
+    "lon": -87.661406,
+    "name": "Sheridan Rd & Columbia Ave"
+  },
+  {
+    "legacy_id": "354",
+    "lat": 42.0105865628,
+    "lon": -87.6624120948,
+    "name": "Sheridan Rd & Greenleaf Ave"
+  },
+  {
+    "legacy_id": "604",
+    "lat": 42.058239,
+    "lon": -87.677432,
+    "name": "Sheridan Rd & Noyes St (NU)"
+  },
+  {
+    "legacy_id": "401",
+    "lat": 41.842733,
+    "lon": -87.635491,
+    "name": "Shields Ave & 28th Pl"
+  },
+  {
+    "legacy_id": "402",
+    "lat": 41.838464,
+    "lon": -87.635406,
+    "name": "Shields Ave & 31st St"
+  },
+  {
+    "legacy_id": "409",
+    "lat": 41.8162076786,
+    "lon": -87.6348193497,
+    "name": "Shields Ave & 43rd St"
+  },
+  {
+    "legacy_id": "643",
+    "lat": 41.892048,
+    "lon": -87.689397,
+    "name": "Smith Park"
+  },
+  {
+    "legacy_id": "588",
+    "lat": 41.743921,
+    "lon": -87.575225,
+    "name": "South Chicago Ave & 83rd St"
+  },
+  {
+    "legacy_id": "665",
+    "lat": 41.747363,
+    "lon": -87.580046,
+    "name": "South Chicago Ave & Elliot Ave"
+  },
+  {
+    "legacy_id": "355",
+    "lat": 41.773643,
+    "lon": -87.567514,
+    "name": "South Shore Dr & 67th St"
+  },
+  {
+    "legacy_id": "12",
+    "lat": 41.7664094567,
+    "lon": -87.5656875719,
+    "name": "South Shore Dr & 71st St"
+  },
+  {
+    "legacy_id": "399",
+    "lat": 41.7621889604,
+    "lon": -87.55927465,
+    "name": "South Shore Dr & 74th St"
+  },
+  {
+    "legacy_id": "154",
+    "lat": 41.9394777504,
+    "lon": -87.6637476683,
+    "name": "Southport Ave & Belmont Ave"
+  },
+  {
+    "legacy_id": "292",
+    "lat": 41.957081,
+    "lon": -87.664199,
+    "name": "Southport Ave & Clark St"
+  },
+  {
+    "legacy_id": "307",
+    "lat": 41.920771,
+    "lon": -87.663712,
+    "name": "Southport Ave & Clybourn Ave"
+  },
+  {
+    "legacy_id": "318",
+    "lat": 41.954177,
+    "lon": -87.664358,
+    "name": "Southport Ave & Irving Park Rd"
+  },
+  {
+    "legacy_id": "190",
+    "lat": 41.928773,
+    "lon": -87.663913,
+    "name": "Southport Ave & Wrightwood Ave"
+  },
+  {
+    "legacy_id": "506",
+    "lat": 41.9171080348,
+    "lon": -87.7102209628,
+    "name": "Spaulding Ave & Armitage Ave"
+  },
+  {
+    "legacy_id": "510",
+    "lat": 41.9027065944,
+    "lon": -87.709219571,
+    "name": "Spaulding Ave & Division St"
+  },
+  {
+    "legacy_id": "469",
+    "lat": 41.9803942348,
+    "lon": -87.7161149615,
+    "name": "St. Louis Ave & Balmoral Ave"
+  },
+  {
+    "legacy_id": "503",
+    "lat": 41.9248155968,
+    "lon": -87.7144950628,
+    "name": "St. Louis Ave & Fullerton Ave"
+  },
+  {
+    "legacy_id": "178",
+    "lat": 41.856594,
+    "lon": -87.627542,
+    "name": "State St & 19th St"
+  },
+  {
+    "legacy_id": "193",
+    "lat": 41.841707,
+    "lon": -87.626938,
+    "name": "State St & 29th St"
+  },
+  {
+    "legacy_id": "148",
+    "lat": 41.834734,
+    "lon": -87.625813,
+    "name": "State St & 33rd St"
+  },
+  {
+    "legacy_id": "646",
+    "lat": 41.796642,
+    "lon": -87.625923,
+    "name": "State St & 54th St"
+  },
+  {
+    "legacy_id": "572",
+    "lat": 41.756971,
+    "lon": -87.624621,
+    "name": "State St & 76th St"
+  },
+  {
+    "legacy_id": "573",
+    "lat": 41.750794,
+    "lon": -87.624424,
+    "name": "State St & 79th St"
+  },
+  {
+    "legacy_id": "407",
+    "lat": 41.823015238,
+    "lon": -87.6265680185,
+    "name": "State St & Pershing Rd"
+  },
+  {
+    "legacy_id": "185",
+    "lat": 41.917741,
+    "lon": -87.691392,
+    "name": "Stave St & Armitage Ave"
+  },
+  {
+    "legacy_id": "649",
+    "lat": 41.779835,
+    "lon": -87.634774,
+    "name": "Stewart Ave & 63rd St"
+  },
+  {
+    "legacy_id": "324",
+    "lat": 41.93132,
+    "lon": -87.638742,
+    "name": "Stockton Dr & Wrightwood Ave"
+  },
+  {
+    "legacy_id": "95",
+    "lat": 41.778881,
+    "lon": -87.586647,
+    "name": "Stony Island Ave & 64th St"
+  },
+  {
+    "legacy_id": "102",
+    "lat": 41.7734584995,
+    "lon": -87.5853397391,
+    "name": "Stony Island Ave & 67th St"
+  },
+  {
+    "legacy_id": "356",
+    "lat": 41.7664929373,
+    "lon": -87.5864608775,
+    "name": "Stony Island Ave & 71st St"
+  },
+  {
+    "legacy_id": "270",
+    "lat": 41.7586696704,
+    "lon": -87.586882871,
+    "name": "Stony Island Ave & 75th St"
+  },
+  {
+    "legacy_id": "583",
+    "lat": 41.746559,
+    "lon": -87.586005,
+    "name": "Stony Island Ave & 82nd St"
+  },
+  {
+    "legacy_id": "577",
+    "lat": 41.751173,
+    "lon": -87.585337,
+    "name": "Stony Island Ave & South Chicago Ave"
+  },
+  {
+    "legacy_id": "491",
+    "lat": 41.9466358306,
+    "lon": -87.694614758,
+    "name": "Talman Ave & Addison St"
+  },
+  {
+    "legacy_id": "556",
+    "lat": 41.799659,
+    "lon": -87.657195,
+    "name": "Throop St & 52nd St"
+  },
+  {
+    "legacy_id": "19",
+    "lat": 41.868968,
+    "lon": -87.659141,
+    "name": "Throop St & Taylor St"
+  },
+  {
+    "legacy_id": "490",
+    "lat": 41.9452435685,
+    "lon": -87.7066499009,
+    "name": "Troy St & Elston Ave"
+  },
+  {
+    "legacy_id": "509",
+    "lat": 41.9097693017,
+    "lon": -87.7052804871,
+    "name": "Troy St & North Ave"
+  },
+  {
+    "legacy_id": "408",
+    "lat": 41.819102,
+    "lon": -87.643278,
+    "name": "Union Ave & Root St"
+  },
+  {
+    "legacy_id": "605",
+    "lat": 42.052939,
+    "lon": -87.673447,
+    "name": "University Library (NU)"
+  },
+  {
+    "legacy_id": "599",
+    "lat": 42.039742,
+    "lon": -87.699413,
+    "name": "Valli Produce - Evanston Plaza"
+  },
+  {
+    "legacy_id": "571",
+    "lat": 41.758361,
+    "lon": -87.614138,
+    "name": "Vernon Ave & 75th St"
+  },
+  {
+    "legacy_id": "574",
+    "lat": 41.75094,
+    "lon": -87.61379,
+    "name": "Vernon Ave & 79th St"
+  },
+  {
+    "legacy_id": "568",
+    "lat": 41.75797,
+    "lon": -87.63121,
+    "name": "Vincennes Ave & 75th St"
+  },
+  {
+    "legacy_id": "587",
+    "lat": 41.743316,
+    "lon": -87.622849,
+    "name": "Wabash Ave & 83rd St"
+  },
+  {
+    "legacy_id": "595",
+    "lat": 41.736646,
+    "lon": -87.622634,
+    "name": "Wabash Ave & 87th St"
+  },
+  {
+    "legacy_id": "42",
+    "lat": 41.852619,
+    "lon": -87.626488,
+    "name": "Wabash Ave & Cermak Rd"
+  },
+  {
+    "legacy_id": "18",
+    "lat": 41.8831433644,
+    "lon": -87.6372420788,
+    "name": "Wacker Dr & Washington St"
+  },
+  {
+    "legacy_id": "278",
+    "lat": 41.8310143299,
+    "lon": -87.6411835849,
+    "name": "Wallace St & 35th St"
+  },
+  {
+    "legacy_id": "448",
+    "lat": 42.0045496219,
+    "lon": -87.6806661451,
+    "name": "Warren Park East"
+  },
+  {
+    "legacy_id": "450",
+    "lat": 42.001785,
+    "lon": -87.688829,
+    "name": "Warren Park West"
+  },
+  {
+    "legacy_id": "475",
+    "lat": 41.968987,
+    "lon": -87.696027,
+    "name": "Washtenaw Ave & Lawrence Ave"
+  },
+  {
+    "legacy_id": "437",
+    "lat": 41.8619304928,
+    "lon": -87.6934504509,
+    "name": "Washtenaw Ave & Ogden Ave"
+  },
+  {
+    "legacy_id": "218",
+    "lat": 41.856802,
+    "lon": -87.633879,
+    "name": "Wells St & 19th St"
+  },
+  {
+    "legacy_id": "132",
+    "lat": 41.8500836935,
+    "lon": -87.6321405172,
+    "name": "Wentworth Ave & 24th St (Temp)"
+  },
+  {
+    "legacy_id": "403",
+    "lat": 41.8345298856,
+    "lon": -87.6318229814,
+    "name": "Wentworth Ave & 33rd St"
+  },
+  {
+    "legacy_id": "405",
+    "lat": 41.830777,
+    "lon": -87.632504,
+    "name": "Wentworth Ave & 35th St"
+  },
+  {
+    "legacy_id": "390",
+    "lat": 41.7800796326,
+    "lon": -87.6297463052,
+    "name": "Wentworth Ave & 63rd St"
+  },
+  {
+    "legacy_id": "446",
+    "lat": 41.8415177081,
+    "lon": -87.6851314409,
+    "name": "Western & 28th - Velasquez Institute Vaccination Site"
+  },
+  {
+    "legacy_id": "203",
+    "lat": 41.854109,
+    "lon": -87.685838,
+    "name": "Western Ave & 21st St"
+  },
+  {
+    "legacy_id": "281",
+    "lat": 41.84847,
+    "lon": -87.685109,
+    "name": "Western Ave & 24th St"
+  },
+  {
+    "legacy_id": "644",
+    "lat": 41.868563,
+    "lon": -87.686234,
+    "name": "Western Ave & Fillmore St"
+  },
+  {
+    "legacy_id": "452",
+    "lat": 41.994161369,
+    "lon": -87.689438282,
+    "name": "Western Ave & Granville Ave"
+  },
+  {
+    "legacy_id": "527",
+    "lat": 42.018901,
+    "lon": -87.690048,
+    "name": "Western Ave & Howard St"
+  },
+  {
+    "legacy_id": "467",
+    "lat": 42.0085943972,
+    "lon": -87.6904922389,
+    "name": "Western Ave & Lunt Ave"
+  },
+  {
+    "legacy_id": "381",
+    "lat": 41.8797877089,
+    "lon": -87.686112808,
+    "name": "Western Ave & Monroe St"
+  },
+  {
+    "legacy_id": "493",
+    "lat": 41.943034,
+    "lon": -87.687288,
+    "name": "Western Ave & Roscoe St"
+  },
+  {
+    "legacy_id": "116",
+    "lat": 41.91552,
+    "lon": -87.687022,
+    "name": "Western Ave & Winnebago Ave"
+  },
+  {
+    "legacy_id": "594",
+    "lat": 41.805661,
+    "lon": -87.683392,
+    "name": "Western Blvd & 48th Pl"
+  },
+  {
+    "legacy_id": "462",
+    "lat": 41.979762,
+    "lon": -87.67753,
+    "name": "Winchester (Ravenswood) Ave & Balmoral Ave"
+  },
+  {
+    "legacy_id": "505",
+    "lat": 41.9240908504,
+    "lon": -87.6764600747,
+    "name": "Winchester Ave & Elston Ave"
+  },
+  {
+    "legacy_id": "253",
+    "lat": 41.968812,
+    "lon": -87.657659,
+    "name": "Winthrop Ave & Lawrence Ave"
+  },
+  {
+    "legacy_id": "238",
+    "lat": 41.961406,
+    "lon": -87.676169,
+    "name": "Wolcott (Ravenswood) Ave & Montrose Ave"
+  },
+  {
+    "legacy_id": "519",
+    "lat": 42.016977,
+    "lon": -87.677725,
+    "name": "Wolcott Ave & Fargo Ave"
+  },
+  {
+    "legacy_id": "369",
+    "lat": 41.8301046542,
+    "lon": -87.6702983089,
+    "name": "Wood St & 35th St"
+  },
+  {
+    "legacy_id": "657",
+    "lat": 41.899181,
+    "lon": -87.6722,
+    "name": "Wood St & Augusta Blvd"
+  },
+  {
+    "legacy_id": "637",
+    "lat": 41.895634,
+    "lon": -87.672069,
+    "name": "Wood St & Chicago Ave"
+  },
+  {
+    "legacy_id": "569",
+    "lat": 41.75916,
+    "lon": -87.595751,
+    "name": "Woodlawn Ave & 75th St"
+  },
+  {
+    "legacy_id": "413",
+    "lat": 41.8140927105,
+    "lon": -87.5970051479,
+    "name": "Woodlawn Ave & Lake Park Ave"
+  },
+  {
+    "legacy_id": "396",
+    "lat": 41.758768,
+    "lon": -87.56644,
+    "name": "Yates Blvd & 75th St"
+  }
+]
