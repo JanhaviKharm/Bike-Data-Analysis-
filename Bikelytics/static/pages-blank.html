@@ -284,191 +284,100 @@
 		console.log("Called loadIncomingStats",selectedStation);
 		console.log("Called loadIncomingStats",stationsCsv[selectedStation].name);
 		document.getElementById("hourly-incoming-header").innerText = "Hourly Incoming Stats for " + stationsCsv[selectedStation].name;
-		am5.ready(function() {
+
+		fetch("./data/station/stationwise_incomingstats/daily_ridership_counts_"+stationsCsv[selectedStation].legacy_id+".json")
+				.then(response => response.json())
+				.then(json => {
+					am5.ready(function() {
 
 // Create root element
 // https://www.amcharts.com/docs/v5/getting-started/#Root_element
-			if(hourlyIncomingChartRoot !== null)
-				hourlyIncomingChartRoot.dispose();
-			hourlyIncomingChartRoot = am5.Root.new("barchartdiv1");
+						if(hourlyIncomingChartRoot !== null)
+							hourlyIncomingChartRoot.dispose();
+						hourlyIncomingChartRoot = am5.Root.new("barchartdiv1");
 
 
 // Set themes
 // https://www.amcharts.com/docs/v5/concepts/themes/
-			hourlyIncomingChartRoot.setThemes([
-				am5themes_Animated.new(hourlyIncomingChartRoot)
-			]);
+						hourlyIncomingChartRoot.setThemes([
+							am5themes_Animated.new(hourlyIncomingChartRoot)
+						]);
 
 
 // Create chart
 // https://www.amcharts.com/docs/v5/charts/xy-chart/
-			var chart = hourlyIncomingChartRoot.container.children.push(am5xy.XYChart.new(hourlyIncomingChartRoot, {
-				panX: true,
-				panY: true,
-				wheelX: "panX",
-				wheelY: "zoomX",
-				pinchZoomX:true
-			}));
+						var chart = hourlyIncomingChartRoot.container.children.push(am5xy.XYChart.new(hourlyIncomingChartRoot, {
+							panX: true,
+							panY: true,
+							wheelX: "panX",
+							wheelY: "zoomX",
+							pinchZoomX:true
+						}));
 
 // Add cursor
 // https://www.amcharts.com/docs/v5/charts/xy-chart/cursor/
-			var cursor = chart.set("cursor", am5xy.XYCursor.new(hourlyIncomingChartRoot, {}));
-			cursor.lineY.set("visible", false);
+						var cursor = chart.set("cursor", am5xy.XYCursor.new(hourlyIncomingChartRoot, {}));
+						cursor.lineY.set("visible", false);
 
 
 // Create axes
 // https://www.amcharts.com/docs/v5/charts/xy-chart/axes/
-			var xRenderer = am5xy.AxisRendererX.new(hourlyIncomingChartRoot, { minGridDistance: 30 });
-			xRenderer.labels.template.setAll({
-				rotation: -90,
-				centerY: am5.p50,
-				centerX: am5.p100,
-				paddingRight: 15
-			});
+						var xRenderer = am5xy.AxisRendererX.new(hourlyIncomingChartRoot, { minGridDistance: 30 });
+						xRenderer.labels.template.setAll({
+							rotation: -90,
+							centerY: am5.p50,
+							centerX: am5.p100,
+							paddingRight: 15
+						});
 
-			var xAxis = chart.xAxes.push(am5xy.CategoryAxis.new(hourlyIncomingChartRoot, {
-				maxDeviation: 0.3,
-				categoryField: "hour",
-				renderer: xRenderer,
-				tooltip: am5.Tooltip.new(hourlyIncomingChartRoot, {})
-			}));
+						var xAxis = chart.xAxes.push(am5xy.CategoryAxis.new(hourlyIncomingChartRoot, {
+							maxDeviation: 0.3,
+							categoryField: "hour",
+							renderer: xRenderer,
+							tooltip: am5.Tooltip.new(hourlyIncomingChartRoot, {})
+						}));
 
-			var yAxis = chart.yAxes.push(am5xy.ValueAxis.new(hourlyIncomingChartRoot, {
-				maxDeviation: 0.3,
-				renderer: am5xy.AxisRendererY.new(hourlyIncomingChartRoot, {})
-			}));
+						var yAxis = chart.yAxes.push(am5xy.ValueAxis.new(hourlyIncomingChartRoot, {
+							maxDeviation: 0.3,
+							renderer: am5xy.AxisRendererY.new(hourlyIncomingChartRoot, {})
+						}));
 
 
 // Create series
 // https://www.amcharts.com/docs/v5/charts/xy-chart/series/
-			var series = chart.series.push(am5xy.ColumnSeries.new(hourlyIncomingChartRoot, {
-				name: "Series 1",
-				xAxis: xAxis,
-				yAxis: yAxis,
-				valueYField: "trips",
-				sequencedInterpolation: true,
-				categoryXField: "hour",
-				tooltip: am5.Tooltip.new(hourlyIncomingChartRoot, {
-					labelText:"{valueY}"
-				})
-			}));
+						var series = chart.series.push(am5xy.ColumnSeries.new(hourlyIncomingChartRoot, {
+							name: "Series 1",
+							xAxis: xAxis,
+							yAxis: yAxis,
+							valueYField: "trips",
+							sequencedInterpolation: true,
+							categoryXField: "hour",
+							tooltip: am5.Tooltip.new(hourlyIncomingChartRoot, {
+								labelText:"{valueY}"
+							})
+						}));
 
-			series.columns.template.setAll({ cornerRadiusTL: 5, cornerRadiusTR: 5 });
-			// series.columns.template.adapters.add("stroke", function(stroke, target) {
-			// 	return chart.get("colors").getIndex(series.columns.indexOf(target));
-			// });
+						series.columns.template.setAll({ cornerRadiusTL: 5, cornerRadiusTR: 5 });
+						// series.columns.template.adapters.add("stroke", function(stroke, target) {
+						// 	return chart.get("colors").getIndex(series.columns.indexOf(target));
+						// });
 
 
 // Set data
-			var data =  [
-				{
-					"trips": 75,
-					"hour": 0
-				},
-				{
-					"trips": 59,
-					"hour": 1
-				},
-				{
-					"trips": 36,
-					"hour": 2
-				},
-				{
-					"trips": 15,
-					"hour": 3
-				},
-				{
-					"trips": 7,
-					"hour": 4
-				},
-				{
-					"trips": 154,
-					"hour": 5
-				},
-				{
-					"trips": 405,
-					"hour": 6
-				},
-				{
-					"trips": 957,
-					"hour": 7
-				},
-				{
-					"trips": 1333,
-					"hour": 8
-				},
-				{
-					"trips": 2416,
-					"hour": 9
-				},
-				{
-					"trips": 4316,
-					"hour": 10
-				},
-				{
-					"trips": 6238,
-					"hour": 11
-				},
-				{
-					"trips": 7159,
-					"hour": 12
-				},
-				{
-					"trips": 7920,
-					"hour": 13
-				},
-				{
-					"trips": 8099,
-					"hour": 14
-				},
-				{
-					"trips": 7928,
-					"hour": 15
-				},
-				{
-					"trips": 7208,
-					"hour": 16
-				},
-				{
-					"trips": 6563,
-					"hour": 17
-				},
-				{
-					"trips": 4910,
-					"hour": 18
-				},
-				{
-					"trips": 3141,
-					"hour": 19
-				},
-				{
-					"trips": 1938,
-					"hour": 20
-				},
-				{
-					"trips": 850,
-					"hour": 21
-				},
-				{
-					"trips": 496,
-					"hour": 22
-				},
-				{
-					"trips": 226,
-					"hour": 23
-				}
-			];
+						var data = json;
 
-			xAxis.data.setAll(data);
-			series.data.setAll(data);
+						xAxis.data.setAll(data);
+						series.data.setAll(data);
 
 
 // Make stuff animate on load
 // https://www.amcharts.com/docs/v5/concepts/animations/
-			series.appear(1000);
-			chart.appear(1000, 100);
+						series.appear(1000);
+						chart.appear(1000, 100);
 
-		}); // end am5.ready()
+					}); // end am5.ready()
+				});
+
 	}
 
 	function loadOutgoingStats() {
@@ -477,191 +386,100 @@
 		console.log("Called loadOutgoingStats",stationsCsv[selectedStation].name);
 		document.getElementById("hourly-outgoing-header").innerText = "Hourly Outgoing Stats for " + stationsCsv[selectedStation].name;
 
-		am5.ready(function() {
+		fetch("./data/station/stationwise_outgoingstats/daily_ridership_counts_"+stationsCsv[selectedStation].legacy_id+".json")
+				.then(response => response.json())
+				.then(json => {
+					am5.ready(function() {
 
 // Create root element
 // https://www.amcharts.com/docs/v5/getting-started/#Root_element
-			if(hourlyOutgoingChartRoot !== null)
-				hourlyOutgoingChartRoot.dispose();
-			hourlyOutgoingChartRoot = am5.Root.new("barchartdiv2");
+						if(hourlyOutgoingChartRoot !== null)
+							hourlyOutgoingChartRoot.dispose();
+						hourlyOutgoingChartRoot = am5.Root.new("barchartdiv2");
 
 
 // Set themes
 // https://www.amcharts.com/docs/v5/concepts/themes/
-			hourlyOutgoingChartRoot.setThemes([
-				am5themes_Animated.new(hourlyOutgoingChartRoot)
-			]);
+						hourlyOutgoingChartRoot.setThemes([
+							am5themes_Animated.new(hourlyOutgoingChartRoot)
+						]);
 
 
 // Create chart
 // https://www.amcharts.com/docs/v5/charts/xy-chart/
-			var chart = hourlyOutgoingChartRoot.container.children.push(am5xy.XYChart.new(hourlyOutgoingChartRoot, {
-				panX: true,
-				panY: true,
-				wheelX: "panX",
-				wheelY: "zoomX",
-				pinchZoomX:true
-			}));
+						var chart = hourlyOutgoingChartRoot.container.children.push(am5xy.XYChart.new(hourlyOutgoingChartRoot, {
+							panX: true,
+							panY: true,
+							wheelX: "panX",
+							wheelY: "zoomX",
+							pinchZoomX:true
+						}));
 
 // Add cursor
 // https://www.amcharts.com/docs/v5/charts/xy-chart/cursor/
-			var cursor = chart.set("cursor", am5xy.XYCursor.new(hourlyOutgoingChartRoot, {}));
-			cursor.lineY.set("visible", false);
+						var cursor = chart.set("cursor", am5xy.XYCursor.new(hourlyOutgoingChartRoot, {}));
+						cursor.lineY.set("visible", false);
 
 
 // Create axes
 // https://www.amcharts.com/docs/v5/charts/xy-chart/axes/
-			var xRenderer = am5xy.AxisRendererX.new(hourlyOutgoingChartRoot, { minGridDistance: 30 });
-			xRenderer.labels.template.setAll({
-				rotation: -90,
-				centerY: am5.p50,
-				centerX: am5.p100,
-				paddingRight: 15
-			});
+						var xRenderer = am5xy.AxisRendererX.new(hourlyOutgoingChartRoot, { minGridDistance: 30 });
+						xRenderer.labels.template.setAll({
+							rotation: -90,
+							centerY: am5.p50,
+							centerX: am5.p100,
+							paddingRight: 15
+						});
 
-			var xAxis = chart.xAxes.push(am5xy.CategoryAxis.new(hourlyOutgoingChartRoot, {
-				maxDeviation: 0.3,
-				categoryField: "hour",
-				renderer: xRenderer,
-				tooltip: am5.Tooltip.new(hourlyOutgoingChartRoot, {})
-			}));
+						var xAxis = chart.xAxes.push(am5xy.CategoryAxis.new(hourlyOutgoingChartRoot, {
+							maxDeviation: 0.3,
+							categoryField: "hour",
+							renderer: xRenderer,
+							tooltip: am5.Tooltip.new(hourlyOutgoingChartRoot, {})
+						}));
 
-			var yAxis = chart.yAxes.push(am5xy.ValueAxis.new(hourlyOutgoingChartRoot, {
-				maxDeviation: 0.3,
-				renderer: am5xy.AxisRendererY.new(hourlyOutgoingChartRoot, {})
-			}));
+						var yAxis = chart.yAxes.push(am5xy.ValueAxis.new(hourlyOutgoingChartRoot, {
+							maxDeviation: 0.3,
+							renderer: am5xy.AxisRendererY.new(hourlyOutgoingChartRoot, {})
+						}));
 
 
 // Create series
 // https://www.amcharts.com/docs/v5/charts/xy-chart/series/
-			var series = chart.series.push(am5xy.ColumnSeries.new(hourlyOutgoingChartRoot, {
-				name: "Series 1",
-				xAxis: xAxis,
-				yAxis: yAxis,
-				valueYField: "trips",
-				sequencedInterpolation: true,
-				categoryXField: "hour",
-				tooltip: am5.Tooltip.new(hourlyOutgoingChartRoot, {
-					labelText:"{valueY}"
-				})
-			}));
+						var series = chart.series.push(am5xy.ColumnSeries.new(hourlyOutgoingChartRoot, {
+							name: "Series 1",
+							xAxis: xAxis,
+							yAxis: yAxis,
+							valueYField: "trips",
+							sequencedInterpolation: true,
+							categoryXField: "hour",
+							tooltip: am5.Tooltip.new(hourlyOutgoingChartRoot, {
+								labelText:"{valueY}"
+							})
+						}));
 
-			series.columns.template.setAll({ cornerRadiusTL: 5, cornerRadiusTR: 5 });
-			// series.columns.template.adapters.add("stroke", function(stroke, target) {
-			// 	return chart.get("colors").getIndex(series.columns.indexOf(target));
-			// });
+						series.columns.template.setAll({ cornerRadiusTL: 5, cornerRadiusTR: 5 });
+						// series.columns.template.adapters.add("stroke", function(stroke, target) {
+						// 	return chart.get("colors").getIndex(series.columns.indexOf(target));
+						// });
 
 
 // Set data
-			var data =  [
-				{
-					"trips": 212,
-					"hour": 0
-				},
-				{
-					"trips": 78,
-					"hour": 1
-				},
-				{
-					"trips": 32,
-					"hour": 2
-				},
-				{
-					"trips": 15,
-					"hour": 3
-				},
-				{
-					"trips": 5,
-					"hour": 4
-				},
-				{
-					"trips": 72,
-					"hour": 5
-				},
-				{
-					"trips": 245,
-					"hour": 6
-				},
-				{
-					"trips": 867,
-					"hour": 7
-				},
-				{
-					"trips": 972,
-					"hour": 8
-				},
-				{
-					"trips": 1110,
-					"hour": 9
-				},
-				{
-					"trips": 2105,
-					"hour": 10
-				},
-				{
-					"trips": 3320,
-					"hour": 11
-				},
-				{
-					"trips": 4320,
-					"hour": 12
-				},
-				{
-					"trips": 5386,
-					"hour": 13
-				},
-				{
-					"trips": 6029,
-					"hour": 14
-				},
-				{
-					"trips": 6609,
-					"hour": 15
-				},
-				{
-					"trips": 6676,
-					"hour": 16
-				},
-				{
-					"trips": 6174,
-					"hour": 17
-				},
-				{
-					"trips": 4772,
-					"hour": 18
-				},
-				{
-					"trips": 3693,
-					"hour": 19
-				},
-				{
-					"trips": 2502,
-					"hour": 20
-				},
-				{
-					"trips": 1601,
-					"hour": 21
-				},
-				{
-					"trips": 1368,
-					"hour": 22
-				},
-				{
-					"trips": 546,
-					"hour": 23
-				}
-			];
+						var data =  json;
 
-			xAxis.data.setAll(data);
-			series.data.setAll(data);
+						xAxis.data.setAll(data);
+						series.data.setAll(data);
 
 
 // Make stuff animate on load
 // https://www.amcharts.com/docs/v5/concepts/animations/
-			series.appear(1000);
-			chart.appear(1000, 100);
+						series.appear(1000);
+						chart.appear(1000, 100);
 
-		});
+					});
+				});
+
+
 	}
 
 	function loadHeatMap() {
