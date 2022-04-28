@@ -24,6 +24,10 @@
 			width: 100%;
 			height: 500px;
 		}
+		#hybriddiv1 {
+			width: 100%;
+			height: 500px;
+		}
 		#chartdiv1 {
 			width: 100%;
 			height: 500px;
@@ -45,128 +49,63 @@
 	<!-- Resources -->
 	<script src="https://cdn.amcharts.com/lib/5/index.js"></script>
 	<script src="https://cdn.amcharts.com/lib/5/xy.js"></script>
+	<script src="https://cdn.amcharts.com/lib/5/percent.js"></script>
 	<script src="https://cdn.amcharts.com/lib/5/themes/Animated.js"></script>
+	<script src="https://cdn.amcharts.com/lib/5/plugins/exporting.js"></script>
 
 	<script src='https://cdn.plot.ly/plotly-2.9.0.min.js'></script>
 	<script src='https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js'></script>
 
 
-	<!-- Chart code -->
+
 	<script>
 		am5.ready(function() {
 
-// Data
-			var data = [
-				{
-					date: "2013-01-16",
-					market0: 71,
-					market1: 75,
-					sales0: 5,
-					sales1: 9
+// Set up data
+			var data = [{
+				category: "Subscriber",
+				value: 89,
+				sliceSettings: {
+					fill: am5.color(0xdc4534),
 				},
-				{
-					date: "2013-01-17",
-					market0: 74,
-					market1: 78,
-					sales0: 4,
-					sales1: 6
+				breakdown: [{
+					category: "16-25",
+					value: 43
+				}, {
+					category: "25-35",
+					value: 25
+				}, {
+					category: "35-50",
+					value: 21
+				}, {
+					category: "50+",
+					value: 11
+				}]
+			}, {
+				category: "Customer",
+				value: 71,
+				sliceSettings: {
+					fill: am5.color(0xd7a700),
 				},
-				{
-					date: "2013-01-18",
-					market0: 78,
-					market1: 88,
-					sales0: 5,
-					sales1: 2
-				},
-				{
-					date: "2013-01-19",
-					market0: 85,
-					market1: 89,
-					sales0: 8,
-					sales1: 9
-				},
-				{
-					date: "2013-01-20",
-					market0: 82,
-					market1: 89,
-					sales0: 9,
-					sales1: 6
-				},
-				{
-					date: "2013-01-21",
-					market0: 83,
-					market1: 85,
-					sales0: 3,
-					sales1: 5
-				},
-				{
-					date: "2013-01-22",
-					market0: 88,
-					market1: 92,
-					sales0: 5,
-					sales1: 7
-				},
-				{
-					date: "2013-01-23",
-					market0: 85,
-					market1: 90,
-					sales0: 7,
-					sales1: 6
-				},
-				{
-					date: "2013-01-24",
-					market0: 85,
-					market1: 91,
-					sales0: 9,
-					sales1: 5
-				},
-				{
-					date: "2013-01-25",
-					market0: 80,
-					market1: 84,
-					sales0: 5,
-					sales1: 8
-				},
-				{
-					date: "2013-01-26",
-					market0: 87,
-					market1: 92,
-					sales0: 4,
-					sales1: 8
-				},
-				{
-					date: "2013-01-27",
-					market0: 84,
-					market1: 87,
-					sales0: 3,
-					sales1: 4
-				},
-				{
-					date: "2013-01-28",
-					market0: 83,
-					market1: 88,
-					sales0: 5,
-					sales1: 7
-				},
-				{
-					date: "2013-01-29",
-					market0: 84,
-					market1: 87,
-					sales0: 5,
-					sales1: 8
-				},
-				{
-					date: "2013-01-30",
-					market0: 81,
-					market1: 85,
-					sales0: 4,
-					sales1: 7
-				}
-			];
+				breakdown: [{
+					category: "16-25",
+					value: 53
+				}, {
+					category: "25-35",
+					value: 24
+				}, {
+					category: "35-50",
+					value: 18
+				}, {
+					category: "50+",
+					value: 5
+				}]
+			}]
 
 // Create root element
 // https://www.amcharts.com/docs/v5/getting-started/#Root_element
-			var root = am5.Root.new("chartdiv");
+			var root = am5.Root.new("hybriddiv1");
+
 
 // Set themes
 // https://www.amcharts.com/docs/v5/concepts/themes/
@@ -174,242 +113,442 @@
 				am5themes_Animated.new(root)
 			]);
 
-			root.dateFormatter.setAll({
-				dateFormat: "yyyy-MM-dd",
-				dateFields: ["valueX"]
-			});
+// Create wrapper container
+			var container = root.container.children.push(am5.Container.new(root, {
+				width: am5.p100,
+				height: am5.p100,
+				layout: root.horizontalLayout
+			}));
+
+
+// ==============================================
+// Column chart
+// ==============================================
 
 // Create chart
 // https://www.amcharts.com/docs/v5/charts/xy-chart/
-			var chart = root.container.children.push(
-					am5xy.XYChart.new(root, {
-						panX: false,
-						panY: false,
-						wheelX: "panX",
-						wheelY: "zoomX",
-						layout: root.verticalLayout
-					})
-			);
-
-// Add cursor
-// https://www.amcharts.com/docs/v5/charts/xy-chart/cursor/
-			var cursor = chart.set("cursor", am5xy.XYCursor.new(root, {
-				behavior: "zoomX"
+			var columnChart = container.children.push(am5xy.XYChart.new(root, {
+				width: am5.p50,
+				panX: false,
+				panY: false,
+				wheelX: "none",
+				wheelY: "none",
+				layout: root.verticalLayout
 			}));
-			cursor.lineY.set("visible", false);
 
 // Create axes
 // https://www.amcharts.com/docs/v5/charts/xy-chart/axes/
-			var xAxis = chart.xAxes.push(
-					am5xy.DateAxis.new(root, {
-						baseInterval: { timeUnit: "day", count: 1 },
-						renderer: am5xy.AxisRendererX.new(root, {}),
-						tooltip: am5.Tooltip.new(root, {}),
-						tooltipDateFormat: "yyyy-MM-dd"
-					})
-			);
+			var yAxis = columnChart.yAxes.push(am5xy.CategoryAxis.new(root, {
+				categoryField: "category",
+				renderer: am5xy.AxisRendererY.new(root, {})
+			}));
 
-			var yAxis0 = chart.yAxes.push(
-					am5xy.ValueAxis.new(root, {
-						renderer: am5xy.AxisRendererY.new(root, {})
-					})
-			);
+//xAxis.data.setAll(data);
 
-			var yRenderer1 = am5xy.AxisRendererY.new(root, {
-				opposite: true
-			});
-			yRenderer1.grid.template.set("forceHidden", true);
+			var xAxis = columnChart.xAxes.push(am5xy.ValueAxis.new(root, {
+				renderer: am5xy.AxisRendererX.new(root, {})
+			}));
 
-			var yAxis1 = chart.yAxes.push(
-					am5xy.ValueAxis.new(root, {
-						renderer: yRenderer1,
-						syncWithAxis: yAxis0
-					})
-			);
 
 // Add series
 // https://www.amcharts.com/docs/v5/charts/xy-chart/series/
-			var columnSeries1 = chart.series.push(
-					am5xy.ColumnSeries.new(root, {
-						name: "Actual sales",
-						xAxis: xAxis,
-						yAxis: yAxis0,
-						valueYField: "sales1",
-						valueXField: "date",
-						clustered: false,
-						tooltip: am5.Tooltip.new(root, {
-							pointerOrientation: "horizontal",
-							labelText: "{name}: {valueY}"
-						})
-					})
-			);
-
-			columnSeries1.columns.template.setAll({
-				width: am5.percent(60),
-				fillOpacity: 0.5,
-				strokeOpacity: 0
-			});
-
-
-			columnSeries1.data.processor = am5.DataProcessor.new(root, {
-				dateFields: ["date"],
-				dateFormat: "yyyy-MM-dd"
-			});
-
-			var columnSeries0 = chart.series.push(
-					am5xy.ColumnSeries.new(root, {
-						name: "Target sales",
-						xAxis: xAxis,
-						yAxis: yAxis0,
-						valueYField: "sales0",
-						valueXField: "date",
-						clustered: false,
-						tooltip: am5.Tooltip.new(root, {
-							pointerOrientation: "horizontal",
-							labelText: "{name}: {valueY}"
-						})
-					})
-			);
-
-			columnSeries0.columns.template.set("width", am5.percent(40));
-
-			var series0 = chart.series.push(
-					am5xy.SmoothedXLineSeries.new(root, {
-						name: "Market days",
-						xAxis: xAxis,
-						yAxis: yAxis1,
-						valueYField: "market0",
-						valueXField: "date",
-						tooltip: am5.Tooltip.new(root, {
-							pointerOrientation: "horizontal",
-							labelText: "{name}: {valueY}"
-						})
-					})
-			);
-
-			series0.strokes.template.setAll({
-				strokeWidth: 2
-			});
-
-// Add bullet
-// https://www.amcharts.com/docs/v5/charts/xy-chart/series/#Bullets
-			series0.bullets.push(function() {
-				return am5.Bullet.new(root, {
-					sprite: am5.Circle.new(root, {
-						stroke: series0.get("fill"),
-						strokeWidth: 2,
-						fill: root.interfaceColors.get("background"),
-						radius: 5
-					})
-				});
-			});
-
-			var series1 = chart.series.push(
-					am5xy.SmoothedXLineSeries.new(root, {
-						name: "Market days all",
-						xAxis: xAxis,
-						yAxis: yAxis1,
-						valueYField: "market1",
-						valueXField: "date"
-					})
-			);
-
-			series1.strokes.template.setAll({
-				strokeWidth: 2,
-				strokeDasharray: [2, 2]
-			});
-
-			var tooltip1 = series1.set("tooltip", am5.Tooltip.new(root, {
-				pointerOrientation: "horizontal"
-			}));
-			tooltip1.label.set("text", "{name}: {valueY}");
-
-// Add bullet
-// https://www.amcharts.com/docs/v5/charts/xy-chart/series/#Bullets
-			series1.bullets.push(function() {
-				return am5.Bullet.new(root, {
-					sprite: am5.Circle.new(root, {
-						stroke: series1.get("fill"),
-						strokeWidth: 2,
-						fill: root.interfaceColors.get("background"),
-						radius: 5
-					})
-				});
-			});
-
-// Add scrollbar
-// https://www.amcharts.com/docs/v5/charts/xy-chart/scrollbars/
-			var scrollbar = chart.set("scrollbarX", am5xy.XYChartScrollbar.new(root, {
-				orientation: "horizontal",
-				height: 60
+			var columnSeries = columnChart.series.push(am5xy.ColumnSeries.new(root, {
+				name: name,
+				xAxis: xAxis,
+				yAxis: yAxis,
+				valueXField: "value",
+				categoryYField: "category"
 			}));
 
-			var sbDateAxis = scrollbar.chart.xAxes.push(
-					am5xy.DateAxis.new(root, {
-						baseInterval: {
-							timeUnit: "day",
-							count: 1
-						},
-						renderer: am5xy.AxisRendererX.new(root, {})
-					})
-			);
+			columnSeries.columns.template.setAll({
+				tooltipText: "{categoryY}: {valueX}"
+			});
 
-			var sbValueAxis0 = scrollbar.chart.yAxes.push(
-					am5xy.ValueAxis.new(root, {
-						renderer: am5xy.AxisRendererY.new(root, {})
-					})
-			);
-
-			var sbValueAxis1 = scrollbar.chart.yAxes.push(
-					am5xy.ValueAxis.new(root, {
-						renderer: am5xy.AxisRendererY.new(root, {})
-					})
-			);
-
-			var sbSeries0 = scrollbar.chart.series.push(
-					am5xy.ColumnSeries.new(root, {
-						valueYField: "sales0",
-						valueXField: "date",
-						xAxis: sbDateAxis,
-						yAxis: sbValueAxis0
-					})
-			);
-
-			sbSeries0.columns.template.setAll({ fillOpacity: 0.5, strokeOpacity: 0 });
-
-			var sbSeries1 = scrollbar.chart.series.push(
-					am5xy.LineSeries.new(root, {
-						valueYField: "market0",
-						valueXField: "date",
-						xAxis: sbDateAxis,
-						yAxis: sbValueAxis1
-					})
-			);
-
-			var legend = chart.children.push(
-					am5.Legend.new(root, {
-						x: am5.p50,
-						centerX: am5.p50
-					})
-			);
-			legend.data.setAll(chart.series.values);
-
-			columnSeries1.data.setAll(data);
-			columnSeries0.data.setAll(data);
-
-			series0.data.setAll(data);
-			series1.data.setAll(data);
-
-			sbSeries0.data.setAll(data);
-			sbSeries1.data.setAll(data);
+//series.data.setAll(data);
 
 // Make stuff animate on load
 // https://www.amcharts.com/docs/v5/concepts/animations/
-			series0.appear(1000);
-			series1.appear(1000);
-			chart.appear(1000, 100);
+			columnChart.appear(1000, 100);
+
+
+// ==============================================
+// Column chart
+// ==============================================
+
+			var pieChart = container.children.push(
+					am5percent.PieChart.new(root, {
+						width: am5.p50,
+						innerRadius: am5.percent(50)
+					})
+			);
+
+// Create series
+			var pieSeries = pieChart.series.push(
+					am5percent.PieSeries.new(root, {
+						valueField: "value",
+						categoryField: "category"
+					})
+			);
+
+			pieSeries.slices.template.setAll({
+				templateField: "sliceSettings",
+				strokeOpacity: 0
+			});
+
+			var currentSlice;
+			pieSeries.slices.template.on("active", function(active, slice) {
+				if (currentSlice && currentSlice != slice && active) {
+					currentSlice.set("active", false)
+				}
+
+				var color = slice.get("fill");
+
+				label1.setAll({
+					fill: color,
+					text: root.numberFormatter.format(slice.dataItem.get("valuePercentTotal"), "#.'%'")
+				});
+
+				label2.set("text", slice.dataItem.get("category"));
+
+				columnSeries.columns.template.setAll({
+					fill: slice.get("fill"),
+					stroke: slice.get("fill")
+				});
+
+				columnSeries.data.setAll(slice.dataItem.dataContext.breakdown);
+				yAxis.data.setAll(slice.dataItem.dataContext.breakdown);
+
+				currentSlice = slice;
+			});
+
+			pieSeries.labels.template.set("forceHidden", true);
+			pieSeries.ticks.template.set("forceHidden", true);
+
+			pieSeries.data.setAll(data);
+
+// Add label
+			var label1 = pieChart.seriesContainer.children.push(am5.Label.new(root, {
+				text: "",
+				fontSize: 35,
+				fontweight: "bold",
+				centerX: am5.p50,
+				centerY: am5.p50
+			}));
+
+			var label2 = pieChart.seriesContainer.children.push(am5.Label.new(root, {
+				text: "",
+				fontSize: 12,
+				centerX: am5.p50,
+				centerY: am5.p50,
+				dy: 30
+			}));
+
+// Pre-select first slice
+			pieSeries.events.on("datavalidated", function() {
+				pieSeries.slices.getIndex(0).set("active", true);
+			});
 
 		}); // end am5.ready()
+	</script>
+
+	<!-- Chart code -->
+	<script>
+
+		fetch("./data/station/catBasedCounts.json")
+				.then(response => response.json())
+				.then(json=> {
+					am5.ready(function() {
+
+// Data
+						var data = [
+							{
+								date: "2013-01",
+								customer: 71,
+								subscriber: 75,
+								sales0: 5,
+								sales1: 9
+							},
+							{
+								date: "2013-02",
+								customer: 74,
+								subscriber: 78,
+								sales0: 4,
+								sales1: 6
+							}
+						];
+						data = json;
+// Create root element
+// https://www.amcharts.com/docs/v5/getting-started/#Root_element
+						var root = am5.Root.new("chartdiv");
+
+// Set themes
+// https://www.amcharts.com/docs/v5/concepts/themes/
+						root.setThemes([
+							am5themes_Animated.new(root)
+						]);
+
+						root.dateFormatter.setAll({
+							dateFormat: "yyyy-MM-dd",
+							dateFields: ["valueX"]
+						});
+
+// Create chart
+// https://www.amcharts.com/docs/v5/charts/xy-chart/
+						var chart = root.container.children.push(
+								am5xy.XYChart.new(root, {
+									panX: false,
+									panY: false,
+									wheelX: "panX",
+									wheelY: "zoomX",
+									layout: root.verticalLayout
+								})
+						);
+
+// Add cursor
+// https://www.amcharts.com/docs/v5/charts/xy-chart/cursor/
+						var cursor = chart.set("cursor", am5xy.XYCursor.new(root, {
+							behavior: "zoomX"
+						}));
+						cursor.lineY.set("visible", false);
+
+// Create axes
+// https://www.amcharts.com/docs/v5/charts/xy-chart/axes/
+						var xAxis = chart.xAxes.push(
+								am5xy.DateAxis.new(root, {
+									baseInterval: { timeUnit: "day", count: 1 },
+									renderer: am5xy.AxisRendererX.new(root, {}),
+									tooltip: am5.Tooltip.new(root, {}),
+									tooltipDateFormat: "yyyy-MM-dd"
+								})
+						);
+
+						var yAxis0 = chart.yAxes.push(
+								am5xy.ValueAxis.new(root, {
+									renderer: am5xy.AxisRendererY.new(root, {})
+								})
+						);
+
+						var yRenderer1 = am5xy.AxisRendererY.new(root, {
+							opposite: true
+						});
+						yRenderer1.grid.template.set("forceHidden", true);
+
+						var yAxis1 = chart.yAxes.push(
+								am5xy.ValueAxis.new(root, {
+									renderer: yRenderer1,
+									syncWithAxis: yAxis0
+								})
+						);
+
+// Add series
+// https://www.amcharts.com/docs/v5/charts/xy-chart/series/
+						var columnSeries1 = chart.series.push(
+								am5xy.ColumnSeries.new(root, {
+									name: "Males",
+									xAxis: xAxis,
+									yAxis: yAxis0,
+									valueYField: "male",
+									valueXField: "date",
+									clustered: false,
+									tooltip: am5.Tooltip.new(root, {
+										pointerOrientation: "horizontal",
+										labelText: "{name}: {valueY}"
+									})
+								})
+						);
+
+						columnSeries1.columns.template.setAll({
+							width: am5.percent(70),
+							fillOpacity: 0.5,
+							strokeOpacity: 0
+						});
+
+
+						columnSeries1.data.processor = am5.DataProcessor.new(root, {
+							dateFields: ["date"],
+							dateFormat: "yyyy-MM-dd"
+						});
+
+						var columnSeriesFemale = chart.series.push(
+								am5xy.ColumnSeries.new(root, {
+									name: "Females",
+									xAxis: xAxis,
+									yAxis: yAxis0,
+									valueYField: "female",
+									valueXField: "date",
+									clustered: false,
+									tooltip: am5.Tooltip.new(root, {
+										pointerOrientation: "horizontal",
+										labelText: "{name}: {valueY}"
+									})
+								})
+						);
+
+						columnSeriesFemale.columns.template.setAll({
+							width: am5.percent(50),
+							fillOpacity: 0.75,
+							strokeOpacity: 0
+						});
+
+
+
+						var columnSeries0 = chart.series.push(
+								am5xy.ColumnSeries.new(root, {
+									name: "Other",
+									xAxis: xAxis,
+									yAxis: yAxis0,
+									valueYField: "other",
+									valueXField: "date",
+									clustered: false,
+									tooltip: am5.Tooltip.new(root, {
+										pointerOrientation: "horizontal",
+										labelText: "{name}: {valueY}"
+									})
+								})
+						);
+
+						columnSeries0.columns.template.set("width", am5.percent(40));
+
+						var series0 = chart.series.push(
+								am5xy.SmoothedXLineSeries.new(root, {
+									name: "Customers",
+									xAxis: xAxis,
+									yAxis: yAxis1,
+									valueYField: "customer",
+									valueXField: "date",
+									tooltip: am5.Tooltip.new(root, {
+										pointerOrientation: "horizontal",
+										labelText: "{name}: {valueY}"
+									})
+								})
+						);
+
+						series0.strokes.template.setAll({
+							strokeWidth: 2
+						});
+
+// Add bullet
+// https://www.amcharts.com/docs/v5/charts/xy-chart/series/#Bullets
+						series0.bullets.push(function() {
+							return am5.Bullet.new(root, {
+								sprite: am5.Circle.new(root, {
+									stroke: series0.get("fill"),
+									strokeWidth: 2,
+									fill: root.interfaceColors.get("background"),
+									radius: 5
+								})
+							});
+						});
+
+						var series1 = chart.series.push(
+								am5xy.SmoothedXLineSeries.new(root, {
+									name: "Subscribers",
+									xAxis: xAxis,
+									yAxis: yAxis1,
+									valueYField: "subscriber",
+									valueXField: "date"
+								})
+						);
+
+						series1.strokes.template.setAll({
+							strokeWidth: 2,
+							strokeDasharray: [2, 2]
+						});
+
+						var tooltip1 = series1.set("tooltip", am5.Tooltip.new(root, {
+							pointerOrientation: "horizontal"
+						}));
+						tooltip1.label.set("text", "{name}: {valueY}");
+
+// Add bullet
+// https://www.amcharts.com/docs/v5/charts/xy-chart/series/#Bullets
+						series1.bullets.push(function() {
+							return am5.Bullet.new(root, {
+								sprite: am5.Circle.new(root, {
+									stroke: series1.get("fill"),
+									strokeWidth: 2,
+									fill: root.interfaceColors.get("background"),
+									radius: 5
+								})
+							});
+						});
+
+// Add scrollbar
+// https://www.amcharts.com/docs/v5/charts/xy-chart/scrollbars/
+						var scrollbar = chart.set("scrollbarX", am5xy.XYChartScrollbar.new(root, {
+							orientation: "horizontal",
+							height: 60
+						}));
+
+						var sbDateAxis = scrollbar.chart.xAxes.push(
+								am5xy.DateAxis.new(root, {
+									baseInterval: {
+										timeUnit: "day",
+										count: 1
+									},
+									renderer: am5xy.AxisRendererX.new(root, {})
+								})
+						);
+
+						var sbValueAxis0 = scrollbar.chart.yAxes.push(
+								am5xy.ValueAxis.new(root, {
+									renderer: am5xy.AxisRendererY.new(root, {})
+								})
+						);
+
+						var sbValueAxis1 = scrollbar.chart.yAxes.push(
+								am5xy.ValueAxis.new(root, {
+									renderer: am5xy.AxisRendererY.new(root, {})
+								})
+						);
+
+						var sbSeries0 = scrollbar.chart.series.push(
+								am5xy.ColumnSeries.new(root, {
+									valueYField: "male",
+									valueXField: "date",
+									xAxis: sbDateAxis,
+									yAxis: sbValueAxis0
+								})
+						);
+
+						sbSeries0.columns.template.setAll({ fillOpacity: 0.5, strokeOpacity: 0 });
+
+						var sbSeries1 = scrollbar.chart.series.push(
+								am5xy.LineSeries.new(root, {
+									valueYField: "subscriber",
+									valueXField: "date",
+									xAxis: sbDateAxis,
+									yAxis: sbValueAxis1
+								})
+						);
+
+						var legend = chart.children.push(
+								am5.Legend.new(root, {
+									x: am5.p50,
+									centerX: am5.p50
+								})
+						);
+						legend.data.setAll(chart.series.values);
+
+						columnSeries1.data.setAll(data);
+						columnSeries0.data.setAll(data);
+						columnSeriesFemale.data.setAll(data);
+
+						series0.data.setAll(data);
+						series1.data.setAll(data);
+
+						sbSeries0.data.setAll(data);
+						sbSeries1.data.setAll(data);
+
+// Make stuff animate on load
+// https://www.amcharts.com/docs/v5/concepts/animations/
+						series0.appear(1000);
+						series1.appear(1000);
+						chart.appear(1000, 100);
+
+					});
+				});
+		 // end am5.ready()
 	</script>
 
 
@@ -627,7 +766,7 @@
 		<main class="content">
 			<div class="container-fluid p-0">
 
-				<h1 class="h3 mb-3"><strong>Station View</strong> for Streeter Dr & Grand Ave Station</h1>
+				<h1 class="h3 mb-3"><strong>User Behaviour Analysis</strong></h1>
 
 
 				<div class="row">
@@ -636,7 +775,7 @@
 						<div class="card flex-fill w-100">
 							<div class="card-header">
 
-								<h5 class="card-title mb-0">Stations Map</h5>
+								<h5 class="card-title mb-0">User Distribution Based on Gender and User Type</h5>
 							</div>
 							<div class="card-body px-4">
 								<div id="chartdiv"></div>
@@ -648,59 +787,25 @@
 
 				<div class="row">
 
-
-
-
-					<div class="col-12 col-lg-4 col-xxl-6 d-flex">
+					<div class="col-xl-6 col-xxl-12">
 						<div class="card flex-fill w-100">
 							<div class="card-header">
 
-								<h5 class="card-title mb-0">Hourly Incoming Stats for Streeter Dr & Grand Ave Station</h5>
+								<h5 class="card-title mb-0">Usertype-wise Age-group Distribution</h5>
 							</div>
-							<div class="card-body d-flex w-100">
-								<div class="align-self-center chart chart-lg">
-									<div id="barchartdiv1"></div>
+							<div class="card-body py-3">
+								<div class="chart chart-sm">
+									<div id="hybriddiv1"></div>
 								</div>
 							</div>
 						</div>
 					</div>
 
-					<div class="col-12 col-lg-4 col-xxl-6 d-flex">
-						<div class="card flex-fill w-100">
-							<div class="card-header">
-
-								<h5 class="card-title mb-0">Hourly Outgoing Stats for Streeter Dr & Grand Ave Station</h5>
-							</div>
-							<div class="card-body d-flex w-100">
-								<div class="align-self-center chart chart-lg">
-									<div id="barchartdiv2"></div>
-								</div>
-							</div>
-						</div>
-					</div>
 				</div>
 
-				<div class="row">
 
 
 
-
-					<div class="col-12 col-lg-4 col-xxl-12 d-flex">
-						<div class="card flex-fill w-100">
-							<div class="card-header">
-
-								<h5 class="card-title mb-0">Ridership Trend Streeter Dr & Grand Ave Station</h5>
-							</div>
-							<div class="card-body d-flex w-100">
-								<div class="align-self-center chart chart-lg">
-									<div id="linechartdiv1"></div>
-								</div>
-							</div>
-						</div>
-					</div>
-
-
-				</div>
 
 			</div>
 		</main>
