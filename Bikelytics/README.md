@@ -1,22 +1,11 @@
 <p align="center">
-  <a href="https://github.com/adminkit/adminkit"><img src="https://adminkit.io/icons/icon-512x512.png" alt="AdminKit is a free & open-source HTML dashboard & admin template based on Bootstrap 5" width="96"></a>
+  <a href="https://github.com/srikanthsista/Bikelytics/tree/master/Bikelytics"><img src="https://images.ctfassets.net/p6ae3zqfb1e3/3yrGaUpEy1CGdcqVuxibpk/2447292b8bcbf3afe3a080e254c01b75/Divvy-Watson-Meet-The-Bikes-Header_2.png"width="150"></a>
 </p>
 
-<h3 align="center">AdminKit</h3>
+<h3 align="center">Bikelytics</h3>
 
 <p align="center">
-  AdminKit is a free & open-source HTML dashboard & admin template based on Bootstrap 5.
-</p>
-
-<p align="center">
-  <a href="https://www.npmjs.com/package/@adminkit/core" rel="nofollow"><img src="https://img.shields.io/npm/v/@adminkit/core" alt="NPM version"></a>
-  <a href="https://github.com/adminkit/adminkit/blob/master/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License"></a>
-  <a href="https://github.com/adminkit/adminkit/issues?q=is%3Aopen+is%3Aissue"><img src="https://img.shields.io/github/issues/adminkit/adminkit.svg" alt="GitHub issues open"></a>
-  <a href="https://github.com/adminkit/adminkit/issues?q=is%3Aissue+is%3Aclosed"><img src="https://img.shields.io/github/issues-closed-raw/adminkit/adminkit.svg" alt="GitHub issues closed"></a>
-  <a href="https://demo.adminkit.io/" rel="nofollow"><img src="https://img.shields.io/badge/demo-online-green.svg" alt="Live Demo"></a>
-  <a href="https://adminkit.io/#download"><img src="https://img.shields.io/static/v1?label=download&message=ZIP&color=green" alt="Download"></a>
-  <br>
-<a href="https://github.com/adminkit/adminkit"><img alt="GitHub stars" src="https://img.shields.io/github/stars/adminkit/adminkit?style=social"></a>
+  Bikelytics is a highly-interactive dashboard that visualizes the trends and statistics in the usage of the Divvy Bike Sharing Service in the city of Chicago. It uses a variety of charts like line charts, bar charts, scatter map, flow map, etc. to depict the overall story behind the trips recorded in the year 2021.
 </p>
 
 ## Preview
