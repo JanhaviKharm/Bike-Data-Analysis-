@@ -9,9 +9,22 @@
 </p>
 
 ## Preview
-A professional Admin & Dashboard template based on Bootstrap 5 that comes with hundreds of UI components, forms, tables, charts, pages and icons. AdminKit **does not require jQuery** and neither does one of the 3rd party libraries AdminKit is using. [See demo](https://demo.adminkit.io/).
+Bikelytics Dashboard visualizes the following charts/graphs/maps in an attempt to answer the questions that the bike service operator may face:
 
-<a href="https://demo.adminkit.io" target="_blank"><img src="https://assets.adminkit.io/banners/github-1280%C3%97640px.png" alt="AdminKit Demo"></a>
+1. The Overall Performance of the System in the form of important metrics - Ridership Change, Customer and Subscriber Change, and Revenue Growth/Decline. (Image 1)
+2. Ridership trend for the entire year correlated with the city's weather data. (Image 1)
+3. Spatio-temporal Patterns using the Flowmap.blue ([1]) (Image 2)
+4. Least Popular Routes and Stations
+5. Revenue Trend
+6. Stations Map
+7. Summarized hourly incoming and outgoing stats for the station selected in the map.
+8. Ridership Trend at the selected station.
+9. Station Usage with respect to type and time of the day using Heat Map.
+10. Distribution of the Demographics and their trends as per the ridertype, gender, and the age-group.
+
+To see the detailed analysis, view the [demo]() and refer to the [report]() and [slides]().
+
+<img src="https://github.com/srikanthsista/Bikelytics/raw/913815b3a5060c2b3e0a62fc133ce33e9a812603/Bikelytics/screenshots/preview4.png" alt="Bikelytics Dashboard">
 
 ## Features
 
