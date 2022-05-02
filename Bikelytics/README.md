@@ -34,17 +34,40 @@ To see the detailed analysis, view the [demo]() and refer to the [report]() and 
 1. The trips dataset was obtained from the [Divvy Bike System Website](https://divvy-tripdata.s3.amazonaws.com/index.html). They release the ridership data on the monthly basis. It is present in the path ./rawData/ridershipData of this project.
 2. The station information is available on the [Divvy Bike System Website](https://gbfs.divvybikes.com/gbfs/en/station_information.json). It is present in the path ./rawData/stationData of this project.
 3. The weather data for the city of Chicago is available on the [Chicago's City Admin Website](https://data.cityofchicago.org/Parks-Recreation/Beach-Weather-Stations-Automated-Sensors/k7hf-8y75/data). It is present in the path ./rawData/weatherData of this project.
-
+4. Some preprocessed data is already present in .static/data. This data can be created using the Python Notebook present in the root folder of the project.
 ## Running the Demo
-After donwloading the project, ```cd``` into this folder and simply run the following command:
+
+After downloading the project, ```cd``` into this folder and simply run the following command:
 ```sh
 npm start
 ```
 The webapp will launch on the address [localhost:8080]() of your system.
 
+## Preparing your own data
+For the sake of having a running prototype, we have already preprocessed the data and loaded it into the .static/data folder.
+In case you have your own data, you can put the data files into the following folders based on the dataset:
+1. Ridership Data: ./rawData/ridershipData
+2. Station Information: ./rawData/stationData
+3. Weather Dataset: ./rawData/weatherData
+
+Then, delete the data in the ./static/data folder, but make sure the internal folder structure is maintained.
+Finally, run the Python notebook and wait for it to finish. Once done, refresh the application page, and you will see the charts created using your own data.
+
 ## Browser Support
 
 Fully responsive and compatible with any browser on any device.
+
+##Developer Contact
+
+1. Rishikesh Gawade: [rishikesh.gawade@rutgers.edu](mailto:rishikesh.gawade@rutgers.edu)
+2. Srikanth Sista: [srikanth.sista@rutgers.edu](mailto:srikanth.sista@rutgers.edu)
+3. Dheeraj Goli: [dheeraj.goli@rutgers.edu](mailto:dheeraj.goli@rutgers.edu)
+
+or you can raise issues on the [project repository](https://github.com/srikanthsista/Bikelytics/tree/master/Bikelytics/).
+
+## Github Link
+
+[Bikelytics](https://github.com/srikanthsista/Bikelytics/tree/master/Bikelytics/): https://github.com/srikanthsista/Bikelytics/tree/master/Bikelytics/
 
 ## References
 
