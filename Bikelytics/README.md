@@ -24,127 +24,28 @@ Bikelytics Dashboard visualizes the following charts/graphs/maps in an attempt t
 
 To see the detailed analysis, view the [demo]() and refer to the [report]() and [slides]().
 
+### Image 1
 <img src="https://github.com/srikanthsista/Bikelytics/raw/913815b3a5060c2b3e0a62fc133ce33e9a812603/Bikelytics/screenshots/preview4.png" alt="Bikelytics Dashboard">
 
-## Features
+### Image 2
+<img src="https://raw.githubusercontent.com/srikanthsista/Bikelytics/master/Bikelytics/screenshots/preview7.png" alt="Flowmap">
 
-* **Customizable:** You don't need to be an expert to customize AdminKit. Our code is very readable and well documented.
-* **Fully Responsive:** With mobile, tablet & desktop support it doesn't matter what device you're using. AdminKit is responsive in all browsers.
-* **Cross-Browser:** Our themes are working perfectly with Chrome, Firefox, Safari, Opera, and Edge. We're working hard to support them.
-* **Clean Code:** We strictly follow Bootstrap's guidelines to make your integration as easy as possible. All code is handwritten.
-* **No jQuery:** AdminKit, and all third-party libraries used in the admin template, do not require jQuery as a dependency.
-* **Regular Updates:** From time to time you'll receive an update containing new components, improvements, and bugfixes.
+## Dataset
+1. The trips dataset was obtained from the [Divvy Bike System Website](https://divvy-tripdata.s3.amazonaws.com/index.html). They release the ridership data on the monthly basis. It is present in the path ./rawData/ridershipData of this project.
+2. The station information is available on the [Divvy Bike System Website](https://gbfs.divvybikes.com/gbfs/en/station_information.json). It is present in the path ./rawData/stationData of this project.
+3. The weather data for the city of Chicago is available on the [Chicago's City Admin Website](https://data.cityofchicago.org/Parks-Recreation/Beach-Weather-Stations-Automated-Sensors/k7hf-8y75/data). It is present in the path ./rawData/weatherData of this project.
 
-## Quick start
-
-### Download
-
-* Clone this repo `git clone https://github.com/adminkit/adminkit.git`
-* [Download from GitHub](https://github.com/adminkit/adminkit/archive/master.zip)
-* [Download from Website](https://adminkit.io/#download)
-
-### Build tools
-
-The theme includes a custom Webpack file, which can be used to quickly recompile and minify theme assets while developing or for deployment. You'll need to install Node.js before using Webpack.
-
-Once Node.js is installed, run npm install to install the rest of AdminKit's dependencies. All dependencies will be downloaded to the node_modules directory.
-
-```sh
-npm install
-```
-
-Now you're ready to modify the source files and generate new dist/ files. AdminKit uses webpack-dev-server to automatically detect file changes and start a local webserver at http://localhost:8080.
-
+## Running the Demo
+After donwloading the project, ```cd``` into this folder and simply run the following command:
 ```sh
 npm start
 ```
-
-Compile, optimize, minify and uglify all source files to dist/ folder:
-
-```sh
-npm run build
-```
-
-## CDN support
-
-All files included in the `@adminkit/core` npm package are available over a CDN.
-
-**CSS:**
-
-```html
-<link rel="stylesheet" href="https://unpkg.com/@adminkit/core@latest/dist/css/app.css">
-```
-
-**Javascript:**
-
-```html
-<script src="https://unpkg.com/@adminkit/core@latest/dist/js/app.js"></script>
-```
-
-## File structure
-The package contains the following directories and files:
-
-```
-adminkit/
-├── .babelrc
-├── .eslintrc
-├── .nvmrc
-├── README.md
-├── package.json
-├── postcss.config.js
-├── webpack.config.js
-├── src/
-│   ├── fonts/
-│   ├── img/
-│   ├── js/
-│   │   ├── modules/
-│   │   └── app.js
-│   └── scss/
-│       ├── 1-variables/
-│       ├── 2-mixins/
-│       ├── 3-components/
-│       ├── 4-utilities/
-│       ├── 5-vendor/
-│       └── app.scss
-└── dist/
-    ├── css/
-    │   └── app.css
-    └── js/
-        └── app.js
-```
+The webapp will launch on the address [localhost:8080]() of your system.
 
 ## Browser Support
 
-| <img src="https://assets.adminkit.io/browsers/edge.png" alt="Edge" width="24px" height="24px" /><br/>Edge | <img src="https://assets.adminkit.io/browsers/firefox.png" alt="Firefox" width="24px" height="24px" /><br/>Firefox | <img src="https://assets.adminkit.io/browsers/chrome.png" alt="Chrome" width="24px" height="24px" /><br/>Chrome | <img src="https://assets.adminkit.io/browsers/safari.png" alt="Safari" width="24px" height="24px" /><br/>Safari | <img src="https://assets.adminkit.io/browsers/safari-ios.png" alt="iOS Safari" width="24px" height="24px" /><br/>iOS Safari |
-| --------- | --------- | --------- | --------- | --------- |
-| last version| last 2 versions| last 2 versions| last 2 versions| last 2 versions
+Fully responsive and compatible with any browser on any device.
 
-## Resources
+## References
 
-* [Demo](https://demo.adminkit.io/)
-* [Website](https://adminkit.io/)
-* [Documentation](https://adminkit.io/docs)
-* [Support](https://adminkit.io/support/)
-* [Affiliate Program](https://adminkit.io/affiliate-program)
-
-## Bugs and feature requests
-
-Found a bug or have a feature request? [Please open a new issue](https://github.com/adminkit/adminkit/issues/new).
-
-## Upgrade to PRO
-Get more power with AdminKit PRO, a premium variant of AdminKit, featuring hundreds of UI components, forms, tables, charts, pages, and icons.
-
-| Free Version        | [AdminKit PRO](https://adminkit.io/pricing/) |
-|---------------------|----------------------------------------------|
-| 15 Demo Pages       | ✔ 45+ Demo Pages                             |
-| 1 Plugin            | ✔ 10+ Plugins                                |
-| 1 Color Scheme      | ✔ 3 Color Schemes                            |
-|                     | ✔ All Bootstrap 5 Components                 |
-|                     | ✔ Dark Mode 🌙                               |
-|                     | ✔ Compact Sidebar                            |
-|                     | ✔ Calendar                                   |
-|                     | ✔ Advanced Forms                             |
-|                     | ✔ Drag and Drop                              |
-|                     | ✔ Toast Notifications                        |
-|                     | ✔ WYSIWYG Editors                            |
-|                     | ✔ Premium Support                            |
+[1][Flowmap.Blue for Spatio-temporal Pattern Visualization](https://flowmap.blue/)
