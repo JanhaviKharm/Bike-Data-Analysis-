@@ -22,7 +22,7 @@ Bikelytics Dashboard visualizes the following charts/graphs/maps in an attempt t
 9. Station Usage with respect to type and time of the day using Heat Map.
 10. Distribution of the Demographics and their trends as per the ridertype, gender, and the age-group.
 
-To see the detailed analysis, view the [demo]() and refer to the [report]() and [slides]().
+To see the detailed analysis, view the [demo](https://rutgersconnect-my.sharepoint.com/:v:/g/personal/rkg63_scarletmail_rutgers_edu/EfJPJp6Qy0xIj9CH_0jk71kBfxZIrWh52k7a09-2h8KC4g?e=V4Byfj) and refer to the [report]() and [slides]().
 
 ### Image 1
 <img src="https://github.com/srikanthsista/Bikelytics/raw/913815b3a5060c2b3e0a62fc133ce33e9a812603/Bikelytics/screenshots/preview4.png" alt="Bikelytics Dashboard">
