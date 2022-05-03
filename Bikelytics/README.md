@@ -39,8 +39,13 @@ To see the detailed analysis, view the [demo](https://rutgersconnect-my.sharepoi
 
 After downloading the project, ```cd``` into this folder and simply run the following command:
 ```sh
+npm install
+```
+After the packages have been installed, run the following command:
+```sh
 npm start
 ```
+
 The webapp will launch on the address [localhost:8080]() of your system.
 
 ## Preparing your own data
